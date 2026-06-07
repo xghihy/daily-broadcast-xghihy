@@ -115,3 +115,58 @@
 ---
 
 **一句话总结**：今日信息密度集中在两条线——**RAG 的替代与增强**（Code2LoRA、MemPalace、Agent-Reach）和 **agent 可靠性与工具链成熟度**（Rowboat、Statewright、HANDOFF），两者正同步推进 agent 系统从原型走向生产。
+
+
+## 2026-06-07 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 今日主线：**Agent 工程化**全面提速——从记忆、状态管理、多源数据接入到开发工具链，生产级 agent 基础设施正在快速成型。
+
+---
+
+## 🧠 Agent 基础设施
+
+**1. MemPalace — 开源 AI 记忆系统**
+当前 benchmark 领先，直接填补 LLM agent 长期记忆空白，可作为 agent context 管理的基础组件优先评估。
+
+**2. Statewright — 用可视化状态机约束 Agent 行为**
+通过形式化状态机限制 agent 动作空间，从根源解决 LLM agent 不确定性与失控问题，对生产级 agent 落地有直接参考价值。
+
+**3. AgentScope — 微软系可观测 Agent 框架**
+强调可观测性与可信赖性，内置调试与审计能力，适合需要追踪 agent 行为的工程场景。
+→ https://github.com/agentscope-ai/agentscope
+
+---
+
+## 🔧 开发工具与 IDE
+
+**4. Rowboat — 多 Agent 系统开源 IDE**
+专为多 agent 编排设计，覆盖 agent 定义、调试与协作流程，是目前少见的 agent 原生开发环境。
+
+**5. Code2LoRA — 超网络动态生成仓库级 LoRA 适配器**
+为代码 LLM 按仓库动态生成 LoRA，绕开 RAG 长上下文注入的成本与脆弱性，提供 context engineering 的替代路径，值得跟进。
+
+---
+
+## 🌐 Context 扩展与数据接入
+
+**6. Agent-Reach — Agent 多平台实时数据接入 CLI**
+零 API 费用接入 Twitter / Reddit / YouTube / GitHub 实时数据，直接扩展 agent 的外部 context 获取能力。
+
+**7. last30days-skill — 多源信息研究 Agent Skill**
+聚合 Reddit / X / HN / Polymarket / Web 的 skill 模块，展示了**skill 模块化组合**用于 context 合成的设计范式，可作为 skill 工程的参考模板。
+
+---
+
+## 📦 全栈参考实现
+
+**8. Khoj — 可自托管 AI Second Brain**
+支持 web + 本地文档 RAG、自定义 agent、定时自动化，兼容主流 LLM，是 context engineering + agent 全栈的完整参考实现。
+
+**9. Onyx (YC W24) — 开源企业级 Chat UI**
+内置 RAG 能力，支持对接多种后端，适合快速搭建企业知识问答系统的团队直接取用。
+
+---
+
+**编辑观察：** 今日 9 条内容几乎全部围绕 agent 工程化展开——记忆（MemPalace）、状态控制（Statewright）、数据接入（Agent-Reach）、开发环境（Rowboat）同日涌现，说明 agent infra 层正在从概念验证加速走向工具标准化阶段。
