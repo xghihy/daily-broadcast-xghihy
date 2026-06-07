@@ -285,3 +285,50 @@
 ---
 
 **今日主线**：Agent 的核心挑战正在从"能不能用"转向"可不可靠、记不记得、上下文够不够用"——状态机约束、长期记忆、动态 adapter 是当前三条并行的解题路径。
+
+
+## 2026-06-07 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 主题聚焦：**Agent 可靠性 · RAG 落地 · 记忆与上下文管理**
+
+---
+
+## 🔴 重点关注
+
+**1. Statewright — 用有限状态机约束 AI Agent 行为**
+用可视化状态机定义 agent 的合法流转路径，从架构层解决 LLM agent 不可预测、难调试的根本问题。工程落地思路值得重点参考。
+
+**2. MemPalace — 开源 AI 长期记忆系统**
+号称 benchmark SOTA，直击 agent 长期记忆这一 context engineering 核心瓶颈。长期记忆方案目前仍是空白，值得跟进其实现机制。
+
+---
+
+## 🟠 值得跟进
+
+**3. Rowboat — Multi-Agent 系统开源 IDE**
+专为多 agent 系统构建与调试设计，覆盖编排、context 管理、可观测性，是目前少有的 agent 开发全流程工具。
+
+**4. Code2LoRA — 用超网络为代码仓库动态生成 LoRA Adapter**
+替代 RAG 长输入或 per-repo fine-tuning，解决软件持续演化下 context 注入成本高且易碎的问题。技术路径新颖，值得关注。
+
+**5. khoj — 自托管 AI Second Brain（RAG + Agent 全栈）**
+支持本地/网络文档 RAG、自定义 agent、定时自动化，是目前最完整的开源 RAG+Agent 参考实现之一。
+
+---
+
+## 🟡 扩展参考
+
+**6. Onyx — 开源企业级 RAG 聊天 UI（YC W24）**
+多数据源接入、对话界面完整，是目前较成熟的企业 RAG 落地方案，可作产品形态参考。
+
+**7. Agent-Reach — Agent 多平台信息获取 CLI 工具**
+零 API 费用接入 Twitter / Reddit / YouTube / GitHub，解决 agent 实时信息获取的工具层问题。
+
+**8. last30days-skill — 多源 RAG Agent Skill 示例**
+跨 Reddit / X / YouTube / HN 研究话题并生成综合摘要，展示如何将多源 RAG 封装为可复用 skill，适合作为 skill 设计的模式参考。
+
+---
+
+**今日主线：** Agent 的三大基础设施正在快速补全——**行为约束（Statewright）、长期记忆（MemPalace）、开发工具链（Rowboat）**，加上 RAG 持续走向工程化落地，整体方向从"能跑"迈向"可靠可维护"。
