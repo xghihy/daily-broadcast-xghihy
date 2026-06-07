@@ -39,7 +39,7 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
           # 渠道 B（在大陆）：把 config.yaml 设 channel: feishu，并改用这个 secret：
-          # FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
         run: python cron_entry.py
       - name: persist digest（既存「记忆」，又顺手让定时别被 60 天闲置停掉）
         run: |
