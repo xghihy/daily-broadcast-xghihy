@@ -231,3 +231,57 @@
 ---
 
 **今日重点关注**：Agent 开发工具链正在快速成熟（IDE → 框架 → 状态管理），RAG 基础设施分化为通用记忆系统与垂直场景优化（代码仓库 LoRA）两条路线，值得持续跟踪。
+
+
+## 2026-06-07 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 主题聚焦：Agent 可靠性 · 记忆与上下文 · 多智能体协调
+
+---
+
+## 🔴 重点关注
+
+**1. Statewright — 用有限状态机约束 Agent 行为**
+用可视化状态机（FSM）硬约束 LLM agent 的执行路径，直击 agent 不可预测、难调试的核心痛点。是目前 agent 可靠性工程方向最具工程价值的思路之一。
+
+**2. MemPalace — 开源 AI 记忆系统（benchmark 最优）**
+专注解决 LLM agent 长期记忆问题，benchmark 表现当前最优。对 RAG + 记忆管理架构有直接参考价值。
+
+**3. Code2LoRA — 用超网络动态生成仓库级 LoRA Adapter**
+为每个代码仓库动态生成专属 LoRA adapter，替代 RAG 长上下文注入或逐仓库微调，对"如何高效压缩 repo 上下文进模型"这一 context engineering 核心问题给出新路径。
+
+---
+
+## 🟠 工具与平台
+
+**4. Rowboat — 多 Agent 系统开源 IDE**
+专为构建和调试 multi-agent workflow 设计，填补 agent 编排开发工具的空白，是做 agent 系统工程的基础设施参考。
+
+**5. khoj-ai/khoj — 自托管 AI 第二大脑**
+支持文档 RAG、自定义 agent、定时自动化、深度研究，兼容主流 LLM，是 context engineering 完整落地的高质量参考实现。
+
+**6. Agent-Reach — 给 Agent 接入多平台实时信息**
+覆盖 Twitter / Reddit / YouTube / GitHub 等多源实时读取，zero API fee，是扩展 agent 外部上下文信息源的实用工具。
+
+**7. Onyx (YC W24) — 开源 RAG Chat UI**
+提供可自托管的企业知识库对话前端，内置 RAG 管道，是构建内部知识 agent 的可用底座。
+
+---
+
+## 🟡 研究参考
+
+**8. HANDOFF — 类人机器人任务规划与全身控制的接口设计**
+研究如何解耦 agent 的 task-space 与 action-space，对 LLM 驱动具身机器人的架构设计有直接参考价值。
+
+**9. DNQ: Deep Nash Q-Network — 多智能体博弈中的 Nash 均衡学习**
+在部分可观测多智能体场景（拍卖、资源分配等）中学习 Nash 均衡策略，是多 agent 竞争与协调的方法论参考。
+→ [arXiv](http://arxiv.org/abs/2606.06480v1)
+
+**10. last30days-skill — RAG + Agent Tool 组合实践案例**
+跨 Reddit / X / YouTube / HN 多源检索并合成摘要，是 RAG + agent tool 组合的典型工程实践，可直接参考实现模式。
+
+---
+
+**今日主线**：Agent 的核心挑战正在从"能不能用"转向"可不可靠、记不记得、上下文够不够用"——状态机约束、长期记忆、动态 adapter 是当前三条并行的解题路径。
