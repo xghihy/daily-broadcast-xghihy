@@ -170,3 +170,64 @@
 ---
 
 **编辑观察：** 今日 9 条内容几乎全部围绕 agent 工程化展开——记忆（MemPalace）、状态控制（Statewright）、数据接入（Agent-Reach）、开发环境（Rowboat）同日涌现，说明 agent infra 层正在从概念验证加速走向工具标准化阶段。
+
+
+## 2026-06-07 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent & RAG 播报
+
+> 按重要性排序，去重合并同类项
+
+---
+
+## 🔧 Agent 开发基础设施
+
+**1. Rowboat — 多 Agent 系统开源 IDE**
+专为构建和调试 multi-agent 系统设计，覆盖 orchestration 与 context 管理，是目前少见的专项 agent 开发环境。
+
+**2. Statewright — 用状态机约束 Agent 行为**
+以可视化状态机建模 agent 控制流，直接针对 LLM 不确定性问题，适合需要可靠性保障的生产场景。
+
+**3. AgentScope — 微软开源 Agent 框架**
+强调可观测性与可信赖性，内置调试与审计能力，适合企业级 agent 工程落地。
+
+---
+
+## 🧠 RAG & 记忆系统
+
+**4. MemPalace — 开源 AI 记忆系统**
+声称基准测试最优，针对跨会话长期记忆场景，是 RAG/context engineering 的关键基础设施选项。
+
+**5. Khoj — 可自托管 AI 第二大脑**
+集文档 RAG、自定义 agent、定时自动化与深度研究于一体，兼容本地/云端多种 LLM，context 场景覆盖最完整。
+
+**6. Onyx — 开源 RAG Chat UI（YC）**
+内置 RAG 能力，可接企业知识库，是快速落地对话式 RAG 应用的参考实现。
+
+**7. Code2LoRA — 超网络动态生成仓库级 LoRA**【论文】
+用超网络为代码 LLM 按仓库动态生成 LoRA adapter，替代 RAG 长上下文注入，解决代码场景下 RAG 的上下文成本与脆弱性问题。
+
+---
+
+## 🌐 Agent 工具扩展
+
+**8. Agent-Reach — 零费用多平台信息获取 CLI**
+为 agent 提供 Twitter/Reddit/YouTube/GitHub/B站/小红书等平台搜索与读取能力，无需 API 费用，扩展外部信息获取边界。
+
+**9. last30days-skill — 多源研究摘要 Agent 插件**
+跨 Reddit/X/YouTube/HN/Polymarket 研究并合成摘要，典型的 RAG + agent tool use 实践案例。
+
+---
+
+## 🤖 具身 & 检测前沿
+
+**10. HANDOFF — 人形机器人全身控制 Agent 接口**【论文】
+提出任务规划 agent 与底层控制器之间的语义接口，解决 LLM agent 驱动具身机器人的语义鸿沟问题。
+
+**11. AI 文本检测基准 — 人机协同编辑场景**【论文】
+覆盖 LLM agent 辅助写作的真实工作流，评估 agent 生成内容的可检测性，对 AI 内容治理有参考意义。
+→ [arxiv.org/abs/2606.06481v1](http://arxiv.org/abs/2606.06481v1)
+
+---
+
+**今日重点关注**：Agent 开发工具链正在快速成熟（IDE → 框架 → 状态管理），RAG 基础设施分化为通用记忆系统与垂直场景优化（代码仓库 LoRA）两条路线，值得持续跟踪。
