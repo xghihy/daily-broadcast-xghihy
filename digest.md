@@ -332,3 +332,60 @@
 ---
 
 **今日主线：** Agent 的三大基础设施正在快速补全——**行为约束（Statewright）、长期记忆（MemPalace）、开发工具链（Rowboat）**，加上 RAG 持续走向工程化落地，整体方向从"能跑"迈向"可靠可维护"。
+
+
+## 2026-06-08 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报 · 精选
+
+> 聚焦 Agent 架构、记忆系统、工具链三大主线，去重排序如下
+
+---
+
+## 🔴 重要度 ★★★★★
+
+**1. Mempalace — 开源 AI 记忆系统（benchmark 最优）**
+直击 RAG/Agent 长期记忆的核心痛点，是当前 context engineering 最值得跟进的基础设施项目。
+
+**2. Statewright — 用可视化状态机约束 Agent 行为**
+用有限状态机解决 LLM Agent 不可预测性，提供可靠性工程的系统性思路，对生产级 Agent 部署有直接参考价值。
+
+**3. Rowboat — Multi-Agent 系统开源 IDE**
+目前少见的专注 Agent 开发与调试的工具链产品，补全了 Agent 工程化落地的缺失环节。
+
+---
+
+## 🟠 重要度 ★★★★
+
+**4. MemDreamer — 长视频理解的层次图记忆 + Agentic 检索**
+本质是视频域的 RAG + Agent 架构，解耦感知与推理的设计对长上下文管理有通用借鉴意义。
+[→ arXiv](http://arxiv.org/abs/2606.07512v1)
+
+**5. Hermes-Agent（NousResearch）— "随用户成长"的 Agent 框架**
+NousResearch 出品，主打个性化 context 管理与 Agent 架构设计，值得关注其长期记忆与个性化方案。
+[→ GitHub](https://github.com/NousResearch/hermes-agent)
+
+**6. Agent-Reach — Agent 的"互联网之眼"**
+CLI 工具统一读取 Twitter/Reddit/YouTube/GitHub 等多平台，零 API 费用；是 Agent 外部信息获取层的轻量实用方案。
+
+---
+
+## 🟡 重要度 ★★★
+
+**7. Agentopia — 多 LLM Agent 社会模拟框架**
+研究 Agent 能否从社交经验中学习以复现人类行为，对 Agent 长期记忆与社会交互设计有学术参考价值。
+[→ arXiv](http://arxiv.org/abs/2606.07513v1)
+
+**8. last30days-skill — 多源信息聚合 Agent Skill**
+跨 Reddit/X/YouTube/HN/Polymarket 研究任意话题并合成摘要，展示了 Agent 多源 context 构建的实践范式。
+
+**9. Onyx（YC W24）— 开源企业级 Chat UI + RAG**
+支持企业知识库接入，HN 254pts 高热度，适合快速搭建内部知识问答场景。
+
+**10. TurboVec — Rust 实现的高性能向量索引库**
+Python 绑定，基于 TurboQuant；RAG 底层检索性能瓶颈的潜在替代方案，适合性能敏感场景评估。
+[→ GitHub](https://github.com/RyanCodrai/turbovec)
+
+---
+
+> **今日主线**：Agent 可靠性工程（Statewright）× 记忆系统基础设施（Mempalace、MemDreamer）× 工具链完善（Rowboat、Agent-Reach）三条线同步推进，Agent 工程化正从概念走向系统化落地。
