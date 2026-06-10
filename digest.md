@@ -448,3 +448,57 @@ YC W24 项目，可作为企业内部知识问答基础设施的快速起点。
 **11. claude-howto：Claude Code Agent 可视化实践指南**
 示例驱动，覆盖基础到高级 agent 开发，含可复用模板，适合快速掌握 agent 上下文工程实践。
 [→ GitHub](https://github.com/luongnv89/claude-howto)
+
+
+## 2026-06-10 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报 · 精选
+
+---
+
+## 🔬 研究前沿
+
+**1. SFT 目标分布设计的统一视角**
+重新审视 token-level 监督微调目标，系统梳理噪声轨迹与 prior 不匹配问题，对 LLM agent 对齐与泛化有直接指导意义，是理解 SFT 本质的重要理论工作。
+→ [arxiv](http://arxiv.org/abs/2606.11189v1)
+
+**2. EEVEE：首个真实场景下的 Agent 测试时 Prompt 学习框架**
+支持多数据集、真实任务流，解决 agent prompt 在分布外场景下的自适应难题，是 context engineering 与 agent 鲁棒性研究的重要参考。
+→ [arxiv](http://arxiv.org/abs/2606.11182v1)
+
+**3. 数据新闻 Agent：从原始数据到可验证多模态报道**
+端到端多模态 agent 系统设计案例，展示 LLM 在复杂、多步骤真实任务中的工程实践思路。
+→ [arxiv](http://arxiv.org/abs/2606.11176v1)
+
+---
+
+## 🛠️ 工具与开源
+
+**4. Google 官方 Agent Skills 集合**
+Google 发布覆盖自家产品与技术栈的 agent skills，是理解 skill 规范与 MCP-like 工具封装模式的一手参考，具有标杆价值。
+
+**5. Statewright：用可视化状态机约束 Agent 行为**
+通过显式状态机限定 agent 执行路径，直击 LLM agent 不可预测的核心痛点，适合追求生产级可靠性的开发者。
+
+**6. Rowboat：Multi-Agent 系统的开源 IDE**
+专为构建与调试多 agent 系统设计，集成 context engineering 与 agent orchestration，是当前稀缺的专用开发工具。
+
+**7. Agent-Reach：零费用的 Agent 全网信息触角**
+CLI 工具，免 API 费用打通 Twitter/Reddit/YouTube/GitHub/B站/小红书等多平台，是 agent 外部工具集成的实用参考案例。
+
+**8. last30days-skill：多源 RAG Agent Skill 参考实现**
+跨 Reddit/X/YouTube/HN/Polymarket 检索并综合摘要，典型的 multi-source RAG + agent skill 架构，适合参考工具组合设计。
+
+---
+
+## ⚡ 基础设施
+
+**9. turbovec：Rust 实现的高性能向量索引库（含 Python bindings）**
+RAG 管道底层检索组件的备选方案，Rust 性能优势明显，值得在高吞吐场景下评测。
+
+**10. Onyx (YC W24)：高热度开源 RAG 聊天 UI**
+支持接入多种后端，254 pts 社区热度印证认可度，适合快速搭建企业级 RAG 应用前端。
+
+---
+
+> **今日主线**：Agent 可靠性（状态机约束 + 测试时自适应）× 工具生态成熟（Google skills 标准化 + 专用 IDE）× RAG 基础设施持续优化，三条脉络同步推进。
