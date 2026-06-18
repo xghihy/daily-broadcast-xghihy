@@ -906,3 +906,62 @@ agent 在真实 GitHub 仓库中执行审计任务的扩展性方案，对评估
 ---
 
 > 今日核心趋势：**agent 可靠性工程**（状态机约束、记忆设计）与 **agent 工具链成熟化**（专用 IDE、信息获取工具）同步推进。
+
+
+## 2026-06-18 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报 · 精选 9 条
+
+> 按重要性排序，去重合并同类项
+
+---
+
+## 🤖 Agent 框架与工程
+
+**1. Statewright — 用可视化状态机让 AI Agent 可靠运行**
+用状态机约束 LLM agent 行为，直击生产环境中 agent 不确定性的核心痛点，对落地工程有直接参考价值。
+
+**2. Rowboat — 多 Agent 系统的开源 IDE**
+专为 multi-agent 编排设计的开发环境，覆盖构建、调试全流程，可显著降低多 agent 系统的开发门槛。
+
+**3. Agent-Reach — Agent 无需 API Key 即可访问主流平台**
+支持 Twitter、Reddit、YouTube、GitHub 等平台的读取与搜索，直接扩展 agent 的开放信息获取能力。
+
+**4. OpenMontage — 开源 Agentic 视频生产系统**
+12 条 pipeline、52 个工具、500+ agent skills，是目前规模最大的 multi-agent 工具编排落地案例之一。
+→ [GitHub](https://github.com/calesthio/OpenMontage)
+
+---
+
+## 📚 RAG 与知识管理
+
+**5. Onyx — 内置 RAG 的开源聊天 UI（YC 项目）**
+可快速搭建企业知识库问答系统，开箱即用的 RAG 前端，适合中小团队低成本部署。
+
+**6. PaddleOCR — PDF/图像结构化解析，为 LLM 提供文档输入层**
+支持 100+ 语言，是构建多模态 RAG pipeline 的实用文档预处理工具，解决非结构化数据入口问题。
+→ [GitHub](https://github.com/PaddlePaddle/PaddleOCR)
+
+---
+
+## 🏢 企业数据 Agent
+
+**7. Data Intelligence Agents — 三 Agent 自主完成企业数据全流程**
+解释器 → Schema 创建者 → 查询器，三 agent 协作完成数据发现、结构化、查询，是 RAG + agent 在数据集成场景的典型落地范式。
+→ [arXiv](http://arxiv.org/abs/2606.19319v1)
+
+---
+
+## 🔬 前沿研究
+
+**8. Learning User Simulators with Turing Rewards — 用 LLM 模拟人类用户**
+提出"图灵奖励"替代单一 ground truth，将用户模拟器直接对接 assistant agent 的训练与评估闭环，对 RLHF 替代方案有启发意义。
+→ [arXiv](http://arxiv.org/abs/2606.19336v1)
+
+**9. Native Active Perception — 长视频理解的主动推理采样**
+按查询难度动态选帧而非全量处理，本质是一种 **context engineering** 思路——主动过滤无效上下文，对长上下文 RAG 的帧/段落选择有方法论参考价值。
+→ [arXiv](http://arxiv.org/abs/2606.19341v1)
+
+---
+
+*今日核心趋势：Agent 可靠性工程（状态机约束）× 数据接入能力扩展（无 Key 访问平台、OCR 解析）× 用户模拟与评估闭环，三个方向正在同步推进生产级 Agent 落地。*
