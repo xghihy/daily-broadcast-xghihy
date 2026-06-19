@@ -965,3 +965,37 @@ agent 在真实 GitHub 仓库中执行审计任务的扩展性方案，对评估
 ---
 
 *今日核心趋势：Agent 可靠性工程（状态机约束）× 数据接入能力扩展（无 Key 访问平台、OCR 解析）× 用户模拟与评估闭环，三个方向正在同步推进生产级 Agent 落地。*
+
+
+## 2026-06-19 · 📡 今日播报 · Parallight Lab
+
+这里为您合成了一份去重、精炼并按重要性排序的**【今日 AI 工程前沿播报】**。
+
+本次播报以 **“LLM Agent 工程化落地”** 为核心脉络，从底层方法论、开发工具链到多领域实战应用为您梳理：
+
+---
+
+### 🎙️ 今日 AI 前沿播报 (2024.X.X)
+
+**1. 🏆 巨头一手实战：Anthropic 官方金融 Agent 与 RAG 落地模式**
+* **摘要**：Anthropic 发布了官方的金融服务示例仓库。该仓库是学习 Claude Agent、Tool Use（工具调用）以及 RAG 在严苛金融场景下如何保证可靠性与准确性的第一手权威参考。
+* 🔗 [查看详情](https://github.com/anthropics/financial-services)
+
+**2. 🔬 底层理论突破：多任务贝叶斯上下文学习 (Multi-Task Bayesian ICL)**
+* **摘要**：将贝叶斯预测推断与 In-context learning 深度结合。该方法显著提升了大模型在上下文利用中的不确定性量化和数据效率，为 RAG 系统中的高价值“样本选择”和 Context Engineering 提供了直接的底层方法论支撑。
+* 🔗 [查看论文](http://arxiv.org/abs/2606.20538v1)
+
+**3. 🛠️ 开发工具革新：Statewright 用状态机解决 Agent 幻觉**
+* **摘要**：针对 LLM Agent 常因不确定性导致的“失控”问题，Statewright 创新性地引入可视化状态机来严格约束 Agent 的行为控制流路径。这种将传统软件工程确定性与大模型灵活性结合的设计思路，极大提升了系统的可靠性。
+
+**4. 👥 编排能力跃升：多 Agent 系统专属开源 IDE 与海量技能编排**
+* **本期呈现出强烈的“Agent 组件化与工业化”趋势：**
+  * **OpenAI Codex Skills Catalog**：OpenAI 开源了 Agent 可调用的技能目录结构，定义了 Agent 的“能力注册”标准，极具 Context 工程参考价值。 [查看项目](https://github.com/openai/skills)
+
+**5. 🏢 企业级落地参考：全开源 LLM Chat UI（含 RAG）与 生成式推荐**
+* **大模型与业务数据的融合方案日益成熟：**
+  * **Generative Recommendation Tokenization**：探讨如何结构化并 Tokenize 用户的复杂历史行为上下文，这是 Context Engineering 在工业级推荐系统中的前沿实践。 [查看论文](http://arxiv.org/abs/2606.20554v1)
+
+**6. 🔍 探索前沿：非自回归 Agent 的透明度与可解释性**
+* **摘要**：随着扩散式 LLM（如 DiffusionGemma）在连续潜空间中推理的发展，其非自回归的决策过程往往像一个黑盒。最新研究开始聚焦此类 Agent 的透明度与调试问题，对理解下一代 LLM 架构至关重要。
+* 🔗 [查看论文](http://arxiv.org/abs/2606.20560v1)
