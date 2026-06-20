@@ -999,3 +999,67 @@ agent 在真实 GitHub 仓库中执行审计任务的扩展性方案，对评估
 **6. 🔍 探索前沿：非自回归 Agent 的透明度与可解释性**
 * **摘要**：随着扩散式 LLM（如 DiffusionGemma）在连续潜空间中推理的发展，其非自回归的决策过程往往像一个黑盒。最新研究开始聚焦此类 Agent 的透明度与调试问题，对理解下一代 LLM 架构至关重要。
 * 🔗 [查看论文](http://arxiv.org/abs/2606.20560v1)
+
+
+## 2026-06-20 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 聚焦 Agent 工程、Context Engineering 与 RAG 基础设施
+
+---
+
+## 🔧 工具与基础设施
+
+**1. headroom — Context 压缩利器**
+压缩 tool outputs、日志、文件和 RAG chunks 再送入 LLM，token 减少 60–95%，同时提供库、代理和 MCP server 三种接入方式。Context engineering 当前最实用的降本工具之一。
+→ [github.com/chopratejas/headroom](https://github.com/chopratejas/headroom)
+
+**2. Rowboat — 多 Agent 系统开源 IDE**（YC 背景）
+专为构建和调试多 agent pipeline 设计的开发环境，对 agent 编排工程有直接参考价值。
+
+**3. Statewright — 用状态机约束 Agent 行为**
+通过有限状态机可视化管理 agent 状态流转，解决 LLM agent 不确定性与失控问题，是 agent 可靠性方向值得关注的方案。
+
+---
+
+## 📚 RAG 与知识库
+
+**4. OpenKB — 开源 LLM 知识库系统**
+直接对标 RAG 场景，适合自建知识检索与问答基础设施。
+→ [github.com/VectifyAI/OpenKB](https://github.com/VectifyAI/OpenKB)
+
+**5. Onyx — 开源对话 UI（内置 RAG）**（YC W24）
+支持接入企业知识库，可作为自建知识问答系统的前端基础，开箱即用。
+
+**6. stanford-oval/storm — LLM 驱动知识整理系统**
+自动研究主题并生成带引用的长篇报告，是 multi-step agent + RAG 架构的典型落地参考。
+→ [github.com/stanford-oval/storm](https://github.com/stanford-oval/storm)
+
+---
+
+## 🤖 Agent 能力扩展
+
+**7. scientific-agent-skills — 科学领域 Agent 技能库**
+140 个即用科学技能 + 100+ 科学数据库，可接入 Cursor / Claude Code 等主流 agent 工具，垂直领域 agent 扩展的参考范本。
+→ [github.com/K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
+
+**8. OpenMontage — Agentic 视频生产系统**
+12 条 pipeline、52 个工具、500+ agent skills，展示了复杂多工具 agent 编排的实际落地规模。
+
+---
+
+## 🔬 研究前沿
+
+**9. 扩散式 LLM 的推理透明度**
+探讨连续潜空间计算对可解释性的影响，直接关系到 agent 推理链路的可审计性与 context engineering 中的调试能力。
+
+**10. 多任务贝叶斯 In-Context Learning**
+将贝叶斯预测推断与 ICL 结合，提供更原则化的不确定性量化框架，对理解 LLM 如何利用上下文做决策有直接参考价值。
+
+**11. 结构化用户兴趣上下文用于生成式推荐**
+研究如何将用户历史行为结构化为生成式推荐的上下文输入，对长上下文组织方式有借鉴意义。
+
+---
+
+*今日重点关注：**headroom**（立竿见影的 token 压缩）+ **Rowboat**（agent 调试环境）+ **扩散 LLM 透明度研究**（影响 agent 可审计性方向）*
