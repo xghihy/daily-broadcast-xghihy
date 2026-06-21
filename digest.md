@@ -1063,3 +1063,54 @@ agent 在真实 GitHub 仓库中执行审计任务的扩展性方案，对评估
 ---
 
 *今日重点关注：**headroom**（立竿见影的 token 压缩）+ **Rowboat**（agent 调试环境）+ **扩散 LLM 透明度研究**（影响 agent 可审计性方向）*
+
+
+## 2026-06-21 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 2025-06-30 · 精选 9 条，按重要性排序
+
+---
+
+## 🔧 工程工具
+
+**1. headroom — Context 压缩神器，减少 60–95% token**
+在工具输出、日志、文件、RAG chunks 进入 LLM 前自动压缩，提供 Library / Proxy / MCP Server 三种接入方式，是目前 context engineering 最直接可用的基础设施工具。
+
+**2. Statewright — 用有限状态机约束 Agent 行为**
+通过可视化状态机管理 agent 流转，从架构层面解决 LLM 不确定性问题，适合需要高可靠性的 agent 编排场景。
+
+**3. Rowboat — Multi-Agent 开源 IDE**（YC S24）
+专为构建与调试多 agent 系统设计的可视化开发环境，工程实践参考价值高。
+
+**4. Onyx — 开源 RAG 对话界面**（YC W24）
+内置 RAG 能力、可连接企业知识库的完整开源实现，是自建 RAG 应用的成熟参考方案。
+
+---
+
+## 📐 方法论 / 研究
+
+**5. Multi-Task Bayesian In-Context Learning**
+将贝叶斯推断引入 in-context learning，使 LLM agent 在少样本场景下具备不确定性感知能力，对 context 设计有方法论参考价值。
+
+**6. 如何结构化分布式用户兴趣上下文用于生成式推荐**
+研究长用户历史行为的结构化组织方式，与 RAG / context engineering 中"长上下文如何排布"的问题高度同构，思路可迁移。
+
+**7. DiffusionGemma 透明度分析**
+评估扩散式（非自回归）LLM 的推理可解释性，对理解和调试新型 LLM 架构的 agent 行为有直接参考意义。
+
+---
+
+## 🗂️ 知识库 / 资产
+
+**8. OpenMontage — 开源 Agentic 视频生产系统**
+12 条 pipeline、52 个工具、500+ agent skills 的完整实现，是目前公开的规模最大的多工具 LLM agent 工程案例之一。
+
+**9. Anthropic-Cybersecurity-Skills — 754 条安全领域 Agent 技能库**
+结构化映射至 MITRE ATT\&CK 等 5 大框架，可直接插入 Claude、Copilot、Cursor 等 20+ 平台，是安全方向 agent skill / RAG 知识库的现成资源。
+→ [github.com/mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)
+
+---
+
+*今日主线：**context 压缩**（headroom）与 **agent 可靠性**（Statewright + Rowboat）是工程侧最值得关注的两个方向。*
