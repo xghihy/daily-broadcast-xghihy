@@ -1114,3 +1114,68 @@ agent 在真实 GitHub 仓库中执行审计任务的扩展性方案，对评估
 ---
 
 *今日主线：**context 压缩**（headroom）与 **agent 可靠性**（Statewright + Rowboat）是工程侧最值得关注的两个方向。*
+
+
+## 2026-06-22 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报 · 精炼版
+
+---
+
+## 🔧 工具与框架
+
+**1. headroom — LLM 上下文极致压缩工具**
+在内容送入 LLM 前压缩工具输出、日志、文件及 RAG chunks，可减少 60–95% token 用量，同时内置 MCP server 接口。一次性命中 context engineering + RAG + MCP 三大核心场景，实用价值极高。
+
+---
+
+**2. Statewright — 用可视化状态机约束 Agent 行为**
+通过状态机显式定义 agent 的行为流转，直击 LLM agent 不稳定、不可预测的核心痛点。工程思路清晰，适合需要生产可靠性的 agent 场景。
+
+---
+
+**3. deer-flow（字节跳动）— 长时程 SuperAgent 框架**
+字节开源的完整 agentic 架构，集成沙箱、跨会话记忆、工具调用、子 agent 编排与消息网关，支持分钟到小时级复杂任务。是当前最完整的 agentic 参考实现之一。
+→ [github.com/bytedance/deer-flow](https://github.com/bytedance/deer-flow)
+
+---
+
+**4. Rowboat — 多 Agent 系统开源 IDE**
+专为多 agent 系统设计的集成开发环境，覆盖编排、调试全流程，是 agent 工具链成熟化的代表性实践。
+
+---
+
+**5. cognee — Agent 长期记忆平台**
+基于自托管知识图谱为 agent 提供跨会话持久记忆，是 RAG 之外解决上下文持久化的典型方案，适合需要"记住用户"的 agent 产品。
+→ [github.com/topoteretes/cognee](https://github.com/topoteretes/cognee)
+
+---
+
+**6. OpenMontage — 开源 Agentic 视频生产系统**
+首个开源 agentic 视频生产系统，12 条流水线、52 个工具、500+ agent skills，展示了大规模 multi-tool LLM agent 的工程化落地方式，具有架构参考价值。
+
+---
+
+**7. Onyx — 高人气开源 Chat UI（YC W24）**
+社区热度 254pts 的开源对话界面，可作为 RAG / LLM agent 应用的前端底座，适合快速搭建内部工具或产品原型。
+
+---
+
+## 📄 学术进展
+
+**8. DiffusionGemma 透明度分析 — 新架构的可解释性挑战**
+系统分析扩散式 LLM（连续潜空间推理）的透明度问题，与 agent 可调试性、对齐直接相关。是理解新型 LLM 架构对 agent 可靠性影响的重要切入点。
+
+---
+
+**9. 多任务贝叶斯 In-Context Learning**
+用贝叶斯框架统一多任务 ICL，为更高效、有原则地利用 context 做推断提供理论基础，对 agent 不确定性量化有参考意义。
+
+---
+
+**10. 生成式推荐中的用户兴趣 Context 结构化**
+探索将分布式用户历史结构化为 context 供生成式推荐使用，结合 item tokenization 与上下文工程，对 RAG 场景下如何组织用户历史 context 有工程参考价值。
+
+---
+
+> 💡 **今日主线**：context 压缩（headroom）× agent 可靠性（Statewright）× 长程 agent 架构（deer-flow）三者合力，指向同一个方向——让 agent 在真实生产环境中**跑得更稳、更久、更省**。
