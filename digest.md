@@ -1179,3 +1179,68 @@ agent 在真实 GitHub 仓库中执行审计任务的扩展性方案，对评估
 ---
 
 > 💡 **今日主线**：context 压缩（headroom）× agent 可靠性（Statewright）× 长程 agent 架构（deer-flow）三者合力，指向同一个方向——让 agent 在真实生产环境中**跑得更稳、更久、更省**。
+
+
+## 2026-06-23 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 聚焦 Agent 工程化、长上下文与 RAG 落地，2025-06-30
+
+---
+
+## 🔥 重点关注
+
+### 1. 字节开源 DeerFlow — 生产级长时程 SuperAgent 框架
+集成沙箱、持久记忆、工具调用、子 Agent 编排与消息网关，支持分钟到小时级复杂任务，是目前开源 Agent 框架中工程完整度较高的一个。
+
+### 2. Randomized YaRN — 让 LLM 真正泛化到超长上下文
+提出训练阶段随机化 YaRN 位置编码的方法，显著提升模型在训练窗口外长序列上的推理能力，直接影响 long-context Agent 的实际可用性。
+→ [arxiv.org/abs/2606.23687](http://arxiv.org/abs/2606.23687v1)
+
+### 3. Statewright — 用可视化状态机约束 Agent 行为
+用有限状态机显式定义 Agent 的合法状态转移，解决 LLM Agent 不可预测、难调试的核心痛点，是 Agent Reliability 方向值得跟进的工程思路。
+
+---
+
+## 🧠 Agent 记忆与上下文管理
+
+### 4. cognee — 知识图谱驱动的 Agent 持久记忆平台
+用结构化知识图谱替代传统向量检索，为 Agent 提供跨 Session 的长期记忆，是 RAG 架构的结构化升级方向。
+
+### 5. Hindsight — Agent 从经验中自动更新记忆
+Agent 任务执行后自动从行为轨迹中提炼经验并写回记忆库，解决上下文窗口遗忘问题，与 cognee 形成互补。
+→ [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)
+
+### 6. Ouroboros — Agent OS：从 Prompting 转向 Specifying
+主张用结构化规格描述替代自然语言 Prompt 来定义 Agent 任务，代表 Agent 上下文工程的新范式探索。
+→ [Q00/ouroboros](https://github.com/Q00/ouroboros)
+
+---
+
+## 🛠️ Agent 工程工具链
+
+### 7. Rowboat — Multi-Agent 系统专用开源 IDE（YC S24）
+专为构建和调试多 Agent 系统设计，提供可视化编排与运行时调试能力，是 Agent 工程化基础设施的直接参考。
+
+### 8. OpenMontage — 首个开源 Agentic 视频生产系统
+12 条 Pipeline、52 个工具、500+ Agent Skills 的大规模组合实践，展示了复杂垂直场景下 Agent Skill 工程化的可行路径。
+
+---
+
+## 🔗 RAG 与多模态前沿
+
+### 9. Onyx — 企业级开源 Chat UI + RAG（YC W24）
+内置 RAG 能力、可连接内部知识库的企业对话界面，开源可自部署，是 RAG 落地的典型参考实现。
+
+### 10. AIR — 多模态 LLM 中代码与推理交织执行
+在 MLLM 推理链中动态插入代码执行步骤，属于 Agent Tool-Use 与 Context Engineering 的前沿探索。
+→ [arxiv.org/abs/2606.23678](http://arxiv.org/abs/2606.23678v1)
+
+### 11. PsyBridge — LLM Agent + RAG 在心理健康领域的落地
+将 Agent 与多维度领域知识融合用于决策支持，是 RAG + Agent 垂直行业应用的典型案例参考。
+→ [arxiv.org/abs/2606.23673](http://arxiv.org/abs/2606.23673v1)
+
+---
+
+**今日核心趋势**：Agent 可靠性（状态机约束）× 持久记忆（图谱 + 经验回写）× 长上下文泛化，三条线索正在从研究走向工程实践。
