@@ -1407,3 +1407,55 @@ AWS 官方推出的 MCP 服务器与插件集合，直接展示了如何通过 M
 **12. [医疗与适老] 基于语言的数字孪生认知辅助系统**
 将 LLM/Agent 技术引入个性化医疗。通过构建数字孪生系统分析交互模式，不仅展现了对话技术的落地，更在辅助老年人认知障碍诊断方面展现了巨大社会价值。
 🔗 http://arxiv.org/abs/2606.27334v1
+
+
+## 2026-06-28 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent & LLM 播报
+
+*按重要性排序，去重整合*
+
+---
+
+## 🔬 研究前沿
+
+**1. 无需标准答案的强化学习可提升 LLM 能力**
+提出 RiVER 框架，用排名诱导的可验证奖励替代 ground-truth 标签，将 RLVR 扩展至无标准答案场景。对 agent 自我改进与弱监督训练有直接参考价值，是当前 LLM 训练范式的重要突破。
+
+**2. 序列概率与 LLM 输出正确性的关系**
+系统分析 LLM 输出概率与答案正确性的相关性，直接影响 agent 解码策略选择与 RAG 候选排序的置信度评估，对工程落地有实用指导意义。
+
+**3. 基于语言的数字孪生体用于老年认知辅助**
+构建 LLM agent 对话建模与个性化长期上下文维护系统，是 RAG / 长期记忆 agent 的典型应用场景参考。
+
+---
+
+## 🛠️ 工程工具
+
+**4. Statewright — 用状态机约束 Agent 行为**
+通过可视化状态机限定 LLM agent 的行为边界，直击 agent 不可预测性这一核心痛点，可靠性设计思路值得借鉴。
+
+**5. Rowboat — Multi-Agent 系统开源 IDE**
+专为构建与调试多 agent 系统设计的开发环境，对 agent 工程实践有直接参考价值。
+
+**6. cognee — 开源 AI 长期记忆平台**
+基于自托管知识图谱引擎，为 agent 提供跨会话持久化记忆，是 RAG / agent 记忆基础设施的典型实现，知识图谱与状态管理设计值得深入研究。
+
+---
+
+## 🚀 项目案例
+
+**7. ai-berkshire — 多 Agent 并行投资研究框架**
+基于 Claude Code / Codex 的多 agent 对抗分析框架，展示了 multi-agent 协作架构在金融研究场景的实际落地，适合研究 agent 协作与任务分解设计。
+[GitHub](https://github.com/xbtlin/ai-berkshire)
+
+**8. video-use — Coding Agent 驱动的视频编辑**
+browser-use 团队将 LLM agent 扩展至多媒体操作领域的新尝试，值得关注 agent 在非文本任务中的 context 管理与工具调用设计。
+[GitHub](https://github.com/browser-use/video-use)
+
+**9. Onyx — 开源 RAG 聊天 UI（YC 支持）**
+提供完整的 RAG 对话界面，适合快速搭建企业知识库问答系统，开箱即用。
+
+---
+
+> 💡 **今日主线**：Agent 可靠性（Statewright + RiVER）与记忆/状态管理（cognee + 数字孪生）是当前最活跃的两条技术脉络，值得重点跟进。
