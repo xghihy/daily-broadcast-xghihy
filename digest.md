@@ -1459,3 +1459,48 @@ browser-use 团队将 LLM agent 扩展至多媒体操作领域的新尝试，值
 ---
 
 > 💡 **今日主线**：Agent 可靠性（Statewright + RiVER）与记忆/状态管理（cognee + 数字孪生）是当前最活跃的两条技术脉络，值得重点跟进。
+
+
+## 2026-06-29 · 📡 今日播报 · Parallight Lab
+
+**今日 AI 播报：Agent 工程化与垂直领域落地全面爆发**
+
+今日的技术动态呈现出两条清晰的主线：一是开发者对 **LLM Agent 行为可控性、可观测性及编排效率**的工程化探索；二是 **Agent 在金融交易、安全攻防、多媒体处理等垂直领域**的深度落地。以下为今日精选摘要（已去重并按重要性排序）：
+
+### 一、 Agent 行为控制与对齐（核心前沿）
+1. **从偏好辩论中提取“宪法原则”**
+   提出 Democratic ICAI（逆 Constitutional AI）方法，通过模型辩论从偏好数据中提取可解释的宪法原则，为 LLM Agent 对齐提供了比传统 RLHF 更透明的路径。
+   🔗 http://arxiv.org/abs/2606.28294v1
+2. **Statewright：用可视化状态机约束 Agent 行为**
+   针对大模型执行流程不可控、易跑偏的痛点，引入可视化状态机严格约束 AI agent 行为，大幅提升 Agent 可靠性。
+3. **Superlog：Agent 执行轨迹可观测性工具**
+   主打自动安装的 AI 应用观测工具，能自动抓取上下文并定位修复 Bug，为排查复杂的 LLM Agent 执行链路提供透明度。
+
+### 二、 Agent 开发环境与基础设施（开发者工具）
+4. **MinerU：高质量上下文工程前置工具**
+   将复杂的 PDF/Office 文档精准转化为 LLM 就绪的 Markdown/JSON，是构建高质量 Agentic 工作流和 RAG 系统的基石。
+5. **Rowboat：多 Agent 系统 IDE**
+   开源的可视化开发环境，提供构建、编排和调试多智能体工作流的整套工具，降低多 Agent 协作门槛。
+6. **Onyx：企业级知识库助手方案**
+   开源的 AI 聊天界面（原 ChatOllama），支持接入多种 LLM 并内置 RAG 与 MCP 工具集成能力，适合快速搭建企业级应用。
+7. **AIConsole：本地桌面端 AI 编辑器**
+   支持自定义工作流与深度集成多种 Agent 行为，便于在本地环境中灵活编排个性化 AI 任务流。
+
+### 三、 Agent 垂直领域落地实践（应用范例）
+8. **ai-berkshire：多 Agent 并行价值投资研究框架**
+   基于 Claude Code 构建，展示多个 Agent 如何在复杂的金融投研领域协同工作，是垂直落地的优质参考。
+9. **Vibe-Trading：实时金融交易 Agent**
+   个人交易 Agent 项目，作为研究 LLM Agent 在实时金融交易场景中自动化执行的极佳范例。
+   🔗 https://github.com/HKUDS/Vibe-Trading
+10. **Nao Labs：数据领域的“Cursor”**
+    将 LLM Agent 的上下文理解与编排能力引入数据操作，通过自然语言驱动复杂的数据处理任务。
+    🔗 https://news.ycombinator.com/item?id=43938607
+11. **Strix：开源 AI 黑客 Agent**
+    自动发现并修复应用漏洞，是 LLM Agent 在安全自动化领域的实用实现。
+    🔗 https://github.com/usestrix/strix
+12. **video-use：用代码 Agent 编辑视频**
+    展示了 LLM Agent 跨界操作复杂多媒体任务的潜力，通过代码 Agent 实现视频编辑。
+
+### 四、 Agent 开发指南与学习资源
+13. **claude-howto：Claude Code 可视化指南**
+    包含从基础到高级 Agent 概念的可视化指南，提供大量可直接复用的 Agent 模板。
