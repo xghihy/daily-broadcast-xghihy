@@ -1504,3 +1504,49 @@ browser-use 团队将 LLM agent 扩展至多媒体操作领域的新尝试，值
 ### 四、 Agent 开发指南与学习资源
 13. **claude-howto：Claude Code 可视化指南**
     包含从基础到高级 Agent 概念的可视化指南，提供大量可直接复用的 Agent 模板。
+
+
+## 2026-06-30 · 📡 今日播报 · Parallight Lab
+
+**今日 AI 前沿播报：Agent 工程化、金融应用与基建全面爆发**
+
+今日的技术动态高度聚焦于 **LLM Agent 的工程落地**，核心趋势为：从单一模型调用转向复杂多 Agent 协作，并通过可视化工具与外部数据通道大幅提升系统的可靠性与执行边界。
+
+以下是按重要性精炼排序的今日播报：
+
+### 1. Agent 架构与可靠性基建（核心趋势）
+解决 Agent 行为不可控、构建门槛高的问题，是当前工程界的最高优先级。
+*   **Statewright：用可视化状态机约束 LLM Agent** 
+    通过状态机硬性约束 Agent 行为，直击 Agent 执行易跑偏的可靠性痛点，是构建严谨 Agent 系统的重要范式。
+*   **Rowboat：开源多 Agent 系统 IDE** 
+    提供可视化编排与调试工具链，大幅降低构建多 Agent 架构的工程门槛，与 Statewright 形成互补。
+*   **AIConsole：深度自定义的桌面端 AI 编辑器** 
+    支持精细化控制 Agent 执行链路与工作流编排，适合需要深度定制工作流的开发者。
+*   **Onyx：开源企业级 AI 聊天界面** 
+    深度集成 RAG 与多种 LLM，是自建私有知识库问答系统的优质底层基础设施。
+
+### 2. LLM Agent 前沿规划机制（学术突破）
+*   **WorldEvolver：自进化世界模型赋能长程规划** 
+    针对长程 Agent 规划中因“前瞻预测不可靠”导致决策退化的问题，提出自进化世界模型提供高质量 foresight，从底层提升 Agent 决策能力。
+    🔗 [arXiv](http://arxiv.org/abs/2606.30639v1)
+
+### 3. 金融交易领域的多 Agent 实践（垂直场景爆发）
+金融分析是当前多 Agent 协作与对抗架构最典型的试验田。
+*   **ai-berkshire：基于 Claude 的多 Agent 价值投资框架** 
+    采用多 Agent 并行对抗分析进行复杂研究，是多 Agent 编排在投研任务中的优秀实践。
+*   **TradingAgents：多智能体金融交易框架** 
+    值得借鉴其多角色 Agent 协作在金融分析中的上下文流转设计。
+    🔗 [GitHub](https://github.com/TauricResearch/TradingAgents)
+*   **Vibe-Trading：个人交易智能体框架** 
+    展示了 Agent 在金融交易场景下的自主感知与决策执行架构。
+
+### 4. Agent 工具调用与跨模态拓展（能力边界延伸）
+Agent 正在通过标准工具链接入更复杂的系统操作与非文本领域。
+*   **crawl4ai：专为 LLM 设计的开源爬虫** 
+    为 Agent/RAG 系统提供高质量、实时网页数据获取通道，是 Agent 感知外部世界的优质“眼睛”。
+    🔗 [GitHub](https://github.com/unclecode/crawl4ai)
+*   **VulnClaw：结合 MCP 的渗透测试自动化 Agent** 
+    结合 AI Agent 与 MCP 工具链实现安全测试全流程自动化，是 MCP 赋能 LLM 调用底层系统工具的典型样板。
+    🔗 [GitHub](https://github.com/Unclecheng-li/VulnClaw)
+*   **video-use：用 Coding Agent 驱动视频编辑** 
+    突破文本限制，展示了 LLM Agent 在非文本创意生产领域的工具调用与操控能力。
