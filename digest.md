@@ -1647,3 +1647,36 @@ arxiv 新论文提出将文件系统操作提升为一等公民，把 LLM 的记
 arxiv 新研究审视了 GSO、SWE-Perf 等基准能否可靠评估代码 Agent 的性能，提醒业界关注评测有效性。数据侧推荐 `olmocr`，这款 PDF 线性化工具包能为 LLM 训练和 RAG 提供高质量的数据预处理支持。
 🔗 基准研究: [http://arxiv.org/abs/2607.01211v1](http://arxiv.org/abs/2607.01211v1)
 🔗 olmocr: [https://github.com/allenai/olmocr](https://github.com/allenai/olmocr)
+
+
+## 2026-07-03 · 📡 今日播报 · Parallight Lab
+
+**今日 AI Agent 领域精炼播报**
+
+本期播报聚焦 AI Agent 生态的最新进展。去重并按重要性筛选后，今日焦点集中在**多智能体编排框架**、**垂直领域自动化应用**以及**Agent 能力标准化**三大方向。
+
+### 1. 开源多智能体 IDE「Rowboat」：降低 Multi-Agent 开发门槛
+Rowboat 提供了一个可视化的多 agent 编排、构建与调试环境，让开发者能够更直观地构建复杂的多智能体系统，是当前降低多 Agent 开发门槛的优秀工具之一。
+
+### 2. Langflow：可视化构建与部署 AI Agent 工作流
+作为可视化编排领域的成熟开源工具，Langflow 适合用于快速原型验证 agent 编排架构与工作流部署，与 Rowboat 形成互补。
+🔗 https://github.com/langflow-ai/langflow
+
+### 3. Statewright：用可视化状态机攻克 Agent 可靠性难题
+针对 LLM 输出的非确定性问题，Statewright 创新性地引入可视化状态机，将非确定性的大模型输出严格约束在确定性流程内，为构建高可靠 Agent 提供了新范式。
+
+### 4. AgentSkills：定义与扩展 Agent 能力边界的标准化规范
+随着 Agent 应用爆发，如何定义其技能成为痛点。该项目提供了一套 Agent 技能规范与文档，为 LLM agent 的能力扩展和跨平台调用提供了标准化参考。
+🔗 https://github.com/agentskills/agentskills
+
+### 5. Strix：开源 AI 自动化渗透测试 Agent
+安全领域迎来 Agent 落地。Strix 展示了 LLM agent 在自动化安全攻防场景中的实际能力，能够自主执行复杂的渗透测试流程。
+
+### 6. Nao Labs：面向数据领域的“Cursor”
+Nao Labs 通过 LLM agent 自动化复杂数据分析与处理流程，将代码生成工具的理念深度应用于数据垂直领域，展示了 Agent 在专业数据处理中的巨大潜力。
+
+### 7. Onyx：开箱即用的企业级 AI 聊天与 RAG 知识库
+Onyx 提供开源企业级 AI 聊天界面，内置多模型接入、权限管理与企业级 RAG 知识库编排能力，是企业快速落地内部知识问答场景的理想选择。
+
+---
+*注：原列表中的 Video-use（视频编辑）与 Vibe-Trading（金融交易）作为单一垂类应用样本，以及 AIConsole（本地桌面助理，功能与 Rowboat/Langflow 等有重合），为保持播报精炼度已做去重剔除。*
