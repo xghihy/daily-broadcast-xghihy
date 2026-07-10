@@ -1889,3 +1889,42 @@ Agent的能力边界正向底层系统设施和企业数据源拓展。一方面
 
 **6. 实时 Web RAG 落地：跨平台检索与摘要技能模块**
 针对Agent对实时信息的需求，社区开源了 `last30days-skill` 模块。该技能专为AI agent设计，可跨 Reddit、X、YouTube 等多平台检索并综合摘要，展示了结合实时 Web RAG 的典型落地范式。
+
+
+## 2026-07-10 · 📡 今日播报 · Parallight Lab
+
+# 今日AI Agent/LLM技术播报
+
+**1. LMCache — 高性能KV Cache推理加速层**
+面向LLM推理的KV Cache层，大幅提升长上下文/RAG场景的推理吞吐，是当前context engineering底层基础设施的关键组件。
+
+**2. microsoft/SkillOpt — 冻结参数LLM的技能优化器**
+微软出品，为"冻结参数"agent训练可复用自然语言技能，通过轨迹驱动编辑+校验门控生成可部署技能文件，提供agent持续学习的新思路。
+https://github.com/microsoft/SkillOpt
+
+**3. UniClawBench — 主动型Agent通用评测基准**
+针对能操作真实工具、主动协助用户的LLM agent提出的评测基准，填补现有评测体系对"主动性"能力衡量的空白。
+http://arxiv.org/abs/2607.08768v1
+
+**4. Rowboat (YC S24) — 开源多智能体编排IDE**
+可视化编排、调试和协作构建multi-agent workflow的开源系统，适合关注agent架构设计的开发者。
+
+**5. Statewright — Agent可视化状态机框架**
+用确定性状态转移替代自由式agent循环，直接针对多步agent任务的可靠性痛点。
+
+**6. Graphify-Labs/graphify — 万物转知识图谱的Agent技能**
+将代码/文档/图片/视频转为可查询知识图谱，兼容Claude Code、Codex、Cursor等主流agent工具，可作RAG后端。
+https://github.com/Graphify-Labs/graphify
+
+**7. tirth8205/code-review-graph — 本地代码智能图谱**
+面向MCP和CLI的本地优先代码图谱工具，让AI编码助手仅读取真正相关上下文，实测可大幅压缩大仓库的context占用。
+
+**8. Onyx (YC W24) — 开源RAG聊天UI**
+配合企业知识库的检索增强问答前端，可作为搭建RAG应用界面的参考实现。
+
+**9. Superlog (YC P26) — 自安装可观测性工具**
+自动定位并修复bug的可观测性方案（详情待补充）。
+（原文链接缺失）
+
+---
+*共9条，按技术影响力与关注度排序，来源：arxiv / hackernews / github trending*
