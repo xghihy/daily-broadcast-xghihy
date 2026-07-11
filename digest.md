@@ -1928,3 +1928,36 @@ https://github.com/Graphify-Labs/graphify
 
 ---
 *共9条，按技术影响力与关注度排序，来源：arxiv / hackernews / github trending*
+
+
+## 2026-07-11 · 📡 今日播报 · Parallight Lab
+
+# 今日AI Agent播报
+
+## 🔒 安全治理
+1. **微软 Agent Governance Toolkit** — 面向AI Agent的治理工具包，涵盖策略执行、零信任身份、执行沙箱，覆盖OWASP Agentic Top 10全部风险项，是当前agent安全治理领域最系统的参考方案。
+   https://github.com/microsoft/agent-governance-toolkit
+
+## 📊 评测与标准化
+2. **UniClawBench** — 面向LLM/多模态Agent真实工具操作与主动辅助任务的通用评测基准，填补"主动型agent"能力评估的空白。
+
+3. **NVIDIA/skills** — NVIDIA官方发布的AI Agent技能集合，反映大厂对agent能力标准化的布局思路。
+   https://github.com/NVIDIA/skills
+
+## 🛠️ 工程化与开发工具
+4. **Statewright** — 用可视化状态机管理Agent执行流程，把隐式prompt链转化为显式状态图，解决多步任务不可靠、难调试的问题。
+
+5. **Rowboat (YC S24)** — 开源多Agent系统IDE，提供构建、编排、调试多agent协作流程的可视化开发环境。
+
+6. **davila7/claude-code-templates** — 用于配置和监控Claude Code的CLI工具，便于快速搭建LLM agent开发环境。
+   https://github.com/davila7/claude-code-templates
+
+## 🚀 应用与落地案例
+7. **mvanhorn/last30days-skill** — 跨Reddit、X、YouTube、HN、Polymarket多源检索并生成有依据摘要的agent技能，是RAG+agent结合的实用案例。
+
+8. **Onyx (YC W24)** — 开源Chat UI，核心是企业知识库检索增强对话（RAG），可作为自建知识库助手的现成方案。
+
+9. **Nao Labs (YC X25) – Cursor for Data** — 面向数据工程场景的AI agent编程助手，展示垂直领域agent产品的落地形态。
+
+---
+*注：原摘要中"AIConsole"条目信息不完整（描述截断、缺失链接），暂不纳入本期播报。*
