@@ -1961,3 +1961,36 @@ https://github.com/Graphify-Labs/graphify
 
 ---
 *注：原摘要中"AIConsole"条目信息不完整（描述截断、缺失链接），暂不纳入本期播报。*
+
+
+## 2026-07-12 · 📡 今日播报 · Parallight Lab
+
+这里是为你合成的【今日 AI Agent 领域精炼播报】。内容已按重要性（底层治理/核心框架 ➔ 可靠性与开发工具 ➔ 评估基准 ➔ 部署与应用）去重排序：
+
+### 🛡️ 1. 安全与底层框架
+*   **微软开源 AI Agent 治理工具包**：覆盖 OWASP Agentic Top 10，直击 Agent 安全与合规落地痛点，是企业级部署的必备参考。
+*   **OpenManus**：备受关注的开源通用 Agent 框架，复刻 Manus 核心能力，是研究 Agent 架构与复现的优质起点。
+    👉 [https://github.com/FoundationAgents/OpenManus](https://github.com/FoundationAgents/OpenManus)
+
+### 🛠️ 2. 可靠性与编排开发
+*   **Statewright**：提出用可视化状态机约束 Agent 执行流程，解决 LLM 行为不可控、易跑偏的可靠性核心痛点。
+*   **Rowboat**：面向多 Agent 编排的开源系统 IDE，提供完善的可视化构建与调试能力。
+*   **claude-code-templates**：Claude Code 的 CLI 配置与监控工具，可快速搭建和调试基于 LLM 的编码 Agent 环境。
+    👉 [https://github.com/davila7/claude-code-templates](https://github.com/davila7/claude-code-templates)
+
+### 📊 3. 评估与演进基准
+*   **UniClawBench**：面向真实世界任务的通用主动 Agent 基准，填补了测试 LLM 操作日常工具能力的空白，检验实用性关键参考。
+    👉 [http://arxiv.org/abs/2607.08768v1](http://arxiv.org/abs/2607.08768v1)
+*   **IdeaGene-Bench**：探讨 LLM 能否基于既有工作（如 RAG）进行演进式创新，评估科学思想传承推理能力，启发深度研究型 Agent。
+    👉 [http://arxiv.org/abs/2607.08758v1](http://arxiv.org/abs/2607.08758v1)
+
+### ⚙️ 4. 规模部署与前端集成
+*   **codex-lb**：多账号负载均衡代理，为高频 LLM Agent 调用提供用量追踪与端点兼容，解决规模化部署痛点。
+    👉 [https://github.com/Soju06/codex-lb](https://github.com/Soju06/codex-lb)
+*   **SLORR**：提出低秩正则化方法，有效缓解大模型压缩时的精度损失，为边缘设备部署 Agent 提供底层优化。
+    👉 [http://arxiv.org/abs/2607.08754v1](http://arxiv.org/abs/2607.08754v1)
+*   **Onyx / AIConsole (开源生态)**：Onyx 适合作为企业内部 RAG 问答与 Agent 交互的前端宿主；AIConsole 则是支持高度自定义工作流的本地桌面端 AI 编辑器。
+
+### 🎓 5. 领域应用观察
+*   **AI 学习助手大规模实证**：基于超 7 万学生日志的分析，展现高等教育中 AI 助手的使用模式，为设计教育领域 Agent 交互提供数据支撑。
+    👉 [http://arxiv.org/abs/2607.08748v1](http://arxiv.org/abs/2607.08748v1)
