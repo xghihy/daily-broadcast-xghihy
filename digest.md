@@ -1994,3 +1994,53 @@ https://github.com/Graphify-Labs/graphify
 ### 🎓 5. 领域应用观察
 *   **AI 学习助手大规模实证**：基于超 7 万学生日志的分析，展现高等教育中 AI 助手的使用模式，为设计教育领域 Agent 交互提供数据支撑。
     👉 [http://arxiv.org/abs/2607.08748v1](http://arxiv.org/abs/2607.08748v1)
+
+
+## 2026-07-14 · 📡 今日播报 · Parallight Lab
+
+**今日 AI Agent 与大模型前沿播报**
+
+本期播报对多源信息进行了去重与提炼，按“底层机理与对齐”、“Agent 框架与工程实践”、“多模态与垂直落地”三大重要性维度为您梳理今日核心动态：
+
+### 一、 底层机理与对齐（决定 LLM 能力上限与安全性）
+
+1. **LLM 元认知综述：构建自主纠错 Agent 的基石**
+   探讨了 LLM 的自我反思与监控能力，这是构建能自主纠错和规划的高阶 Agent 的核心能力基石。
+   [阅读论文](http://arxiv.org/abs/2607.11881v1)
+2. **机制可解释性：剖析 LLM-as-Judge 偏见**
+   从表征层机制解释 LLM 作为评判者的偏见，对依赖 LLM-as-Judge 机制进行 Reward 或评估的 Agent 流水线具有重要调优与对齐参考价值。
+   [阅读论文](http://arxiv.org/abs/2607.11871v1)
+3. **Transformer 归纳推理的涌现动力学**
+   构建理论框架解释 Transformer 归纳推理能力的涌现动力学，为理解 Agent 底层模型的泛化与推理边界提供深度机理支撑。
+   [阅读论文](http://arxiv.org/abs/2607.11875v1)
+
+### 二、 Agent 框架与开发工具（解决可靠性痛点与提效）
+
+4. **Statewright：可视化状态机驱动的 AI Agent 框架**
+   用确定性状态流转解决 Agent 行为不可控问题，是提升 Agent 可靠性的实用工程方案。
+5. **Rowboat：开源多 Agent 系统 IDE (YC S24)**
+   提供可视化编排与调试环境，直接命中多 Agent 架构开发的核心痛点。
+6. **OpenManus：纯开源通用 LLM Agent 框架**
+   适合研究 Agent 底层架构设计、工具调用与自主规划机制的实现。
+   [查看项目](https://github.com/FoundationAgents/OpenManus)
+7. **Graphify：超越传统 RAG 的知识图谱技能**
+   将代码库、文档或多媒体转化为统一可查询知识图谱，提供了一种深度上下文工程方案。
+8. **Onyx：开源企业级 Chat UI (YC W24)**
+   支持接入多种 LLM 并内置 RAG 管道，是快速落地 RAG 对话应用的高质量基座。
+9. **awesome-llm-apps：百级 Agent/RAG 源码集**
+   汇集 100+ 个可直接运行的应用源码，适合快速参考主流 LLM 应用的工程实现与架构模式。
+   [查看项目](https://github.com/Shubhamsaboo/awesome-llm-apps)
+10. **AIConsole：开源桌面端 AI 编辑器**
+    允许用户深度定制工作流与上下文输入，适合研究如何将 LLM 能力与本地 Context Engineering 结合的实践者。
+
+### 三、 垂直落地与多模态应用（业务结合与场景深化）
+
+11. **视频 QA 证据溯源**
+    提出为视频大模型 QA 提供可验证的视觉证据支撑，其“证据溯源”思路对提升多模态 Agent 在 RAG 场景下的结果可信度有直接启发。
+    [阅读论文](http://arxiv.org/abs/2607.11862v1)
+12. **TradingAgents：多智能体协作金融交易框架**
+    复杂场景下多 Agent 角色分工与交互的优质参考实现。
+13. **Vibe-Trading：个人交易 Agent**
+    可参考其如何将 LLM Agent 能力与具体业务工具链深度绑定并落地。
+14. **Nao Labs：Cursor for Data (YC X25)**
+    依赖 Agent 驱动的上下文工程来理解数据管道并执行复杂数据操作，展示了 Agent 在垂直领域的落地深度。
