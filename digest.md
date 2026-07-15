@@ -2044,3 +2044,27 @@ https://github.com/Graphify-Labs/graphify
     可参考其如何将 LLM Agent 能力与具体业务工具链深度绑定并落地。
 14. **Nao Labs：Cursor for Data (YC X25)**
     依赖 Agent 驱动的上下文工程来理解数据管道并执行复杂数据操作，展示了 Agent 在垂直领域的落地深度。
+
+
+## 2026-07-15 · 📡 今日播报 · Parallight Lab
+
+一份精炼的今日 AI 与开源播报，已为您去除冗余信息，并按“技术范式 > 开发工具 > 落地应用”的重要性排序：
+
+### 🎙️ 今日 AI 技术与开源播报
+
+**1. 约束与编排：构建高可靠多智能体系统**
+
+**2. 上下文工程（Context Engineering）的实证与架构演进**
+*   **时序预测中的上下文效用**：探讨额外上下文（更长回溯窗口、检索插件等）何时真正提升时序预测，实证 RAG 在预测任务中的价值。[论文链接](http://arxiv.org/abs/2607.13006v1)
+
+**3. 端侧与极低资源 Agent 突破**
+*   **PalmClaw 框架**：提出在手机端原生运行的 LLM agent 框架，拓展了 agent 从服务器到移动端的工具调用与多步任务执行边界。[论文链接](http://arxiv.org/abs/2607.13027v1)
+*   **Needle 微型模型**：仅有 26M 参数却支持函数调用（Function Calling），为在极低资源设备上开发 Agent 提供了新思路。[GitHub链接](https://github.com/cactus-compute/needle)
+
+**4. 效率优化：解决 Agent “简单任务过度消耗”问题**
+*   **Agent 自知之明研究**：分析 LLM agent 常因“最大上下文优先”策略导致简单任务过度消耗资源的问题，直接关联 agent 效率与上下文优化。[论文链接](http://arxiv.org/abs/2607.13034v1)
+
+**5. 垂直领域 Agent 与 MCP 协议落地**
+*   **Vexa**：开源会议转录 API，内置 MCP Server 以便 AI Agent 实时接入会议上下文，是探索 MCP 协议落地的典型案例。[GitHub链接](https://github.com/Vexa-ai/vexa)
+
+**6. 开箱即用的 LLM 应用脚手架与前端**
