@@ -2068,3 +2068,42 @@ https://github.com/Graphify-Labs/graphify
 *   **Vexa**：开源会议转录 API，内置 MCP Server 以便 AI Agent 实时接入会议上下文，是探索 MCP 协议落地的典型案例。[GitHub链接](https://github.com/Vexa-ai/vexa)
 
 **6. 开箱即用的 LLM 应用脚手架与前端**
+
+
+## 2026-07-16 · 📡 今日播报 · Parallight Lab
+
+**今日 AI 播报：Agent 开发工具链大爆发，评测与交互范式迎来新突破**
+
+本期综合 arxiv、HackerNews 及 GitHub 趋势，为您提炼今日 AI 领域核心动态。当前行业焦点正从单一模型能力转向**多智能体协同、复杂流程编排、执行可观测性以及评测可信度**。
+
+### 1. 开发范式：多智能体与复杂工作流编排成主线
+随着 Agent 流程变长，节点可视化编排与协同开发成为刚需，今日多个开源项目针对此痛点提供解决方案：
+*   **Rowboat** (开源多智能体 IDE)：提供可视化构建与调试工具，大幅降低多 Agent 协同开发门槛。
+*   **Statewright** (可视化状态机编排)：用状态机解决 LLM 在复杂多步流程中不可靠、易跑偏的痛点。
+*   **AIConsole** (本地化桌面端 AI 编辑器)：支持深度自定义工作流与工具集成，适合作为个人 Agent 的本地执行环境。
+
+### 2. 基础设施：Agent 可观测性与前端交互底座完善
+企业级落地需要解决“黑盒”排查与统一交互入口问题：
+*   **Superlog** (Agent 可观测性工具)：主打自动安装，能自动追踪 LLM 链路并修复 bug，解决 Agent 执行黑盒难题。
+*   **Onyx** (开源企业级 Chat UI)：原 ChatOllama，自带文档 RAG、工具调用与多模型接入，适合直接作为企业 Agent 前端底座。
+
+### 3. 理论前沿：可信评测与人机交互新范式
+学术界关注如何正确评估 Agent 以及人类如何干预推理模型的错误：
+*   **Deep Interaction** (推理模型人机交互)：针对 CoT 推理模型出错后交互效率低的问题提出新范式，对 Agent 的人机协作与纠错机制设计有重要借鉴意义。
+    👉 [http://arxiv.org/abs/2607.14049v1](http://arxiv.org/abs/2607.14049v1)
+*   **Hindcast** (LLM 预测器评估失真研究)：揭示 LLM Agent 在预测任务 backtesting 中，因检索/训练数据泄漏导致评估失真的问题，对设计可信 Agent 评测方法极具参考价值。
+    👉 [http://arxiv.org/abs/2607.14051v1](http://arxiv.org/abs/2607.14051v1)
+
+### 4. 架构参考与实战教学：高价值代码库汇总
+从基础入门到垂直领域落地，社区提供了丰富的即用型资源：
+*   **awesome-llm-apps** (百级应用示例库)：提供 100+ 个可直接运行的 AI Agent 与 RAG 示例，是复用 LLM 架构的高价值库。
+    👉 [https://github.com/Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
+*   **hello-agents** (系统化教程)：《从零开始构建智能体》，适合补齐 LLM Agent 基础认知。
+    👉 [https://github.com/datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents)
+*   **Biomni** (斯坦福通用生物医学 Agent)：研究垂直领域 Agent 架构与工具调用的前沿参考。
+    👉 [https://github.com/snap-stanford/Biomni](https://github.com/snap-stanford/Biomni)
+*   **Vibe-Trading** (个人交易 Agent)：展示 LLM Agent 在复杂金融决策场景下的具体落地路径。
+*   **nanobot** (轻量级开源 Agent)：支持接入工具、聊天和工作流，适合学习极简架构与工具集成。
+    👉 [https://github.com/HKUDS/nanobot](https://github.com/HKUDS/nanobot)
+*   **Earthquaker-AI** (教育场景 RAG 实例)：结合评估量规的小学地震教育 RAG 框架，展示了教育场景的落地设计思路。
+    👉 [http://arxiv.org/abs/2607.14046v1](http://arxiv.org/abs/2607.14046v1)
