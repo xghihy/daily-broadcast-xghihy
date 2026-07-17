@@ -2107,3 +2107,32 @@ https://github.com/Graphify-Labs/graphify
     👉 [https://github.com/HKUDS/nanobot](https://github.com/HKUDS/nanobot)
 *   **Earthquaker-AI** (教育场景 RAG 实例)：结合评估量规的小学地震教育 RAG 框架，展示了教育场景的落地设计思路。
     👉 [http://arxiv.org/abs/2607.14046v1](http://arxiv.org/abs/2607.14046v1)
+
+
+## 2026-07-17 · 📡 今日播报 · Parallight Lab
+
+一份精炼的今日 AI 与开源前沿播报，已按重要性排序并完成去重整合：
+
+### 📡 今日 AI 前沿播报
+
+**1. 深度防范 LLM 数据投毒与评估安全 Agent 开销**
+* **数据安全警示**：揭示预训练数据可通过“计算宣传”被投毒并引入极难检测的有害行为，对 LLM 训练及 RAG 知识源可信度评估敲响警钟。[论文链接](http://arxiv.org/abs/2607.15267v1)
+* **评估方法论**：提出针对安全 Agent 的“成本感知”评估框架，打破唯成功率论，开始衡量每步推理与工具调用的实际开销。[论文链接](http://arxiv.org/abs/2607.15263v1)
+
+**2. LLM 输出校准与 Agent 流程可控性突破**
+* **理论进展**：提出将上下文学习视为条件推断的统计框架，通过分区提示聚合校准 LLM 概率一致性，为 Prompt 工程提供理论指导。[论文链接](http://arxiv.org/abs/2607.15277v1)
+
+**3. 高质量落地资源：100+ Agent 与 RAG 应用集合**
+
+**4. 多智能体开发与 RAG 前端交付方案**
+
+**5. 异构数据转知识图谱：强化 RAG 与代码助手上下文**
+
+**6. 具身智能上下文规模扩展取得里程碑**
+* **前沿探索**：RoboTTT 将机器人策略的视觉运动上下文扩展至 8K 时间步（较 SOTA 提升三个数量级），验证了上下文规模扩展在具身 Agent 中的关键作用。[论文链接](http://arxiv.org/abs/2607.15275v1)
+
+**7. 官方样板与高阶 Agent 架构参考**
+* **插件化扩展**：Anthropic 官方发布知识工作者定制的 Claude 插件集，可作为探索 Agent 插件化与上下文增强的参考样板。[GitHub 链接](https://github.com/anthropics/knowledge-work-plugins)
+
+**8. 垂直领域 Agent 应用与开发辅助工具**
+* **可观测性**：PostHog 提供 AI 全链路分析与捕获能力，是调试 LLM Agent 运行状态与上下文的实用工具箱。[GitHub 链接](https://github.com/PostHog/posthog)
