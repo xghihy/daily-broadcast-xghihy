@@ -2162,3 +2162,48 @@ https://github.com/Graphify-Labs/graphify
 
 ### 5. 基础设施补全：系统学习与本地端侧控制
 *适合开发者查漏补缺与探索端侧自动化。*
+
+
+## 2026-07-19 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent 播报
+
+## 🔥 核心趋势：Agent 可靠性与 Context Engineering 成焦点
+
+**1. Anthropic 官方发布 Agent Skills 标准仓库**
+定义了 agent 能力扩展的标准化方式，是理解 Claude 生态 agent 设计思路的关键参考。
+[GitHub](https://github.com/anthropics/skills)
+
+**2. AWS 推出官方 Agent Toolkit**
+整合 MCP servers、skills 和 plugins，为在 AWS 上构建 AI agent 提供基础设施支持，MCP 生态再添重要拼图。
+
+**3. Statewright：用可视化状态机重构 Agent 可靠性**（HN 126pts）
+用状态机替代脆弱的 prompt 链，解决 LLM agent 执行流程不可控、难调试的痛点，是工程落地的具体方案。
+
+**4. code-review-graph：本地优先的代码智能图谱**
+专为 MCP/CLI 设计，构建持久化代码库地图，让 AI 编码工具只读取相关上下文，附带 context 缩减基准测试，直击 context engineering 痛点。
+
+**5. PostHog 新增 AI Observability 能力**
+产品分析平台新增功能，专门捕获 agent 诊断问题所需的上下文数据，是 agent 运维监控侧的 context engineering 实践。
+
+## 📊 评估与方法论
+
+**6. Cost-Aware Evaluation：超越成功率的安全 Agent 评测框架**
+提出对攻防安全类 agent 的成本感知评估，衡量推理步数/工具调用等实际开销，对设计和评测 LLM agent 系统有直接参考价值。
+
+**7. Statistical Self-Consistency：从统计推断审视 In-Context Learning**
+检验 LLM 输出是否满足条件概率的基本一致性，对理解 agent prompt 设计可靠性有理论启发。
+
+## 🛠️ 产品与生态
+
+**8. Kimi-CLI：Moonshot AI 推出的命令行 Agent 工具**
+国产大厂在 LLM agent 产品化上的最新落地形态，值得持续关注。
+[GitHub](https://github.com/MoonshotAI/kimi-cli)
+
+**9. Rowboat (YC S24)：开源多 Agent 系统 IDE**（HN 66pts）
+面向构建、调试、编排多个 LLM agent 协作工作流的开发环境。
+
+**10. Superlog (YC P26)：自安装可观测性 + 自动修复 Bug**（HN 74pts）
+用 agent 做运维/调试自动化的落地案例，将 LLM agent 引入基础设施场景。
+
+**11. AIConsole：可
