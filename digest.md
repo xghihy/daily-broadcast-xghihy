@@ -2207,3 +2207,60 @@ https://github.com/Graphify-Labs/graphify
 用 agent 做运维/调试自动化的落地案例，将 LLM agent 引入基础设施场景。
 
 **11. AIConsole：可
+
+
+## 2026-07-20 · 📡 今日播报 · Parallight Lab
+
+**🤖 今日 AI Agent 前沿播报**
+
+今日情报重点聚焦 **AI Agent 的工程化落地与架构革新**。业界正从“调效 Prompt”转向追求高可靠性的状态控制、本地化代码图谱以及新范式架构；同时，开源生态迎来了系统级入门教程与多款高效的开发/调试工具。
+
+以下为今日核心内容（按重要性排序）：
+
+### 一、 架构范式与深度研究
+**1. Agent OS 新范式：用规格说明替代提示词**
+- **摘要**：打破传统 Prompt Engineering 的局限，提出基于“规格说明”构建 Agent 架构的全新思路，为解决 LLM 行为不可控提供了底层范式参考。
+- **链接**：[https://github.com/Q00/ouroboros](https://github.com/Q00/ouroboros)
+
+**2. Muon 优化器在 Agentic RL 中的效果探究**
+- **摘要**：针对稀疏奖励环境下的 LLM Agent 强化学习后训练，探究 Muon 优化器的实际表现，对 Agent RL 训练的优化器选择具有直接指导价值。
+- **链接**：[http://arxiv.org/abs/2607.16169v1](http://arxiv.org/abs/2607.16169v1)
+
+**3. 多模态 LLM 主动观察闭环测试**
+- **摘要**：测试多模态大模型在主动观察任务中的闭环表现，验证模型是否具备基于中间假设持续重定向注意力等真正的 Agentic 行为能力。
+- **链接**：[http://arxiv.org/abs/2607.16165v1](http://arxiv.org/abs/2607.16165v1)
+
+### 二、 开发工具与工程实践
+**4. Statewright：可视化状态机编排 Agent 执行流**
+- **摘要**：直击 LLM Agent 易跑偏、不可控的痛点，通过可视化状态机严格编排执行流，大幅提升 Agent 在复杂业务中的可靠性。
+
+**5. code-review-graph：本地优先的代码知识图谱**
+- **摘要**：为 MCP 和 CLI 提供 Codebase 持久化映射，实测大幅削减代码审查和巨仓场景下的上下文占用，是 Context Engineering 与 MCP 落地的极佳范例。
+- **链接**：[https://github.com/tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph)
+
+**6. Rowboat：开源多 Agent 系统 IDE**
+- **摘要**：提供拖拽式工作流与多智能体协作开发环境，显著降低构建复杂 LLM Agent 系统的工程门槛。
+
+### 三、 开源教程与终端应用
+**7. 《深入理解 AI Agent》开源全书**
+- **摘要**：系统讲清 Agent 设计原理与工程实践，配套 PDF 与代码，是 LLM Agent 领域从入门到进阶的完整权威参考。
+- **链接**：[https://github.com/bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book)
+
+**8. Kimi-CLI：Kimi 官方终端 Agent**
+- **摘要**：展示 LLM Agent 在 CLI 编码场景的产品形态与交互设计，适合开发者直接体验终端侧的智能编码协作。
+- **链接**：[https://github.com/MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli)
+
+**9. AstrBot：跨平台多模态 Agent 框架**
+- **摘要**：支持多 IM 平台接入与多 LLM 挂载，采用插件化设计，适合快速搭建和部署跨平台的对话式 Agent。
+- **链接**：[https://github.com/AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot)
+
+### 四、 落地与企业级解决方案
+**10. Onyx：企业级开源 AI 聊天界面**
+- **摘要**：支持接入多种 LLM 并自带 RAG 与知识库管理能力，开箱即用，适合直接落地企业内部知识问答场景。
+
+**11. AIConsole：深度定制的桌面端 AI 编辑器**
+- **摘要**：支持自定义工作流与本地工具调用，适合需要精细打磨 Agent 执行链路的开发者使用。
+
+**12. 开源 LLM 生成结构化自动驾驶威胁信息评估**
+- **摘要**：测试开源大模型在安全领域生成结构化威胁信息的性能，探索 LLM 在高安全要求场景下的 Agent 化输出能力。
+- **链接**：[http://arxiv.org/abs/2607.16175v1](http://arxiv.org/abs/2607.16175v1)
