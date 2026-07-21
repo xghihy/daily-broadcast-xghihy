@@ -2264,3 +2264,29 @@ https://github.com/Graphify-Labs/graphify
 **12. 开源 LLM 生成结构化自动驾驶威胁信息评估**
 - **摘要**：测试开源大模型在安全领域生成结构化威胁信息的性能，探索 LLM 在高安全要求场景下的 Agent 化输出能力。
 - **链接**：[http://arxiv.org/abs/2607.16175v1](http://arxiv.org/abs/2607.16175v1)
+
+
+## 2026-07-21 · 📡 今日播报 · Parallight Lab
+
+一份精炼的今日 AI 与开源前沿播报，已将各源信息去重、重组，并按“开发框架与技术突破 > 开发者工具 > 理论前沿”的重要性排序：
+
+### 🎙️ 今日 AI 前沿播报
+
+**1. 开发者框架与范式突破**
+*   **多 Agent 构建与编排双利器：** 开源 IDE **Rowboat** 提供图形化界面快速搭建多 Agent 协作；**Statewright** 则通过可视化状态机编排 AI Agent，直击 LLM 行动不可控痛点，适合高可靠性流程。 
+*   **MCP 生态加速繁荣：** **FastMCP** 提供了 Pythonic 的 MCP 服务端/客户端构建框架；而本地代码图谱工具 **Code-Review-Graph** 则为 MCP 和 CLI 提供持久化代码地图，让 AI 编码工具仅读取关键上下文，大幅降低 Token 消耗。
+    👉 [FastMCP](https://github.com/PrefectHQ/fastmcp) | [Code-Review-Graph](https://github.com/tirth8205/code-review-graph)
+*   **开源 Agent 框架齐发：** **AstrBot** 集成多平台 LLM 与 IM 接入，适合快速构建智能助手；**Kimi-CLI** 将大模型能力直接带入终端命令行执行任务。
+    👉 [AstrBot](https://github.com/AstrBotDevs/AstrBot) | [Kimi-CLI](https://github.com/MoonshotAI/kimi-cli)
+
+**2. 开发者工具与企业级部署**
+*   **Agent 记忆与数据交互升级：** **Cognee** 推出面向 Agent 的自托管知识图谱引擎，实现跨会话长期记忆；**WrenAI** 作为开源 GenBI 工具，通过开放上下文层将自然语言精准转为可信 SQL，支持 20+ 数据源。
+*   **私有化与精细化控制方案：** **Onyx**（原 ChatGPT-Clone）支持团队快速私有部署带 RAG 知识库的 AI 聊天助手；桌面端编辑器 **AIConsole** 则面向高级用户，允许深度自定义工作流与上下文处理链路。
+
+**3. LLM 理论与上下文工程前沿**
+*   **RAG 走向反事实推理：** 最新研究将 RAG 向量检索机制引入因果推断的策略学习，为构建具备反事实推理能力的 RAG Agent 提供了全新理论范式。
+    👉 [阅读论文](http://arxiv.org/abs/2607.18225v1)
+*   **软提示操纵逻辑能力：** 研究发现通过注入 Soft Prefix（软提示），能以非自然语言的方式直观影响和操纵 LLM 的逻辑推理稳定性，揭示了上下文工程的深层威力。
+    👉 [阅读论文](http://arxiv.org/abs/2607.18228v1)
+*   **Agent 的信念管理挑战：** 评估显示，LLM 在对话中处理“用户信念表达”与“客观事实”时存在行为逻辑差异，这对未来 Agent 的对话记忆与信念管理提出了新要求。
+    👉 [阅读论文](http://arxiv.org/abs/2607.18232v1)
