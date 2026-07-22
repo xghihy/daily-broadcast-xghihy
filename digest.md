@@ -2290,3 +2290,29 @@ https://github.com/Graphify-Labs/graphify
     👉 [阅读论文](http://arxiv.org/abs/2607.18228v1)
 *   **Agent 的信念管理挑战：** 评估显示，LLM 在对话中处理“用户信念表达”与“客观事实”时存在行为逻辑差异，这对未来 Agent 的对话记忆与信念管理提出了新要求。
     👉 [阅读论文](http://arxiv.org/abs/2607.18232v1)
+
+
+## 2026-07-22 · 📡 今日播报 · Parallight Lab
+
+一份精炼的今日 AI 与开源前沿播报。已对内容进行去重整合，并按**“系统架构与理论 -> 工程落地与工具链 -> 底层能力优化”**的重要性排序：
+
+### 📢 今日 AI 前沿播报
+
+**1. 从理论到生产：Agent 工程化落地的全景梳理**
+系统梳理 LLM Agent 从研究原型到生产部署的演进，涵盖推理、规划、工具调用与多 Agent 协作。配合开源全书《深入理解 AI Agent》（含配套代码），可补全从理论到工程实践的系统地图。
+* 🔗 [阅读论文 (arXiv)](http://arxiv.org/abs/2607.19336v1) | [查看开源书籍 (GitHub)](https://github.com/bojieli/ai-agent-book)
+
+**2. 解决 Agent 可靠性痛点：从可视化编排到多智能体 IDE**
+针对 LLM 输出不稳定、多 Agent 协作难控制的问题，近期涌现多款利器：**Statewright** 通过可视化状态机编排工作流以保障流程稳定；**Rowboat** 提供开源的多 Agent 系统 IDE，支持构建与调试；**AstrBot** 则提供插件化的多 IM 平台 Agent 开发框架，适合快速部署对话型应用。
+
+**3. Agent 监控、容错与本地工作流落地**
+生产环境中 Agent 的容错与监控至关重要。**CodeRescue** 提出预算校准的恢复路由策略，解决 Coding Agent 失败后的成本感知恢复问题；**Superlog** 提供自托管可观测性工具，精准追踪复杂调用链定位 Bug。此外，**Kimi-cli** 和 **AIConsole** 将自然语言编程带入终端与桌面端，展现了本地轻量级 Agent 工作流的落地形态。
+* 🔗 [CodeRescue (arXiv)](http://arxiv.org/abs/2607.19338v1) | [Superlog (官网)](https://superlog.sh/) | [Kimi-cli (GitHub)](https://github.com/MoonshotAI/kimi-cli) | [AIConsole (官网)](https://aiconsole.ai)
+
+**4. 突破 Agent 底层能力：长文本推理、长期记忆与上下文降本**
+底层能力优化迎来新进展：**Copy Less, Ground More** 针对大模型长上下文“重复复制”的失败模式提出强化学习方法；**cognee** 构建基于自托管知识图谱的长期记忆平台，解决 Agent“健忘”痛点；**code-review-graph** 则为本地代码构建图谱，让 AI 编程工具只读关键上下文，实测大幅降低 Token 消耗。
+* 🔗 [Copy Less (arXiv)](http://arxiv.org/abs/2607.19345v1) | [cognee (GitHub)](https://github.com/topoteretes/cognee) | [code-review-graph (GitHub)](https://github.com/tirth8205/code-review-graph)
+
+**5. 数据分析与企业知识问答场景的最佳实践**
+Agent 接入垂直场景有了优秀参考实现：**WrenAI** 作为面向 Agent 的开源 GenBI，通过开放上下文层将自然语言转化为可信 SQL 与图表；**Onyx** 提供开源 AI 对话前端 UI，支持挂载 RAG 知识库，适合直接搭建企业内部知识问答系统。
+* 🔗 [WrenAI (GitHub)](https://github.com/Canner/WrenAI) | [Onyx (HN 讨论)](https://news.ycombinator.com/item?id=46045987)
