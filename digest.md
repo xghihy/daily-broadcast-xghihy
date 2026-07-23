@@ -2316,3 +2316,26 @@ https://github.com/Graphify-Labs/graphify
 **5. 数据分析与企业知识问答场景的最佳实践**
 Agent 接入垂直场景有了优秀参考实现：**WrenAI** 作为面向 Agent 的开源 GenBI，通过开放上下文层将自然语言转化为可信 SQL 与图表；**Onyx** 提供开源 AI 对话前端 UI，支持挂载 RAG 知识库，适合直接搭建企业内部知识问答系统。
 * 🔗 [WrenAI (GitHub)](https://github.com/Canner/WrenAI) | [Onyx (HN 讨论)](https://news.ycombinator.com/item?id=46045987)
+
+
+## 2026-07-23 · 📡 今日播报 · Parallight Lab
+
+**今日 AI 与开源精要播报**
+
+本期播报对多源信息进行了去重与整合，按“基础设施与工程实践 > 可靠性与工作流 > 模型能力与对齐 > 学习资源”的重要性排序，为您速递今日核心动态：
+
+### 1. 基础设施与企业级落地
+* **医疗临床检测流程 LIMS 架构优化**：研究展示了将 LLM 增强的 AI 架构嵌入端到端临床检测流程管理系统（FMRP-LEAN），实现 HIPAA 合规下的自动化 QC 与状态追踪，是 LLM Agent 在受监管行业落地的标杆案例。[http://arxiv.org/abs/2607.20382v1](http://arxiv.org/abs/2607.20382v1)
+
+### 2. Agent 可靠性与编排工作流
+
+### 3. 模型能力突破与价值对齐
+* **神经-软符号演绎推理架构 SoftReason**：提出全可微的神经-软符号推理架构，结合知识图谱在高维感知输入上做演绎推理，为 Agent 推理能力与 RAG/知识增强的融合提供了新思路。[http://arxiv.org/abs/2607.20402v1](http://arxiv.org/abs/2607.20402v1)
+* **LLM 隐藏层可解码性监督**：提出对 LLM 隐藏层激活的自然语言自动编码器做可解码性监督，解决了现有“重构即忠实”评估对单个虚假陈述不敏感的问题，对理解 LLM 内部机制和 Agent 可解释性极具参考价值。[http://arxiv.org/abs/2607.20379v1](http://arxiv.org/abs/2607.20379v1)
+* **多文化价值对齐基准 LKValues**：针对 LLM 价值对齐中的西方文化偏差，构建了斯里兰卡本地化价值基准，对多语言/多文化 Agent 部署中的对齐问题有直接借鉴意义。[http://arxiv.org/abs/2607.20410v1](http://arxiv.org/abs/2607.20410v1)
+
+### 4. 开源工程实战与学习资源
+* **AI 工程化实战教程**：`ai-engineering-from-scratch` 涵盖 Agent 与 LLM 工程化的核心基础，适合快速上手应用部署。[https://github.com/rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch)
+* **复杂多步研究 Agent**：LangChain 开源的 `open_deep_research` 项目，适合学习复杂多步任务 Agent 的编排与实现模式。[https://github.com/langchain-ai/open_deep_research](https://github.com/langchain-ai/open_deep_research)
+* **MCP 本地代码图谱工具**：`code-review-graph` 面向 MCP 提供精准上下文裁剪，是 context engineering（上下文工程）的绝佳实践参考。[https://github.com/tirthv20/code-review-graph](https://github.com/tirthv20/code-review-graph)
+* **Claude 技能扩展库**：`awesome-claude-skills` 精选了 Claude AI 技能、资源与工具列表，为定制化 Agent 工作流提供丰富的扩展组件。[https://github.com/ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)
