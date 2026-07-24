@@ -2339,3 +2339,38 @@ Agent 接入垂直场景有了优秀参考实现：**WrenAI** 作为面向 Agent
 * **复杂多步研究 Agent**：LangChain 开源的 `open_deep_research` 项目，适合学习复杂多步任务 Agent 的编排与实现模式。[https://github.com/langchain-ai/open_deep_research](https://github.com/langchain-ai/open_deep_research)
 * **MCP 本地代码图谱工具**：`code-review-graph` 面向 MCP 提供精准上下文裁剪，是 context engineering（上下文工程）的绝佳实践参考。[https://github.com/tirthv20/code-review-graph](https://github.com/tirthv20/code-review-graph)
 * **Claude 技能扩展库**：`awesome-claude-skills` 精选了 Claude AI 技能、资源与工具列表，为定制化 Agent 工作流提供丰富的扩展组件。[https://github.com/ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)
+
+
+## 2026-07-24 · 📡 今日播报 · Parallight Lab
+
+**今日 AI 与开源前沿播报**
+
+本期播报聚焦 AI Agent 基础设施、多智能体协作编排以及上下文工程优化。去重并精炼各源信息后，按重要性排序如下：
+
+**1. 微软 SkillOpt：为冻结 LLM 训练可复用自然语言技能**
+微软开源上下文工程优化器，通过轨迹驱动编辑和验证门控更新，能够为基座模型冻结状态下的 AI agent 训练和沉淀可复用的自然语言技能，是突破 Agent 能力上限的重要探索。
+
+**2. Serena：赋予 Agent 专属 IDE 能力的 MCP 工具包**
+为 AI Agent 提供强大的语义检索和代码编辑能力。借助该工具包，Agent 能够像人类开发者一样精准理解和修改代码库，大幅提升编程与代码分析任务的执行效率。
+🔗 https://github.com/oraios/serena
+
+**3. Statewright：用可视化状态机解决 Agent 工作流不可靠问题**
+针对大模型输出不确定性导致的流程崩溃问题，Statewright 提出用可视化状态机编排 AI agent，为需要确定性执行路径的复杂企业级 Agent 架构提供了高可靠性参考。
+
+**4. Rowboat：开源多 Agent 系统可视化 IDE**
+直接对标多智能体开发场景，提供开箱即用的可视化构建与调试环境。开发者可直观地编排多 Agent 间的协作与通信，降低多智能体系统的开发门槛。
+
+**5. AIConsole：支持本地编排的桌面端 AI 编辑器**
+开源桌面端 AI 编辑器，主打自定义工作流与本地 Agent 编排，适合对数据隐私有要求、且需要深度定制 Agent 行为的开发者本地部署使用。
+
+**6. Superlog：主打自动修复的 LLM 可观测性工具**
+填补 Agent 运行时调试基础设施的空白，提供一键自动安装的监控能力，能够自动定位应用 Bug、追溯上下文并辅助修复，大幅降低 LLM 应用的运维成本。
+
+**7. MedGame：LLM 驱动的临床决策游戏化学习轨迹**
+展现了 LLM 在医学教育场景中作为交互式 Agent 的潜力。该方案将临床病例转化为决策驱动的游戏化学习路径，验证了 LLM 组织多轮复杂推理的可行性。
+🔗 http://arxiv.org/abs/2607.21570v1
+
+---
+**💡 资源与学习材料精选**
+*   **Claude 技能扩展库** - Awesome Claude Skills：精选工具与资源列表，用于扩展 Agent 工作流。 https://github.com/ComposioHQ/awesome-claude-skills
+*   **Agent 全景资源库** - Awesome AI Agents：收录 300+ 条框架、工具与学习材料。 https://github.com/slavakurilyak/awesome-ai-agents
