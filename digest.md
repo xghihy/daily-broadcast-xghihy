@@ -2374,3 +2374,42 @@ Agent 接入垂直场景有了优秀参考实现：**WrenAI** 作为面向 Agent
 **💡 资源与学习材料精选**
 *   **Claude 技能扩展库** - Awesome Claude Skills：精选工具与资源列表，用于扩展 Agent 工作流。 https://github.com/ComposioHQ/awesome-claude-skills
 *   **Agent 全景资源库** - Awesome AI Agents：收录 300+ 条框架、工具与学习材料。 https://github.com/slavakurilyak/awesome-ai-agents
+
+
+## 2026-07-25 · 📡 今日播报 · Parallight Lab
+
+一份精炼的今日 AI 前沿播报，已按“基础理论/设施 > 工程工具 > 垂直应用”的重要性排序并去重：
+
+### 🚀 今日 AI 播报：Agent 工程化与多模态推理前沿
+
+**1. 基础设施：Web 交互与外部上下文扩充**
+- **browser-use**：让 AI Agent 直接操作浏览器并自动化执行网页任务的开源工具，是构建 Web 交互型 LLM Agent 的核心基础设施。 
+  🔗 [https://github.com/browser-use/browser-use](https://github.com/browser-use/browser-use)
+- **Agent-Reach**：为 AI Agent 提供跨全网（Twitter/Reddit/YouTube 等）读取与搜索能力的 CLI 工具，极大扩充了 Agent 的外部 Context 源。 
+  🔗 [https://github.com/Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)
+
+**2. 工程工具：多 Agent 编排与可观测性**
+- **Statewright**：用可视化状态机编排 AI agent 执行流程，以确定性控制流解决 LLM 输出不可靠、易跑偏的问题。 
+- **Rowboat**：开源的多 agent 系统 IDE，提供可视化界面降低 LLM agent 编排、工具接入与调试的开发门槛。 
+- **Superlog**：主打“自动接入”的 AI 应用可观测性工具，能直接定位并修复 bug，对监控 LLM agent 运行轨迹与上下文状态极具实用价值。 
+- **awesome-claude-skills**：精选 Claude Skills（即 Agent 工具/工作流）资源列表，为构建和定制 AI Agent 提供现成的高质量技能模块。 
+
+**3. 实战范本：复杂流水线与企业级应用**
+- **OpenMontage**：开源 Agentic 视频制作系统，内含 12 条流水线、100+ 工具与 700+ agent skill 文件，是研究复杂多 Agent 编排的实战范本。 
+  🔗 [https://github.com/calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)
+- **Onyx**：开源企业级 Chat UI，内置知识库 RAG 管线与多模型支持，适合作为内部 AI 助手与检索问答的参考架构。 
+- **Nao Labs**：面向数据领域的 AI Agent 工具，用自然语言驱动数据清洗与分析，展示了 agent 在非通用代码任务中的垂直落地实践。 
+  🔗 [https://news.ycombinator.com/item?id=43938607](https://news.ycombinator.com/item?id=43938607)
+
+**4. 学术前沿：空间感知、可解释性与理论批判**
+- **VLM-IE3D**：统一框架增强视觉语言模型的 3D 空间感知能力，结合隐式与显式几何表征，拓展多模态 agent 的空间推理能力。 
+  🔗 [http://arxiv.org/abs/2607.21595v1](http://arxiv.org/abs/2607.21595v1)
+- **Beyond Sufficiency**：提出基于“反事实必要性”的时序分类解释方法，弥补现有充分性导向方法的不足，对 agent 决策可解释性研究有方法论启发。 
+  🔗 [http://arxiv.org/abs/2607.21573v1](http://arxiv.org/abs/2607.21573v1)
+- **MedGame**：基于 LLM 的医疗教育叙事游戏化框架，将临床案例组织为决策驱动的学习轨迹，展示了 LLM 作为交互式 agent 在垂直教育场景的潜力。 
+  🔗 [http://arxiv.org/abs/2607.21570v1](http://arxiv.org/abs/2607.21570v1)
+- **Surprisal Theory批判**：指出语言模型 surprisal 理论若无合理约束则流于同义反复，对理解 LLM 上下文概率建模的理论基础有参考价值。 
+  🔗 [http://arxiv.org/abs/2607.21574v1](http://arxiv.org/abs/2607.21574v1)
+
+**5. 学习资源**
+- **AI Engineering from Scratch**：从零构建 AI 应用的全栈教程，涵盖 LLM 原理到工程落地，适合系统学习 Agent 构建与 RAG 等底层基础。
