@@ -2413,3 +2413,49 @@ Agent 接入垂直场景有了优秀参考实现：**WrenAI** 作为面向 Agent
 
 **5. 学习资源**
 - **AI Engineering from Scratch**：从零构建 AI 应用的全栈教程，涵盖 LLM 原理到工程落地，适合系统学习 Agent 构建与 RAG 等底层基础。
+
+
+## 2026-07-26 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+## 🤖 Agent 工程
+
+**1. Statewright — 用有限状态机约束 Agent 行为**
+通过可视化状态机限定 LLM agent 的合法状态转移，直击 agent 不可预测、难调试的核心痛点，是目前最具体的 agent 可靠性工程方案之一。
+
+**2. Rowboat — 多 Agent 系统开源 IDE（YC）**
+专为构建与调试多 agent 系统设计，填补 agent 开发工具链的空白，对 agent context/flow 编排有直接参考价值。
+
+**3. awesome-claude-skills — Claude Agent 工作流资源合集**
+涵盖 context engineering 与 agent 搭建的参考索引，适合快速查阅 Claude agent 定制方案。
+
+---
+
+## 🔍 RAG 与数据
+
+**4. PageIndex — 无向量化的推理式文档索引**
+挑战传统 embedding + 检索范式，以推理替代向量化，是 RAG 替代方案中值得重点跟踪的新思路。
+→ [GitHub](https://github.com/VectifyAI/PageIndex)
+
+**5. Onyx — 内置 RAG 的开源 Chat UI（YC W24）**
+提供完整的 RAG 前端参考实现，HN 254 分高热度印证社区需求，可直接作为产品原型。
+
+**6. DataFlow — 基于 LLM 的数据处理 Pipeline**
+为 RAG 或 agent 准备训练/检索数据的工具，补齐数据工程环节。
+→ [GitHub](https://github.com/OpenDCAI/DataFlow)
+
+---
+
+## 🌐 应用与生态
+
+**7. SurfSense — 开源 NotebookLM 替代品**
+支持 MCP server 接入实时网络数据源，是 MCP 生态落地的实际案例，兼具个人知识管理与实时检索能力。
+→ [GitHub](https://github.com/MODSetter/SurfSense)
+
+**8. MedGame — LLM 驱动的临床案例游戏化教育**
+将多个 LLM 组织成决策驱动的学习轨迹，是 LLM multi-agent 多步骤交互在垂直领域的典型落地。
+
+---
+
+> **今日主线**：Agent 可靠性工程（状态机约束）与 RAG 范式革新（无向量索引）是两条值得持续关注的技术脉络。
