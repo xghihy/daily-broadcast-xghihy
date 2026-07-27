@@ -2459,3 +2459,61 @@ Agent 接入垂直场景有了优秀参考实现：**WrenAI** 作为面向 Agent
 ---
 
 > **今日主线**：Agent 可靠性工程（状态机约束）与 RAG 范式革新（无向量索引）是两条值得持续关注的技术脉络。
+
+
+## 2026-07-27 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent 播报
+
+> 共 10 条，按重要性排序，去重合并
+
+---
+
+## 🔬 研究前沿
+
+**1. 技能"双刃剑"效应：添加技能为何同时伤害 LLM Agent**
+近 6000 次运行揭示向 agent 添加技能在提升部分任务的同时会损害其他任务（"回归税"），对 agent 能力设计与 context 工程有直接指导价值。
+→ [The Regression Tax](http://arxiv.org/abs/2607.22520v1)
+
+**2. 技能协同自进化：用 Self-Play 推进 LLM 自主能力边界**
+提出技能协同自进化训练范式，同步解决任务多样性与验证可靠性的两难困境，是 agent 自主学习方向的重要进展。与上条互为呼应。
+→ [Skill Self-Play](http://arxiv.org/abs/2607.22529v1)
+
+**3. System Prompt 如何悄悄改变模型立场**
+测试四大 LLM 家族在不同部署配置下对伪科学的态度一致性，实证揭示 context engineering 对输出的不透明塑造效果，部署侧风险值得警惕。
+→ [Opaque Epistemic Mediation](http://arxiv.org/abs/2607.22513v1)
+
+---
+
+## 🛠️ 工程工具
+
+**4. Microsoft Agent Governance Toolkit — Agent 生产化治理必看**
+覆盖策略执行、零信任身份、沙箱隔离，对标 OWASP Agentic Top 10，是目前最系统的开源 agent 治理框架，生产部署必读。
+
+**5. Rowboat — 多 Agent 系统专属开源 IDE**
+首个面向 multi-agent 系统构建与调试的 IDE 级产品，填补 agent 开发工具链空白。
+
+**6. Statewright — 用有限状态机约束 Agent 行为**
+以可视化状态机为 agent 行为流加护栏，解决 LLM 不确定性导致的工程化可靠性问题，落地思路清晰。
+
+**7. Onyx — 开源 RAG 对话 UI（YC W24，254pts）**
+完整 RAG pipeline + 对话界面，适合快速搭建企业知识库问答，社区验证度高。
+
+---
+
+## 📚 资源与生态
+
+**8. awesome-claude-skills — Claude 技能/工具精选列表**
+覆盖 agent workflow 定制的社区策展资源，构建 LLM agent 的实用起点。
+
+**9. HuggingFace speech-to-speech — 本地语音 Agent 实践**
+用开源模型本地搭建语音 agent，是多模态能力扩展的可复现参考实现。
+→ [speech-to-speech](https://github.com/huggingface/speech-to-speech)
+
+**10. UniFi MCP Server — MCP 协议落地硬件管理场景**
+为 UniFi 网络套件实现的 MCP server，是协议向具体垂直场景延伸的典型示例。
+→ [unifi-mcp](https://github.com/sirkirby/unifi-mcp)
+
+---
+
+*今日关键主题：**技能设计的代价** · **agent 治理与工程化** · **context 的隐性影响***
