@@ -2517,3 +2517,56 @@ Agent 接入垂直场景有了优秀参考实现：**WrenAI** 作为面向 Agent
 ---
 
 *今日关键主题：**技能设计的代价** · **agent 治理与工程化** · **context 的隐性影响***
+
+
+## 2026-07-28 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报 · 精选
+
+---
+
+## 🔬 研究前沿
+
+**1. 多轮长程规划的物理机制分析**
+系统研究通过单/多教师在线策略蒸馏提升 LLM agent 规划能力的机制，是理解"如何训出强 agent"的基础性工作。
+→ [arxiv](http://arxiv.org/abs/2607.24720v1)
+
+**2. DataOrchestra：逐样本自适应预训练数据策划**
+突破"一刀切"数据配比范式，对每个样本动态决策是否纳入训练，直接影响 LLM 基础能力上限。
+→ [arxiv](http://arxiv.org/abs/2607.24717v1)
+
+---
+
+## 🛠️ 工程工具
+
+**3. Statewright — 用状态机约束 Agent 行为**
+以显式可视化状态机为 agent 划定行为边界，直击 LLM agent 不可控的核心痛点，工程思路值得借鉴。
+
+**4. Rowboat — Multi-Agent 系统开源 IDE**
+专为构建与调试多 agent 编排系统设计，是目前少有的 agent 工程专用开发环境。
+
+**5. DocsGPT — RAG + Multi-Agent 私有化全栈平台**
+内置 Agent Builder、深度研究、文档分析与企业搜索，可作为上下文工程与 agent 编排的完整参考实现。
+→ [GitHub](https://github.com/arc53/DocsGPT)
+
+**6. Onyx — 开源 RAG Chat UI（YC W24）**
+254pts 高热度印证社区需求，可直接用作 LLM 应用 UI 层的生产级参考。
+
+---
+
+## 🧩 Context Engineering 实践
+
+**7. claude-video — 给 Claude 接入视频理解能力**
+自动下载视频、抽帧、转录后注入上下文，是多模态 context 构建的典型轻量实现。
+→ [GitHub](https://github.com/bradautomates/claude-video)
+
+**8. last30days-skill — 跨平台信息聚合 Agent Skill**
+横跨 Reddit / X / YouTube / HN / Polymarket 多源检索并合成摘要，适合学习 agent skill 的设计模式。
+
+**9. hermes-webui — Agent 能力的 Web/移动端暴露层**
+展示如何通过 WebUI 将 LLM agent 能力面向用户侧封装，适合了解 agent 交互层设计。
+→ [GitHub](https://github.com/nesquena/hermes-webui)
+
+---
+
+> **今日主线**：Agent 可靠性（状态机约束 + 规划机制）与 Context Engineering（视频/多源注入、逐样本数据策划）是当前最活跃的两条技术脉络，工具侧正快速补齐开发与调试基础设施。
