@@ -2570,3 +2570,65 @@ Agent 接入垂直场景有了优秀参考实现：**WrenAI** 作为面向 Agent
 ---
 
 > **今日主线**：Agent 可靠性（状态机约束 + 规划机制）与 Context Engineering（视频/多源注入、逐样本数据策划）是当前最活跃的两条技术脉络，工具侧正快速补齐开发与调试基础设施。
+
+
+## 2026-07-29 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent 播报
+
+> 按重要性排序，去重合并同类项
+
+---
+
+## 🏗️ Agent 工程基础设施
+
+**1. 微软 Agent 治理工具包**
+覆盖 OWASP Agentic Top 10，集成零信任身份、执行沙箱与策略执行，是目前最系统的生产级 agent 安全部署方案，官方背书权威性强。
+
+**2. OpenViking — Agent 自演化上下文数据库**
+火山引擎出品，统一 Agent Memory、Knowledge RAG 与 Skills 三层，是 context engineering 方向难得的完整工程实现。
+→ [volcengine/OpenViking](https://github.com/volcengine/OpenViking)
+
+**3. OpenSpace — Agent 技能管理层**
+解决技能注册、调度与复用问题，与 MCP 工具生态高度互补，补齐了 agent 工具链的中间层缺口。
+→ [HKUDS/OpenSpace](https://github.com/HKUDS/OpenSpace)
+
+---
+
+## 🔬 Agent 能力评测与边界研究
+
+**4. Desktop-Delta Bench**
+直击现有 computer-use 评测只看"终态成功率"的盲点，专门测量 GUI 状态转移的因果理解能力，是当前 agent benchmark 体系的重要补充。
+→ [arxiv 2607.26041](http://arxiv.org/abs/2607.26041v1)
+
+**5. Pass the Baton — 轨迹接力式 On-Policy 蒸馏**
+针对 reasoning agent 训练中"prefix failure"导致错误轨迹积累的问题，提出接力蒸馏方案，对 agent 策略训练有直接工程价值。
+→ [arxiv 2607.26057](http://arxiv.org/abs/2607.26057v1)
+
+---
+
+## 🛠️ Agent 开发工具与可靠性
+
+**6. Statewright — 状态机约束 Agent 行为**
+用可视化状态机显式约束 agent 的行为流转，从工程角度而非模型角度解决 LLM 不确定性，思路务实可落地。
+
+**7. Rowboat — Multi-Agent 开源 IDE**
+专为构建和调试多 agent 系统设计，填补了 agent 工程缺乏专用开发环境的空白。
+
+---
+
+## 🎙️ Agent 落地案例
+
+**8. VetClaw — Edge-Cloud 多模态 Agent 系统**
+完整展示 VLM agent 在边缘-云协同架构下做零样本疾病筛查的端到端设计，是垂直场景 agentic 落地的参考范本。
+→ [arxiv 2607.26042](http://arxiv.org/abs/2607.26042v1)
+
+**9. HuggingFace Speech-to-Speech**
+本地可运行的端到端语音 agent pipeline，开源模型全栈，voice agent 落地实践的直接起点。
+
+**10. Onyx — 开源 Chat UI（YC W24）**
+多后端接入的对话界面层，254pts 社区热度验证，适合快速搭建 RAG/agent 应用前端。
+
+---
+
+*📌 今日重点关注：微软治理工具包（安全合规）+ OpenViking（上下文工程）+ Desktop-Delta Bench（能力评测），三者共同指向 agent 从"能用"走向"可信可控"的关键方向。*
