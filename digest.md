@@ -2632,3 +2632,57 @@ Agent 接入垂直场景有了优秀参考实现：**WrenAI** 作为面向 Agent
 ---
 
 *📌 今日重点关注：微软治理工具包（安全合规）+ OpenViking（上下文工程）+ Desktop-Delta Bench（能力评测），三者共同指向 agent 从"能用"走向"可信可控"的关键方向。*
+
+
+## 2026-07-30 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent 播报
+
+## 🔬 研究前沿
+
+**1. AI agent 能否完成真实开放式 AI 研究？**
+两个案例研究直接检验 LLM agent 在真实、开放式 AI 研究任务中的能力边界——而非窄域可验证任务——是目前最稀缺的实证证据之一。
+→ [arxiv](http://arxiv.org/abs/2607.27191v1)
+
+**2. 心智世界建模（Mental World Modeling）**
+将信念、意图、情感等隐式心智状态纳入 world model，为构建具备心智理论（ToM）的 LLM agent 与规划系统提供直接框架。
+→ [arxiv](http://arxiv.org/abs/2607.27201v1)
+
+**3. AI 队友的社会成本**
+实证研究 conversational AI 作为团队成员时对人类间沟通的挤出效应，为 multi-agent 协作与 human-in-the-loop 设计敲响警钟。
+→ [arxiv](http://arxiv.org/abs/2607.27179v1)
+
+---
+
+## 🛡️ 安全与治理
+
+**4. Microsoft Agent Governance Toolkit**
+覆盖策略执行、零信任身份、执行沙箱，对齐 OWASP Agentic Top 10，目前最系统的生产级 agent 安全参考框架。
+
+**5. Statewright — 用状态机约束 Agent 行为**
+以有限状态机显式约束 agent 执行路径，从工程层面解决 LLM 不确定性与失控问题，可靠性工程必看。
+
+---
+
+## 🛠️ 开发工具链
+
+**6. Rowboat — 多 Agent 系统开源 IDE**
+专为构建、调试多 agent 工作流设计的集成开发环境，填补 agent 开发工具链的基础设施空白。
+
+**7. DocsGPT — RAG + Agent 一站式私有平台**
+内置 Agent Builder、RAG 文档分析、多模型支持与 API 连接，自托管友好，适合企业私有化部署。
+
+**8. Onyx — 开源企业知识库对话 UI（YC W24）**
+支持接入企业知识库的开源 RAG 对话界面，自托管 LLM 应用的轻量起点。
+
+---
+
+## 🔧 实用工作流
+
+**9. HuggingFace speech-to-speech — 本地语音 Agent**
+全开源模型本地搭建语音 agent 的完整实现，LLM agent 延伸至语音交互场景的参考基线。
+→ [GitHub](https://huggingface.co/speech-to-speech)
+
+**10. book-to-skill — PDF 书籍转 Claude Code Skill**
+将技术书 PDF 转换为可复用 skill，本质是 RAG + context engineering 的实用流水线，适合研究长文档注入 agent 上下文的最佳实践。
+→ [GitHub](https://github.com/virgiliojr94/book-to-skill)
