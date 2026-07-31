@@ -2686,3 +2686,72 @@ Agent 接入垂直场景有了优秀参考实现：**WrenAI** 作为面向 Agent
 **10. book-to-skill — PDF 书籍转 Claude Code Skill**
 将技术书 PDF 转换为可复用 skill，本质是 RAG + context engineering 的实用流水线，适合研究长文档注入 agent 上下文的最佳实践。
 → [GitHub](https://github.com/virgiliojr94/book-to-skill)
+
+
+## 2026-07-31 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 主题聚焦：Agent 工程化 · Context Engineering · 评估与安全
+
+---
+
+## 🔧 Agent 工程与工具链
+
+**1. Statewright – 用有限状态机约束 Agent 行为**
+用可视化状态机规范 LLM agent 的行为流转，直接应对 agent 不确定性与失控问题，是 agent reliability 工程的实用思路。
+
+**2. Rowboat – Multi-Agent 系统开源 IDE**
+专为构建和调试多 agent 系统设计的开发环境，是 agent orchestration 工具链的一线参考。
+
+**3. Agent-Reach – 给 Agent 接入多平台网络感知能力**
+CLI 工具，覆盖 Twitter/Reddit/GitHub 等平台，零 API 费用，是 agent 工具扩展与上下文增强的轻量方案。
+
+---
+
+## 🧠 Context Engineering
+
+**4. ReToken – 单 Token 解决多模态长上下文检索退化**
+为视觉语言模型引入单个可学习 token，修复长视觉上下文中的检索失效问题，是多模态 RAG 场景的轻量级优化。
+[arxiv →](http://arxiv.org/abs/2607.28627v1)
+
+**5. book-to-skill – 将技术书 PDF 注入 Agent 上下文**
+把长文档结构化转化为 Claude Code skill，context engineering 从概念到落地的具体案例。
+
+**6. last30days-skill – 多源检索合成摘要的 Agent Skill**
+跨 Reddit/X/YouTube/HN 检索并汇总，RAG + agent tool 的典型实现参考。
+
+---
+
+## 🔬 科学与垂直领域 RAG
+
+**7. AskChem – 化学文献的 Claim 中心检索基础设施**
+支持 AI agent 跨文献定位、溯源并组装具体发现，RAG + agent 在科研领域的标杆落地案例。
+[arxiv →](http://arxiv.org/abs/2607.28618v1)
+
+---
+
+## 📊 评估与基准
+
+**8. OSReward – 跨平台 Computer-Use Agent 奖励模型基准**
+为 CUA 建立标准化轨迹验证机制，对 agent 训练与评测基础设施有直接参考价值。
+[arxiv →](http://arxiv.org/abs/2607.28609v1)
+
+---
+
+## 🔒 安全与透明度
+
+**9. AISPA – System Prompt 用户侧审计框架**
+允许用户审计 LLM 应用的系统提示，直击 system prompt 透明度与问责盲区，对 agent 部署安全有实际意义。
+[arxiv →](http://arxiv.org/abs/2607.28617v1)
+
+---
+
+## 🎙️ 语音模态
+
+**10. speech-to-speech – 本地语音 Agent 完整管线**
+基于开源模型的端到端语音交互方案，适合研究音频模态 agent 的本地化落地路径。
+
+---
+
+*共 10 条，去重合并后按 Agent 工程 → Context → 垂直应用 → 评估 → 安全 → 多模态排序。*
