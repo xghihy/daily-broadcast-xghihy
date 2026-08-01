@@ -2755,3 +2755,58 @@ CLI 工具，覆盖 Twitter/Reddit/GitHub 等平台，零 API 费用，是 agent
 ---
 
 *共 10 条，去重合并后按 Agent 工程 → Context → 垂直应用 → 评估 → 安全 → 多模态排序。*
+
+
+## 2026-08-01 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent & Context Engineering 播报
+
+---
+
+## 🔴 重要度 Top
+
+**1. OSReward — 跨平台 Computer-Use Agent 标准化评估框架**
+覆盖 action / state / reasoning 三层验证，为 CUA 轨迹的 RL 训练与数据策划提供直接参考，是当前 agent 评估基础设施的重要补充。
+
+**2. Statewright — 用可视化状态机约束 Agent 行为**
+显式状态机 + 可视化工具，直接解决 LLM agent 不可预测性问题，状态管理思路对生产级 agent 可靠性有实用价值。
+
+**3. Rowboat — 多 Agent 系统开源 IDE（YC）**
+可视化多 agent 开发环境，覆盖架构设计到上下文协调的完整工具链，multi-agent 工程实践必看。
+
+---
+
+## 🟠 Context Engineering & RAG
+
+**4. ReToken — 单可学习 Token 解决视觉语言模型长上下文退化**
+用单个显式检索 token 替代传统注意力机制，对多模态 RAG 和长上下文 context engineering 有方法论启发。
+
+**5. AISPA — System Prompt 用户侧审计研究**
+揭示 system prompt 不透明性带来的信任与合规缺口，对 context engineering 中 system prompt 的设计与治理有直接参考意义。
+
+**6. book-to-skill — 将技术书籍 PDF 转为 Claude Code Skill**
+典型 context engineering 落地案例：把长文档结构化注入 agent 上下文，可复用于任意领域知识的 agent 化封装。
+
+**7. AskChem — 化学文献的 Claim 中心检索基础设施**
+支持 AI agent 定位、验证、跨论文组装具体发现，是专业领域 RAG 溯源与上下文组装问题的参考解法。
+
+---
+
+## 🟡 Agent 基础设施 & 工具
+
+**8. last30days-skill — 多源研究 & 摘要合成 Agent Skill**
+跨 Reddit / X / YouTube / HN / Polymarket 多源采集并合成摘要，展示了 multi-source RAG + agent skill 的完整落地形态。
+
+**9. trailofbits/skills — 安全研究领域 Claude Code Skills**
+漏洞检测 / 代码审计工作流的专业 skill 封装，展示了高价值领域 agent skill 的上下文组织方式，context engineering 实践参考。
+→ [GitHub](https://github.com/trailofbits/skills)
+
+**10. HuggingFace speech-to-speech — 本地语音 Agent 完整实现**
+纯开源模型构建 voice agent 的参考架构，关注 agent 基础设施的完整参考实现。
+
+**11. Onyx — 开源 RAG Chat UI（YC W24）**
+支持企业文档接入的开源聊天界面，快速搭建 RAG 应用的可参考基线实现。
+
+---
+
+> 📌 **今日主线**：Agent 可靠性（状态机约束 + 评估标准化）与 Context Engineering（skill 封装 + system prompt 治理 + 长上下文检索）是本日最密集的议题交汇点。
