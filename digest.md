@@ -2810,3 +2810,54 @@ CLI 工具，覆盖 Twitter/Reddit/GitHub 等平台，零 API 费用，是 agent
 ---
 
 > 📌 **今日主线**：Agent 可靠性（状态机约束 + 评估标准化）与 Context Engineering（skill 封装 + system prompt 治理 + 长上下文检索）是本日最密集的议题交汇点。
+
+
+## 2026-08-02 · 📡 今日播报 · Parallight Lab
+
+一份精炼的今日 AI 与开源前沿播报。已去除冗余信息，并按**“技术影响力与通用性”**由高到低为您排序：
+
+### 🎙️ 今日 AI 前沿播报
+
+**1. 字节跳动开源 SuperAgent 框架「Deer-flow」**
+开源长周期 SuperAgent 框架，集沙箱、记忆、工具与子 Agent 于一体，是学习和实践复杂多阶段 Agent 任务编排的重量级架构。
+🔗 [https://github.com/bytedance/deer-flow](https://github.com/bytedance/deer-flow)
+
+**2. Karpathy 新作「autoresearch」：Agent 自动化科研闭环**
+让 AI Agent 在单 GPU 上自动运行模型训练实验并分析结果，这是 Agent 实现“代码执行+自动化科研”极佳范例。
+🔗 [https://github.com/karpathy/autoresearch](https://github.com/karpathy/autoresearch)
+
+**3. Statewright：用状态机解决 LLM Agent “跑偏”难题**
+通过可视化状态机严格约束 AI Agent 行为，直击 LLM Agent 流程不可控、易发散的可靠性痛点。
+
+**4. OSReward：跨平台计算机使用 Agent (CUA) 评估新基准**
+提出针对 CUA 轨迹的标准化奖励评估方法，对 Agent 数据筛选与强化学习评测具有直接参考价值。
+🔗 [http://arxiv.org/abs/2607.28609v1](http://arxiv.org/abs/2607.28609v1)
+
+**5. Rowboat：多 Agent 系统可视化 IDE**
+开源的多智能体集成开发环境，提供可视化工具让 LLM 多 Agent 的编排与构建更加直观高效。
+
+**6. AskChem：以“声明”为中心的文献合成基础设施**
+解决 AI Agent 在多文档中定位与验证 RAG 信息的痛点，为多文档高精度 RAG 提供了新思路。
+🔗 [http://arxiv.org/abs/2607.28618v1](http://arxiv.org/abs/2607.28618v1)
+
+**7. ReToken：单一 Token 优化多模态长上下文**
+通过单一可学习检索 Token 优化视觉语言模型的长上下文处理，为多模态 RAG 与上下文工程降本提效。
+🔗 [http://arxiv.org/abs/2607.28627v1](http://arxiv.org/abs/2607.28627v1)
+
+**8. NousResearch「hermes-agent」：可持续演进的个性化 Agent**
+主打“与你共同成长的 agent”，其 Agent 个性化与状态持久化的实现思路值得开发者深入研究。
+🔗 [https://github.com/NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
+
+**9. AISPA：LLM 系统提示词安全审计框架**
+以用户为中心的审计框架，对上下文工程中的 Prompt 安全与问责治理具有实用意义。
+🔗 [http://arxiv.org/abs/2607.28617v1](http://arxiv.org/abs/2607.28617v1)
+
+**10. HuggingFace「speech-to-speech」：本地语音 Agent 完整方案**
+基于开源模型构建本地语音 Agent 的全套方案，适合探索多模态（语音）交互 Agent 的落地。
+🔗 [https://github.com/huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech)
+
+**11. Onyx：开源企业级 RAG 问答前端**
+获高热度的开源企业级 Chat UI，支持接入多种 LLM 并内置 RAG 能力，适合直接用作企业知识库。
+
+**12. AIConsole：高度自定义的本地桌面 AI 编辑器**
+允许用户高度自定义 LLM 工作流节点与 Agent 行为，适合构建本地化的个人 AI 助手。
