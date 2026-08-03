@@ -2861,3 +2861,47 @@ CLI 工具，覆盖 Twitter/Reddit/GitHub 等平台，零 API 费用，是 agent
 
 **12. AIConsole：高度自定义的本地桌面 AI 编辑器**
 允许用户高度自定义 LLM 工作流节点与 Agent 行为，适合构建本地化的个人 AI 助手。
+
+
+## 2026-08-03 · 📡 今日播报 · Parallight Lab
+
+**今日 AI 播报：Agent 架构与基础设施全面进化**
+
+本期重点聚焦 AI Agent 生态，从底层推理优化、复杂工作流编排到多源数据接入和可观测性，开发者工具链正快速成熟。以下为今日精要（按重要性排序）：
+
+**1. 字节跳动开源长周期 SuperAgent 框架「deer-flow」**
+字节推出可处理分钟到小时级复杂任务的 SuperAgent 框架，集成沙箱、记忆、工具及子 agent 能力，是研究复杂 Agent 编排与企业级落地的优质参考。
+
+**2. 解决 Agent 长对话冗余计算「TokTier」**
+提出有状态的精确分词缓存方案，解决 Coding Agent 每次工具调用后重新分词导致的算力浪费，直接降低 Agent 长对话的 Serving 成本。
+🔗 [http://arxiv.org/abs/2607.29678v1](http://arxiv.org/abs/2607.29678v1)
+
+**3. NousResearch 推出自适应 Agent 框架「hermes-agent」**
+主打“随你成长”的 Agent 框架，深度聚焦 Agent 底层架构设计与能力扩展，适合追踪前沿 Agent 架构演进的开发者。
+
+**4. 开源多 Agent 系统 IDE「Rowboat」**
+提供可视化的多智能体协作开发与调试环境，大幅降低构建多 Agent 系统的门槛，解决 Agent 协作开发难的问题。
+
+**5. 用可视化状态机编排 AI Agent「Statewright」**
+针对 LLM Agent 执行流程不可靠、易跑偏的痛点，引入可视化状态机来严格控制工作流，保障 Agent 执行的稳定性。
+
+**6. 企业级文档信息抽取基准「ExtractBench」**
+评估 Agent 按用户自定义 Schema 从企业文档中忠实提取信息并附带来源证据的能力，为 RAG 和 Agent 工作流落地提供重要参考标准。
+🔗 [http://arxiv.org/abs/2607.29677v1](http://arxiv.org/abs/2607.29677v1)
+
+**7. Agent 全网数据零成本获取工具「Agent-Reach」**
+让 LLM Agent 零 API 费用一键读取和搜索 Twitter、Reddit、YouTube、GitHub 等数据源，是扩展 Agent 感知能力的实用上下文方案。
+🔗 [https://github.com/Panniantong/Agent-Reach](https://github.com/Pannianting/Agent-Reach)
+
+**8. 跨平台主题调研 Skill「last30days-skill」**
+封装好的 RAG 调研流程，可跨 Reddit/X/YouTube/HN 等平台做主题研究并生成有据可依的摘要，即插即用。
+🔗 [https://github.com/mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)
+
+**9. AI 应用运行时异常排查工具「Superlog」**
+主打自动安装的 LLM 可观测性工具，帮助开发者快速定位 Agent 运行时的上下文异常与 Bug，补齐 Agent 开发运维短板。
+
+**10. 开源企业级 AI 知识库前端「Onyx」**
+内置 RAG 与多种 LLM 接入能力的开源聊天界面，适合企业直接部署为内部知识库问答系统。
+
+**11. 开源桌面端 AI 自动化编辑器「AIConsole」**
+支持深度自定义 Agent 工作流与本地上下文调度，适合个人开发者探索定制化的 AI 自动化流。
