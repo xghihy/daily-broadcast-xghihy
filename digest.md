@@ -2905,3 +2905,48 @@ CLI 工具，覆盖 Twitter/Reddit/GitHub 等平台，零 API 费用，是 agent
 
 **11. 开源桌面端 AI 自动化编辑器「AIConsole」**
 支持深度自定义 Agent 工作流与本地上下文调度，适合个人开发者探索定制化的 AI 自动化流。
+
+
+## 2026-08-04 · 📡 今日播报 · Parallight Lab
+
+这里是为你合成的精炼版「今日 AI 播报」。内容已去除冗余，按照**系统架构与工程化 > RAG与数据处理 > 基础设施与工具链 > 前沿理论与评估**的重要性逻辑排序：
+
+### 📝 今日 AI 播报
+
+**1. 【架构编排】字节开源长周期 SuperAgent 框架 deer-flow**
+字节跳动开源了长周期 SuperAgent 框架，集成了沙盒、记忆、工具、子智能体与消息网关。对于需要研究复杂 Agent 架构和多级任务编排的开发者来说，这是一个重量级的参考实现。
+
+**2. 【架构编排】Statewright：用可视化状态机约束 LLM 执行流程**
+针对 Agent 行为不可控、易跑偏的痛点，Statewright 提出用可视化状态机严格约束 Agent 的执行流程，直击复杂 Agent 系统的核心可靠性问题。
+
+**3. 【开发工具】Rowboat：开源多 Agent 系统 IDE**
+为构建、编排和调试多智能体协作提供了一站式的可视化开发环境，大幅降低了复杂多 Agent 系统的开发门槛。
+
+**4. 【代码 RAG】code-graph-rag：基于知识图谱的代码库 RAG**
+将 RAG 技术落地于大型代码工程，支持跨多语言单体仓库的查询、理解与编辑，是提升 AI 辅助编程深度的实用工具。
+🔗 [https://github.com/vitali87/code-graph-rag](https://github.com/vitali87/code-graph-rag)
+
+**5. 【检索基础】UEmbed：统一稀疏与稠密多模态嵌入方法**
+在底层检索机制上取得突破，改进了 RAG 的核心组件，克服了传统稀疏检索的局限，为多模态增强生成提供了更优的检索底座。
+🔗 [http://arxiv.org/abs/2608.02583v1](http://arxiv.org/abs/2608.02583v1)
+
+**6. 【工程监控】Opik：LLM 与 Agent 全链路评估监控平台**
+面向 LLM 应用、RAG 系统和 Agentic 工作流的全链路调试、评估与监控平台。提供自动化评测与生产级看板，是 Agent 从 Demo 走向工程化落地的必备基础设施。
+🔗 [https://github.com/comet-ml/opik](https://github.com/comet-ml/opik)
+
+**7. 【外部能力】Agent-Reach：全网多平台数据统一抓取 CLI**
+为 AI Agent 提供了统一的命令行工具，可免费抓取推特、Reddit、YouTube 等全网多平台数据，直接扩充 Agent 的外部感知与信息获取能力。
+
+**8. 【垂直落地】Nao Labs：数据领域的“Cursor”**
+通过 AI Agent 理解自然语言意图，自动执行数据分析、生成图表及修复代码。代表了 Agent 在垂直数据领域的先进落地实践。
+
+**9. 【前沿推理】GradCuit：基于梯度流的测试时潜在推理**
+提供了一条无需修改模型参数即可提升 LLM 推理鲁棒性与可解释性的新路径，通过信用分配直接连接连续状态与推理路径。
+🔗 [http://arxiv.org/abs/2608.02585v1](http://arxiv.org/abs/2608.02585v1)
+
+**10. 【前沿评估】onepot-Bench 0：面向实验室科学的 LLM 基准**
+专门评估 LLM 在实验规划、执行和分析等复杂真实任务中的能力，是衡量 LLM 作为 Agent 解决科学问题的重要基准测试。
+🔗 [http://arxiv.org/abs/2608.02595v1](http://arxiv.org/abs/2608.02595v1)
+
+---
+*注：原列表中的 Onyx、AIConsole 与 livekit/agents 分别属于成熟的聊天界面、桌面端编辑器与语音交互框架，为保持播报的精炼度与信息密度，已在此版本中作为次要资讯折叠去重。*
