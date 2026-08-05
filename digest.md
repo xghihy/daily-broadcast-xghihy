@@ -2950,3 +2950,66 @@ CLI 工具，覆盖 Twitter/Reddit/GitHub 等平台，零 API 费用，是 agent
 
 ---
 *注：原列表中的 Onyx、AIConsole 与 livekit/agents 分别属于成熟的聊天界面、桌面端编辑器与语音交互框架，为保持播报的精炼度与信息密度，已在此版本中作为次要资讯折叠去重。*
+
+
+## 2026-08-05 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent 播报
+
+*重要性排序：生产工程实践 > 工具链 > 评测基准*
+
+---
+
+## 🔧 工程与框架
+
+**1. Uber 生产级 Agent 安全框架 ADR**
+企业级 agent 部署的真实参考实现，覆盖可观测性、安全基准测试与威胁检测，是目前罕见的工业界安全工程开源案例。
+→ [uber/ADR](https://github.com/uber/ADR)
+
+**2. Statewright — 用有限状态机约束 Agent 行为**
+以可视化状态机规范 agent 流转，直击 LLM agent 不可预测、难调试的核心痛点，适合生产级场景。
+
+**3. loopx — Multi-Agent 持久状态内核**
+支持持久化目标、配额感知唤醒、可验证交接，兼容 Codex/Claude Code，是 context engineering 在长期运行 agent 团队中的实践范本。
+→ [huangruiteng/loopx](https://github.com/huangruiteng/loopx)
+
+**4. livekit/agents — 实时语音/视频 Agent 框架**
+今日涨星显著，适合需要实时感知与响应能力的 agent 场景。
+→ [livekit/agents](https://github.com/livekit/agents)
+
+---
+
+## 🛠️ 开发工具
+
+**5. Rowboat — Multi-Agent 开源 IDE**
+专为构建和调试多 agent 系统设计，对 agent 编排与上下文管理有原生支持，值得关注其工具链设计思路。
+
+**6. Onyx (YC W24) — 企业级 RAG + Chat 前端**
+完整的 RAG 落地参考实现，支持多知识库与 LLM 后端接入，社区热度高（254pts）。
+
+**7. Agent-Reach — Agent 全网实时数据接入**
+零 API 费用获取 Twitter/Reddit/YouTube/GitHub 等平台数据，解决 agent RAG 阶段的实时外部信息获取问题。
+
+---
+
+## 📐 训练方法
+
+**8. TurnSight — 逐轮自蒸馏工具调用训练**
+针对 LLM agent 长链工具调用，以逐轮（turn-level）自蒸馏替代轨迹级监督，解决细粒度信用分配问题，对 agent 训练方案有直接参考价值。
+→ [arxiv 2608.04007](http://arxiv.org/abs/2608.04007v1)
+
+---
+
+## 📊 评测基准
+
+**9. PAST-Bench — Personal Agent 递归自改进基准**
+评估 agent 能否将跨会话积累的偏好、工具历史、技能转化为更好行为，直接测量 agent 记忆与上下文利用能力。
+→ [arxiv 2608.04003](http://arxiv.org/abs/2608.04003v1)
+
+**10. SocietyBench — 社会世界预测基准**
+补充当前评测过度聚焦任务完成、忽视社会推理的盲区，适合关注 agent 评测多样性的研究者。
+→ [arxiv 2608.04009](http://arxiv.org/abs/2608.04009v1)
+
+---
+
+> **今日主线**：生产安全（Uber ADR）× 状态可控（Statewright + loopx）× 工具链成熟（Rowboat）三个方向同日出现，agent 工程化进入新阶段。
