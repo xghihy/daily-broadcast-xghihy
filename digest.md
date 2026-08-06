@@ -3013,3 +3013,68 @@ CLI 工具，覆盖 Twitter/Reddit/GitHub 等平台，零 API 费用，是 agent
 ---
 
 > **今日主线**：生产安全（Uber ADR）× 状态可控（Statewright + loopx）× 工具链成熟（Rowboat）三个方向同日出现，agent 工程化进入新阶段。
+
+
+## 2026-08-06 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 核心主题：**Agent 架构与长时序推理**持续升温，工程工具链加速成熟
+
+---
+
+## 🔥 重点关注
+
+**1. Argus：面向长时序推理的通用 Agentic Runtime**
+提出 Manager / Planner / Engineer 多角色分工的持久化自演化 runtime，系统性解决长任务中的动态纠偏与目标重校问题，是当前 LLM agent 架构设计的直接参考。
+→ [arxiv](http://arxiv.org/abs/2608.05144v1)
+
+**2. hermes-agent：NousResearch 通用 Agent 框架**
+今日 GitHub 涨星最多（+601），NousResearch 出品，值得重点关注其架构设计与 agent 能力扩展思路。
+
+**3. uber/ADR：企业级 AI Agent 安全治理方案**
+Uber 内部落地，覆盖可观测性、安全基准测试与威胁检测，提供 agent 安全治理的生产级参考，填补当前工程实践空白。
+
+---
+
+## 🧠 研究前沿
+
+**4. Skill Entropy：长时序推理的评估新指标**
+定义"跨技能长时序任务"并引入 Skill Entropy 度量 LLM 在多步骤推理中的技能切换瓶颈，对 agent 评估与训练方法论有直接价值。
+→ [arxiv](http://arxiv.org/abs/2608.05139v1)
+
+**5. OctoLong：跨仓库代码上下文中间训练扩展长上下文能力**
+通过跨仓库代码做 mid-training，显著提升模型长 context 建模能力，直接服务于 agentic coding workflow 场景。
+→ [arxiv](http://arxiv.org/abs/2608.05141v1)
+
+---
+
+## 🛠️ 工程工具
+
+**6. Statewright：用可视化状态机约束 Agent 行为**
+以状态机为核心解决 LLM agent 不可预测、难调试的核心痛点，工程实现思路值得借鉴。
+
+**7. Rowboat：Multi-Agent 系统的开源 IDE**
+专为构建和调试多 agent 系统设计，覆盖 agent 编排与 context 管理，是目前少见的专项开发环境。
+
+**8. loopx：跨 Coding Agent 的持久化 Context 管理内核**
+支持跨 Codex / Claude Code 等 coding agent 的持久化目标与可验证交接，是长期运行 agent 团队的轻量级 context 管理方案。
+
+---
+
+## 📚 参考资源
+
+**9. Teaching Nemotron Greek：低资源语言 RAG 全流程实践**
+端到端展示语料挖掘 → 检索适配 → 生成接地全流程，对 RAG 工程落地有直接参考价值。
+→ [arxiv](http://arxiv.org/abs/2608.05138v1)
+
+**10. Onyx：企业级开源对话 UI（含 RAG 管道）**
+YC W24 项目，内置 RAG 管道，可作为 LLM agent 前端参考实现。
+
+**11. ai-agents-from-zero：AI Agent 全栈学习路径**
+系统覆盖 LangChain / LangGraph / MCP / RAG / LLM，适合快速梳理当前主流 agent 技术栈知识框架。
+→ [GitHub](https://github.com/didilili/ai-agents-from-zero)
+
+---
+
+**今日关键词**：`长时序推理` `Agent 安全` `持久化 Context` `状态机约束` `跨仓库代码训练`
