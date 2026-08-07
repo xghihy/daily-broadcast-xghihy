@@ -3078,3 +3078,63 @@ YC W24 项目，内置 RAG 管道，可作为 LLM agent 前端参考实现。
 ---
 
 **今日关键词**：`长时序推理` `Agent 安全` `持久化 Context` `状态机约束` `跨仓库代码训练`
+
+
+## 2026-08-07 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 主题聚焦：Agent 架构与评估、RAG/Context 工程、Agent 治理与安全
+
+---
+
+## 🔥 重点关注
+
+**1. 用代码脚本替代 JSON 工具调用——Agent 设计的苦涩教训**
+系统评测"代码脚本 vs JSON 工具调用"对 LLM agent 性能的影响，对 MCP/tool-use agent 架构选型有直接指导意义。
+[→ arxiv](http://arxiv.org/abs/2608.06370v1)
+
+**2. Selective Context Preference Optimization——训练 LLM 学会何时信任上下文**
+直击 RAG/Context Engineering 核心痛点：训练模型在外部上下文有益时采纳、有害时抵抗，而非盲从。
+[→ arxiv](http://arxiv.org/abs/2608.06377v1)
+
+**3. Agent 评估成本降低 74 倍——AV-AIVAT**
+提出统计可证明有效的 anytime-valid 停止准则，大幅压缩 agent 对战评估开销，大规模评估场景必读。
+[→ arxiv](http://arxiv.org/abs/2608.06362v1)
+
+---
+
+## 🛠️ 工具与框架
+
+**4. Rowboat — 多 Agent 系统开源 IDE**
+专为构建、调试 multi-agent 系统设计的开发环境，覆盖编排与上下文工程全流程。
+
+**5. Statewright — 用可视化状态机约束 Agent 行为**
+以状态机控制 agent 执行流，系统性解决 LLM agent 不确定性带来的可靠性问题。
+
+**6. loopx — 长期运行 Agent 团队的持久化状态内核**
+支持持久目标、配额感知唤醒、可验证交接，兼容 Codex/Claude Code，是 agent 持久化的轻量方案。
+
+**7. code-review-graph — 本地优先的代码智能图谱（MCP 工具）**
+为 AI coding agent 构建持久化 codebase 映射，按需注入相关上下文，显著降低大型代码库的 context 消耗。
+
+**8. crawl4ai — LLM 友好网页爬虫**
+专为 LLM/RAG pipeline 提供结构化干净的网页数据，agent 外部知识获取的常用基础组件。
+
+**9. Onyx — 开源 RAG 对话前端（YC W24）**
+支持 RAG 集成的开源 Chat UI，社区热度高（HN 254分），适合快速搭建带检索能力的对话系统。
+
+---
+
+## 🔒 治理与安全
+
+**10. Uber ADR — 企业级 AI Agent 安全框架**
+Uber 生产部署的 agent 安全体系，涵盖可观测性、安全基准测试与威胁检测，生产环境落地参考。
+
+**11. 机制设计视角下的 AI Agent 持续治理**
+通过计算资源分配使授权自我执行，为 agent 权限控制与安全边界提供机制设计理论框架。
+[→ arxiv](http://arxiv.org/abs/2608.06353v1)
+
+---
+
+*今日关键词：Agent 可靠性 · Context 可信度 · 评估效率 · 生产安全*
