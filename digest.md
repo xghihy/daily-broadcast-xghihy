@@ -3188,3 +3188,54 @@ Google 官方开源了 Agent Skills 集合，提供构建 LLM 专用技能的实
 
 **5. Agent 治理与个人桌面端应用**
 - **AutoGPT 持续迭代**：老牌自主 Agent 项目，跟进自动化任务分解与执行的最新进展。[查看项目](https://github.com/Significant-Gravitas/AutoGPT)
+
+
+## 2026-08-10 · 📡 今日播报 · Parallight Lab
+
+这里为您合成的今日 AI 与开源领域精炼播报。内容已去重，并按“底层技术与理论突破 > Agent 框架与开发工具 > 垂直应用与评估”的重要性排序：
+
+---
+
+### 🎙️ 今日 AI 技术与开源精要播报
+
+**1. 理论突破：多 Agent 交互会涌现孤立状态下不存在的动态行为**
+研究表明，多个 AI Agent 在交互时会涌现出孤立状态下不具备的动态行为。这一发现为理解和设计复杂多 Agent 系统提供了全新的理论视角，对未来的分布式 AI 协作网络设计具有重大指导意义。
+🔗 http://arxiv.org/abs/2608.07457v1
+
+**2. 算法优化：CoinRAG 以细粒度“信息块”复用 KV Cache**
+针对长上下文检索的算力瓶颈，CoinRAG 提出以细粒度“信息块”为单位复用 KV Cache 的优化方法。该方案在 RAG 场景中显著改善了效率与质量的帕累托前沿，是 RAG 底层提优的重要进展。
+🔗 http://arxiv.org/abs/2608.07458v1
+
+**3. 模型能力：SkillProx 实现无权重更新的 Agent 自我技能进化**
+为提升重复性任务表现，SkillProx 让 LLM Agent 通过近端文本梯度下降自我进化。它将可复用技能转化为轻量文本工件直接加载进上下文，无需更新模型权重即可实现能力增长。
+🔗 http://arxiv.org/abs/2608.07449v1
+
+**4. 基础设施：Google 官方发布 Agent Skills 集合**
+Google 官方在 GitHub 维护并开源了 Agent Skills 集合，为基于 Google 技术栈构建 LLM Agent 提供了现成的能力扩展库，大幅降低了 Agent 接入原生工具链的门槛。
+
+**5. 开发工具：Statewright 用可视化状态机约束 Agent 行为**
+针对 LLM Agent 执行流程不可控、易跑偏的痛点，Statewright 采用可视化状态机来严格约束 Agent 行为，为提升复杂任务中 Agent 的可靠性提供了工程级解法。
+
+**6. 开发工具：Rowboat 开源多 Agent 系统 IDE**
+Rowboat 是一款开源的多 Agent 系统 IDE，开箱即用地覆盖了 LLM Agent 从编排、调试到部署的全流程开发需求，是多 Agent 开发者的利器。
+
+**7. 前端与可视化：Onyx 开源企业级 AI 对话 UI**
+Onyx 是一款开源的 AI 对话前端 UI，支持接入多种大模型与内部知识库进行 RAG 检索，非常适合企业直接用来搭建定制化的内部 Agent 前端。
+
+**8. 代码检索：code-graph-rag 面向多语言代码库的知识图谱 RAG**
+vitali87 开源了面向单仓多语言代码库的知识图谱 RAG 工具，通过图谱结构增强代码间的上下文理解，适合需要深度代码检索与重构的开发者参考。
+🔗 https://github.com/vitali87/code-graph-rag
+
+**9. 知识工程：Book-to-skill 将技术书籍转化为 Agent 技能**
+该项目能将技术书籍 PDF 自动提取并转化为 Claude Code 可用的技能。这是探索如何将静态知识工程化注入 LLM 上下文的实用落地工具。
+
+**10. 垂直应用：多源数据股票分析 Agent 系统**
+ZhuLinsen 开源了一套由 LLM 驱动的股票分析 Agent，展示了 Agent 整合实时行情与新闻数据、进行自动决策分析的落地架构，是金融 AI 应用的典型范例。
+
+**11. 评测基准：harvey-labs 专测法律场景 Agent 能力**
+知名法律 AI 公司 Harvey 推出专门用于评估法律场景下 Agent 能力的基准测试，为垂直领域 Agent 的能力测评、对齐与优化提供了权威参考标准。
+🔗 https://github.com/harveyai/harvey-labs
+
+**12. 前沿探索：CreativeInstruct 平衡后训练时代 LLM 的质量与创造力**
+针对后训练导致 LLM 输出多样性和创造力下降的问题，CreativeInstruct 提出一种可扩展的指令构建方法，在保证质量的同时恢复创造性与多样性，对艺术探索类 Agent 任务极具参考价值。
+🔗 http://arxiv.org/abs/2608.07460v1
