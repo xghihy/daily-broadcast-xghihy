@@ -3239,3 +3239,56 @@ ZhuLinsen 开源了一套由 LLM 驱动的股票分析 Agent，展示了 Agent �
 **12. 前沿探索：CreativeInstruct 平衡后训练时代 LLM 的质量与创造力**
 针对后训练导致 LLM 输出多样性和创造力下降的问题，CreativeInstruct 提出一种可扩展的指令构建方法，在保证质量的同时恢复创造性与多样性，对艺术探索类 Agent 任务极具参考价值。
 🔗 http://arxiv.org/abs/2608.07460v1
+
+
+## 2026-08-11 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 聚焦 RAG、Agent 可靠性与 Context Engineering，2025
+
+---
+
+## 🔥 重点关注
+
+**1. DSPy — 用编程范式系统化替代 Prompt 工程**
+Stanford 出品，将 LLM 调用抽象为可编译的程序模块，是 context engineering 最具方法论价值的框架，持续值得深度追踪。
+[→ GitHub](https://github.com/stanfordnlp/dspy)
+
+---
+
+## 🤖 Agent 可靠性与编排
+
+**2. Statewright — 用有限状态机约束 Agent 行为路径**
+通过可视化状态机限定 LLM agent 的合法状态转移，从架构层面解决不确定性与失控问题，是 agent 工程化落地的实用方案。
+
+**3. Rowboat — Multi-Agent 系统的开源 IDE**
+专为构建和调试多智能体系统设计，关注其工作流抽象与 agent 编排方式，适合作为 multi-agent 项目的开发基础设施参考。
+
+**4. Google/Skills — Agent 能力模块化的官方探索**
+Google 官方发布的 Agent Skills 集合，体现 MCP 式技能解耦设计思路，可作为 agent 能力分层与复用的参考标准。
+
+**5. TradingAgents — 复杂领域 Multi-Agent 协作完整实现**
+金融交易场景下多 LLM agent 分工协调的完整框架，是 multi-agent 任务分解与通信机制的高质量实践案例。
+
+---
+
+## 🗂️ RAG 与知识图谱
+
+**6. KGCaRe — 自动构建知识图谱增强 RAG**
+结合结构化（知识图谱）与非结构化上下文检索，专攻领域特定复杂条件问答，对 RAG + context engineering 工程实践有直接参考价值。
+[→ arXiv](http://arxiv.org/abs/2608.09779v1)
+
+**7. code-graph-rag — 用知识图谱为 Monorepo 构建 RAG**
+支持多语言大型代码库的图结构 RAG，关注其跨文件上下文组织方式，是代码理解场景 RAG 的实践范本。
+
+**8. Semantica — 图原生的可追责 AI 上下文基础设施**
+直接面向 context engineering + RAG 场景，提供结构化上下文管理与可溯源推理，值得关注其上下文生命周期设计。
+[→ GitHub](https://github.com/semantics-agi/semantica)
+
+**9. Onyx (YC W24) — 企业级开源 RAG Chat UI**
+内置 RAG 能力的对话前端，HN 254 pts 高热度，社区认可度强，适合作为 RAG 应用的前端参考实现。
+
+---
+
+**💡 今日主线**：知识图谱正成为 RAG 增强的主流路径（KGCaRe / code-graph-rag / Semantica 三项同日出现）；Agent 可靠性从 prompt 层向架构层转移（状态机、IDE、技能模块化）是另一条清晰趋势。
