@@ -3292,3 +3292,58 @@ Google 官方发布的 Agent Skills 集合，体现 MCP 式技能解耦设计思
 ---
 
 **💡 今日主线**：知识图谱正成为 RAG 增强的主流路径（KGCaRe / code-graph-rag / Semantica 三项同日出现）；Agent 可靠性从 prompt 层向架构层转移（状态机、IDE、技能模块化）是另一条清晰趋势。
+
+
+## 2026-08-12 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报 · 精选
+
+---
+
+## 🔬 前沿研究
+
+**1. AI Agent 做真实科研的详细案例 — Grothendieck 常数长周期研究**
+AI agent 全程参与数学研究任务的完整案例，直接回答"LLM agent 如何胜任真实科研"，对长周期推理与任务规划有重要参考价值。
+→ [arxiv](http://arxiv.org/abs/2608.11195v1)
+
+**2. GUI Agent 测试时自我进化 — 反思驱动的自蒸馏**
+Agent 部署后通过反思机制自适应未见界面，探索测试时自我进化新范式，与 context engineering 和 agent 鲁棒性直接相关。
+→ [arxiv](http://arxiv.org/abs/2608.11191v1)
+
+**3. RAG 驱动的受控对话生成框架 — ConVAWG**
+检索增强生成用于敏感领域数据稀缺场景，RAG 在下游特殊任务中的典型落地案例。
+→ [arxiv](http://arxiv.org/abs/2608.11200v1)
+
+---
+
+## 🛠️ 工具与工程
+
+**4. Anthropic 官方 Agent Skills 仓库**
+Anthropic 一手示范如何构建和组织 LLM agent 技能模块，是当前最权威的 agent skill 工程参考。
+
+**5. Statewright — 用状态机约束 Agent 行为**
+可视化状态机限定 agent 行为路径，直击 LLM agent 不可预测的核心痛点，设计思路值得深入研究。
+
+**6. Rowboat — Multi-Agent 系统开源 IDE**
+专为构建和调试多 agent 系统设计，提供可视化编排环境，agent 工程化落地的实用工具。
+
+**7. code-graph-rag — 知识图谱增强的代码库 RAG**
+Graph + RAG 结合，专为 monorepo 多语言代码库设计，对提升 context 质量有直接参考价值。
+
+**8. OpenMontage — 大规模 Agentic 视频生产系统**
+内置 12 条生产 pipeline、700+ agent skill 文件，是目前公开的最大规模 agent 技能工程真实案例。
+
+---
+
+## 🏗️ 基础设施
+
+**9. semantica — 图原生 Context 与可问责 AI 基础设施**
+面向 agent 系统的结构化语义层，提供可问责的 context engineering 架构，值得关注其底层设计。
+→ [GitHub](https://github.com/semantica-agi/semantica)
+
+**10. Onyx (YC W24) — 高热度开源 Chat UI**
+支持多后端接入的开源对话界面，适合作为 RAG/agent 应用前端底座，社区热度高（254pts）。
+
+---
+
+**今日关键词：** `Agent 可靠性` · `Skill 工程化` · `Graph+RAG` · `测试时自适应`
