@@ -3397,3 +3397,53 @@ YC W24，快速搭建私有知识库问答的成熟方案，适合有内部 LLM 
 ---
 
 > **今日主线**：Agent 可靠性与工程化（状态机控制、IDE 工具、官方 Skills）持续升温；RAG 向结构化/图化演进（知识图谱 × 2）；端侧部署探索边界（14MB 模型）值得长期跟踪。
+
+
+## 2026-08-14 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 聚焦：Agent 可靠性 · 工具链 · RAG · 科学自动化
+
+---
+
+## 🔥 重点关注
+
+**1. Anthropic 官方 Agent Skills 仓库公开**
+Anthropic 开源 Claude agent 能力模块化的最新实践，是了解 LLM agent 技能体系拆解方式的第一手资料，直接影响 agent 工程设计范式。
+
+**2. OmniScientist — 全模态 AI 科学家 agent**
+覆盖「假设生成 → 代码执行 → 论文写作」完整科研工作流，代表当前 LLM agent 在复杂长流程任务上的能力天花板，可作为 agentic workflow 设计的参照系。
+→ [arxiv](http://arxiv.org/abs/2608.13558v1)
+
+---
+
+## 🛠 工程工具
+
+**3. Rowboat — 多 agent 系统开源 IDE**
+专为构建、调试 multi-agent 系统设计的集成开发环境，填补了 agent 编排缺少专用工具链的空白，工程师可直接上手评估。
+
+**4. Statewright — 用有限状态机约束 agent 执行流**
+以可视化状态机限定 agent 的合法状态转移，正面应对 LLM 不可预测性，是 context engineering 与 agent 可靠性的实用落地方案。
+
+**5. semantica-agi/semantica — 图原生 agent 上下文基础设施**
+为 agent 系统提供知识图谱原生的上下文管理与可问责能力，兼顾 context engineering 和图谱 RAG，架构思路值得参考。
+
+---
+
+## 📚 研究进展
+
+**6. AutoDesign — meta-harness 自动优化框架**
+将多模态长链 agentic 任务抽象为 model-harness 系统并自动优化，探索 agent 设计先验与经验复用，是 prompt/context engineering 与 agent 框架设计的交叉研究。
+→ [arxiv](http://arxiv.org/abs/2608.13560v1)
+
+**7. QuoteBench — 命令序列化导致的 agent 工具调用失败基准**
+测量 LLM coding agent 在 Bash 命令经序列化/重解析后的执行失败边界，揭示"匹配分数"掩盖的 command-path 故障，对 agent 工具调用可靠性评估有直接参考价值。
+→ [arxiv](http://arxiv.org/abs/2608.13547v1)
+
+---
+
+## 💡 应用参考
+
+**8. Onyx — 企业级开源聊天 UI（内置 RAG）**
+YC W24 项目，支持接入企业知识库，内置 RAG 能力，可作为自建 RAG 应用的前端起点，开箱即用。
