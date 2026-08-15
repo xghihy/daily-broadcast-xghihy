@@ -3447,3 +3447,46 @@ Anthropic 开源 Claude agent 能力模块化的最新实践，是了解 LLM age
 
 **8. Onyx — 企业级开源聊天 UI（内置 RAG）**
 YC W24 项目，支持接入企业知识库，内置 RAG 能力，可作为自建 RAG 应用的前端起点，开箱即用。
+
+
+## 2026-08-15 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent 播报
+
+> 精选 8 条，按重要性排序，去重合并同类项
+
+---
+
+## 🔬 研究前沿
+
+**1. OmniScientist — 全模态 AI 科学家 Agent**
+覆盖假设生成→代码执行→论文撰写的完整研究工作流，展示多工具协作 agent 在复杂长流程任务中的当前能力边界，是今日最值得关注的 agent 系统论文。
+
+**2. AutoDesign — Meta-Harness 优化框架**
+将多模态内容转化任务建模为 long-horizon agentic 过程，让 harness 系统对齐人类设计先验并积累可复用经验，为 agent 工具编排设计提供新范式。
+
+**3. QuoteBench — Agent 工具调用可靠性基准**
+揭示 LLM coding agent 在 Bash 命令序列化/重解析后的执行失败问题，指出"匹配分数"掩盖的 command-path 错误，对评估 agent 工具调用稳定性有直接参考价值。
+
+---
+
+## 🛠️ 开发工具
+
+**4. Rowboat — 多 Agent 系统开源 IDE**
+专为构建与调试 multi-agent 系统设计的集成开发环境，直接解决复杂 agent 协作流程的开发与可观测性问题。
+
+**5. Statewright — 用有限状态机约束 Agent 行为**
+以可视化状态机限定 agent 行为路径，从结构层面解决 LLM agent 不可预测、难调试的核心痛点，对 context engineering 的工程化落地有参考意义。
+
+**6. semantica-agi/semantica — 图原生 Agent 上下文基础设施**
+专为 agent 系统设计的知识图谱 + 上下文管理框架，提供结构化、可追责的上下文工程底座。
+
+---
+
+## 📦 资源与生态
+
+**7. K-Dense-AI/scientific-agent-skills — 161 个即用 Agent Skill 库**
+覆盖 100+ 科学数据库，兼容 Cursor / Claude Code 等主流工具，是构建垂直领域 agent 的现成技能参考库。
+
+**8. Onyx — 开源企业级 RAG + Chat UI（YC W24）**
+支持多知识源接入的完整 RAG 前端实现，是快速搭建企业 RAG 应用的参考起点。*(另见 [github/awesome-copilot](https://github.com/github/awesome-copilot) — agent prompt/context 工程实践合集)*
