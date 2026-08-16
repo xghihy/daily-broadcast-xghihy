@@ -3490,3 +3490,49 @@ YC W24 项目，支持接入企业知识库，内置 RAG 能力，可作为自�
 
 **8. Onyx — 开源企业级 RAG + Chat UI（YC W24）**
 支持多知识源接入的完整 RAG 前端实现，是快速搭建企业 RAG 应用的参考起点。*(另见 [github/awesome-copilot](https://github.com/github/awesome-copilot) — agent prompt/context 工程实践合集)*
+
+
+## 2026-08-16 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent 播报
+
+---
+
+## 🔬 研究前沿
+
+**1. OmniScientist — 全流程 AI Scientist Agent**
+覆盖假设生成→代码执行→论文撰写的完整科研链路，支持多模态全证据接入，代表当前 agent 在复杂长链任务中的能力边界与工程实现。
+
+**2. AutoDesign — Agentic 任务的 Meta-Harness 自动优化框架**
+将长程 agentic 任务建模为 model-harness 系统，自动对齐人类设计先验并复用历史经验，是 agent 系统设计与自动调优的方法论参考。
+
+**3. QuoteBench — LLM Coding Agent 工具调用可靠性评估**
+揭示 Bash 命令执行链路中序列化/转义错误被"匹配分"掩盖的问题，以精确终态验证暴露命令生成后的真实失败点。
+
+---
+
+## 🛠️ 工程工具
+
+**4. Statewright — 用可视化状态机约束 Agent 行为**
+以状态机显式定义 agent 行为路径，直击 LLM agent 不可预测、难调试的核心痛点，工程化思路值得关注。
+
+**5. Rowboat — Multi-Agent 系统开源 IDE**
+专为构建和调试多 agent 系统设计的集成开发环境，是 agent 工程化工具链的具体落地实践。
+
+**6. CLI-Anything — 将任意 CLI 工具包装为 Agent 原生接口**
+让 LLM agent 可直接调用所有命令行工具，是 MCP/tool-use 生态的重要补充。
+[GitHub](https://github.com/HKUDS/CLI-Anything)
+
+---
+
+## 📦 基础设施 & 应用
+
+**7. semantica — 图原生 Context Engineering 基础设施**
+专为 RAG 与上下文管理场景设计，提供结构化知识图谱能力，支持可追责的 AI 推理链路。
+
+**8. Onyx — 开源 RAG Chat UI（YC W24）**
+内置 RAG 能力的开源聊天界面，可接入企业知识库，是构建企业级 RAG 应用的参考实现。
+
+**9. Soup — 单 YAML 驱动 LLM 微调，4GB GPU 跑 8B 模型**
+极低门槛的模型定制方案，降低 agent 专用模型微调的硬件与配置成本。
+[GitHub](https://github.com/MakazhanAlpamys/Soup)
