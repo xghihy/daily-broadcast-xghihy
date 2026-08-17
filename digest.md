@@ -3536,3 +3536,56 @@ YC W24 项目，支持接入企业知识库，内置 RAG 能力，可作为自�
 **9. Soup — 单 YAML 驱动 LLM 微调，4GB GPU 跑 8B 模型**
 极低门槛的模型定制方案，降低 agent 专用模型微调的硬件与配置成本。
 [GitHub](https://github.com/MakazhanAlpamys/Soup)
+
+
+## 2026-08-17 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 工程播报
+
+> 按实用价值与影响力排序，去重合并同类项
+
+---
+
+## 🔧 Agent 工程化
+
+**1. Statewright — 用可视化状态机约束 Agent 行为**
+通过状态机显式定义 agent 的行为流转，直击 LLM agent 不可预测、难以调试的核心痛点，设计思路值得参考。
+
+**2. Rowboat — Multi-Agent 系统开源 IDE**
+专为构建和调试多 agent 系统设计的开发环境，是当前 agent 工程化工具链的直接补充。
+
+**3. CLI-Anything — 将任意软件暴露为 Agent 可调用工具**
+通过 CLI 接口统一封装工具层，是 MCP 风格工具集成的典型实践，值得关注其标准化路径。
+
+---
+
+## 📐 架构与系统设计
+
+**4. 跨 Session 的上下文状态交接机制（arxiv）**
+研究 LLM 应用中跨 session 边界的 in-context state 交接，对长任务 agent 接力与 context engineering 设计有实际参考价值。
+→ [arxiv.org/abs/2608.14528v1](http://arxiv.org/abs/2608.14528v1)
+
+**5. 将证据解读与答案聚合拆分为两步（arxiv）**
+提出「解读」与「聚合」解耦的两阶段框架，对 RAG 系统的 chunk 理解与答案合成架构有直接启发，亦适用于 agent 分工设计。
+→ [arxiv.org/abs/2608.14509v1](http://arxiv.org/abs/2608.14509v1)
+
+---
+
+## 🖥️ 本地部署与微调
+
+**6. Soup — 单 YAML 配置在 4GB GPU 上微调 8B 模型**
+极低门槛的本地 LLM 微调工具，适合需要定制 agent 底座但资源受限的场景。
+
+**7. unsloth — 本地运行与训练主流 LLM 的一站式 UI**
+支持 Qwen3、DeepSeek 等主流模型，适合将本地 LLM 作为 agent 推理引擎的工程实践。
+→ [github.com/unslothai/unsloth](https://github.com/unslothai/unsloth)
+
+---
+
+## 💬 应用与前端
+
+**8. Onyx — 支持 RAG 的开源 Chat UI（YC W24）**
+HN 254 分高热，可作为 RAG 应用前端的参考实现，社区验证度高。
+
+---
+*共 8 条，覆盖 agent 工程、系统架构、本地部署、应用前端四个方向*
