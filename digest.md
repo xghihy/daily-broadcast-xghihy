@@ -3589,3 +3589,64 @@ HN 254 分高热，可作为 RAG 应用前端的参考实现，社区验证度�
 
 ---
 *共 8 条，覆盖 agent 工程、系统架构、本地部署、应用前端四个方向*
+
+
+## 2026-08-18 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent 播报
+
+> 聚焦 Agent 架构、工具集成与可信溯源，共 10 条精选
+
+---
+
+## 🏗️ Agent 架构与记忆
+
+**1. OpenViking — Agent 自演化上下文数据库**
+火山引擎出品，统一 Agent Memory、Knowledge RAG 与 Skills 三层架构，是目前最完整的 agent 记忆+RAG 一体化开源方案，直接可用。
+
+**2. Statewright — 用状态机约束 Agent 行为**
+以可视化状态机管理 agent 流转，从架构层面解决 LLM 不确定性问题，思路务实，适合需要高可靠性的生产场景。
+
+**3. BATON — 长链机器人任务的子任务探索与记忆机制**（arxiv）
+提出 transition-aware memory 解决多步任务误差累积，其 agent 上下文传递设计对 LLM 多步规划有直接参考价值。
+[→ 论文](http://arxiv.org/abs/2608.16889v1)
+
+---
+
+## 🔧 工具集成与开发工具链
+
+**4. Rowboat — 多 Agent 系统开源 IDE**（YC 背书）
+专为多 agent 编排设计的开发环境，填补 agent 开发工具链空白，值得纳入工作流评估。
+
+**5. CLI-Anything — 将任意 CLI 软件封装为 Agent 接口**
+通用工具接入方案，让已有 CLI 软件无需改造即可被 agent 调用，"agent-native 化"存量工具的轻量路径。
+
+**6. Onyx — 开源企业级 RAG 对话界面**（YC W24）
+内置 RAG 的企业对话 UI，可直接作为自建知识库问答系统的底座框架。
+
+---
+
+## 🔐 安全方向 Agent
+
+**7. HexStrike-AI — MCP 协议安全测试 Agent Server**
+让 Claude/GPT 通过 MCP 自主调用 150+ 安全工具，是 MCP + LLM agent 工具集成的典型实现，也是 agent 攻防研究的参考案例。
+[→ GitHub](https://github.com/0x4m4/hexstrike-ai)
+
+**8. Anthropic-Cybersecurity-Skills — 817 条结构化网安技能库**
+对齐 agentskills.io 标准，适配 Claude Code 等 20+ 平台，安全领域 agent 的 prompt/context 工程即用资产。
+
+---
+
+## 🔬 研究前沿
+
+**9. AutoSR — Agent 驱动的自动科学探索**（arxiv）
+构建持久化"研究状态空间"而非孤立求解，其 persistent investigation state 范式对 LLM agent 做研究自动化有方法论启发。
+[→ 论文](http://arxiv.org/abs/2608.16876v1)
+
+**10. Computational Provenance — LLM 生成文本的因果溯源**（arxiv）
+研究 LLM 输出能否携带可验证的内部因果状态证据，对 RAG/Agent 溯源与可信度审计有直接意义，属于方向性前沿议题。
+[→ 论文](http://arxiv.org/abs/2608.16868v1)
+
+---
+
+*今日重点关注：OpenViking（记忆架构）+ Statewright（可靠性）+ CLI-Anything（工具接入）三者组合，基本覆盖了一个生产级 agent 系统的核心基础设施层。*
