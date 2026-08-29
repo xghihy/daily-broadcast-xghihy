@@ -3650,3 +3650,51 @@ HN 254 分高热，可作为 RAG 应用前端的参考实现，社区验证度�
 ---
 
 *今日重点关注：OpenViking（记忆架构）+ Statewright（可靠性）+ CLI-Anything（工具接入）三者组合，基本覆盖了一个生产级 agent 系统的核心基础设施层。*
+
+
+## 2026-08-29 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent 播报
+
+> 按重要性排序，去重整合，覆盖工程工具、研究方向、生态动态三大维度
+
+---
+
+## 🔧 工程工具
+
+**1. Rowboat — 多 Agent 系统开源 IDE**
+
+**2. Statewright — 用有限状态机约束 Agent 行为**
+
+**3. Graphify — 代码库/文档结构化知识图谱**
+
+**4. LiveKit Agents — 实时语音 AI Agent 框架**
+
+---
+
+## 📦 资源与生态
+
+**5. Anthropic 官方 Claude Code 插件目录**
+
+**6. scientific-agent-skills — 163 个科研领域即用 Agent Skills**
+
+**7. OpenMontage — 开源 Agentic 视频生产系统**
+
+**8. Onyx — 开源企业级 Chat UI（含 RAG）**
+
+---
+
+## 📄 研究进展
+
+**9. WikiSkill — Agent 技能知识库的持久化与复用**
+将 agent 交互经验编译为可持久化、可演化的技能知识库，是 agent 长期记忆与跨任务知识复用的实用研究方向。[→ 链接](http://arxiv.org/abs/2608.27454v1)
+
+**10. SWE-Prime — 少量高质量轨迹优于大量数据的 SFT 策略**
+验证"轨迹质量 > 数量"的训练原则，对 coding agent 训练数据构建有直接指导意义。[→ 链接](http://arxiv.org/abs/2608.27449v1)
+
+**11. RedEvoAgent — 针对 Agent 工具调用场景的自动红队**
+聚焦真实执行环境中的 LLM agent 越狱风险，对评估 agent 安全性（尤其工具调用链）有直接参考价值。[→ 链接](http://arxiv.org/abs/2608.27439v1)
+
+---
+
+*今日关键趋势：agent 工程化基础设施持续完善（IDE、状态管理、技能管理），官方生态（Anthropic plugin 目录）开始收口，安全与可靠性研究跟进加速。*
