@@ -3698,3 +3698,40 @@ HN 254 分高热，可作为 RAG 应用前端的参考实现，社区验证度�
 ---
 
 *今日关键趋势：agent 工程化基础设施持续完善（IDE、状态管理、技能管理），官方生态（Anthropic plugin 目录）开始收口，安全与可靠性研究跟进加速。*
+
+
+## 2026-08-30 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent 简报
+
+**核心主题：Agent 技能库演化与 Context Engineering 持续成为焦点，安全评测与训练数据质量、编排工具链并进。**
+
+## 🔥 重点
+
+1. **WikiSkill**：提出将 agent 交互经验编译为持久化技能库的框架，实现技能自我演化，直击 LLM agent 长期记忆与经验复用的核心痛点。
+
+2. **K-Dense-AI/scientific-agent-skills**：165 个技能 + 100+ 科学数据库，把任意 agent 变成"科学家"，是目前 Agent Skills 生态中体量最大、验证最充分的领域化实践案例。
+
+3. **calesthio/OpenMontage**：开源 agentic 视频生产系统，12 条流水线 + 100+ 工具 + 700+ agent 技能/知识文件，展示了多 agent 协作 + 领域知识注入的复杂实战范式。
+
+4. **RedEvoAgent**：面向工具调用场景的自动化红队框架，通过经验驱动的技能演化发现越狱与危险工具使用风险，是 agent 安全评测的重要参考。
+
+## 🛠️ 工程与工具链
+
+5. **SWE-Prime**：指出"任务成功 ≠ 高质量监督"，提出更精简高效的 SFT 轨迹筛选方法，对构建高质量 agent 训练数据具有实操价值。
+
+6. **Statewright**：用可视化状态机替代自由式 prompt 链条约束 agent 行为，提供比纯 prompt engineering 更可控的编排方式。
+
+7. **Rowboat (YC S24)**：开源多 agent 系统 IDE，支持可视化设计、调试与编排协作 agent。
+
+## 🧩 基础设施与前端
+
+8. **OzBrain**：面向多 agent/团队的共享知识记忆层，本质是统一上下文/RAG 后端，值得关注其多 agent 知识同步架构。
+   https://ozbrain.com
+
+9. **Osmantic/ODS**：把本地电脑变成一体化 AI 服务器，内置 LLM 推理、agent workflow 与 RAG，适合快速自建本地环境参考。
+   https://github.com/Osmantic/ODS
+
+10. **Onyx (YC W24)**：开源聊天 UI，常作为 RAG/agent 前端基础组件。
+
+11. **AIConsole**：开源桌面端 AI 编辑器，支持自定义工作流，可用于本地化 agent/RA
