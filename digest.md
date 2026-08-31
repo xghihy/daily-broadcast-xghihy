@@ -3735,3 +3735,32 @@ HN 254 分高热，可作为 RAG 应用前端的参考实现，社区验证度�
 10. **Onyx (YC W24)**：开源聊天 UI，常作为 RAG/agent 前端基础组件。
 
 11. **AIConsole**：开源桌面端 AI 编辑器，支持自定义工作流，可用于本地化 agent/RA
+
+
+## 2026-08-31 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent 播报
+
+**1. 科研级 Agent Skills 生态上线**
+
+**2. LLM专用网页抓取工具走红**
+
+**3. 跨进程Agent运行时新架构**
+论文[《Logos: An Agent Harness on a Cross-Process Bus》](http://arxiv.org/abs/2608.28553v1) 提出将能力(capability)建模为可追踪逆变换的插件组件，为动态组合式Agent系统架构设计提供新思路，与MCP能力组装理念形成呼应。
+
+**4. 多Agent可视化编排工具发布**
+
+**5. 状态机约束提升Agent可靠性**
+
+**6. 实时语音Agent框架**
+
+**7. Skill标准化多方探索**
+[warpdotdev/common-skills](https://github.com/warpdotdev/common-skills) 发布通用Agent Skills集合，与K-Dense的科研skills形成对比，反映不同厂商对"skill/context engineering"标准化的不同路径。
+
+**8. 团队级Agent记忆层**
+
+**9. 多源聚合摘要类Skill**
+
+**10. 其他值得关注**
+- [Onyx (YC W24)](https://news.ycombinator.com/item?id=46045987)：开源Chat UI，常作RAG/Agent应用前端基座
+- [Superlog (YC P26)](https://superlog.sh/)：面向Agent自动化运维的自愈可观测性工具
