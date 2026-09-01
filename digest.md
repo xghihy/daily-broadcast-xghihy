@@ -3764,3 +3764,29 @@ HN 254 分高热，可作为 RAG 应用前端的参考实现，社区验证度�
 **10. 其他值得关注**
 - [Onyx (YC W24)](https://news.ycombinator.com/item?id=46045987)：开源Chat UI，常作RAG/Agent应用前端基座
 - [Superlog (YC P26)](https://superlog.sh/)：面向Agent自动化运维的自愈可观测性工具
+
+
+## 2026-09-01 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI/Agent 播报
+
+**1. 生物医学 RAG 分块新方法**：提出结合实体/关系感知的可配置语义分块框架，替代固定长度切分，缓解语义碎片化问题，提升生物医学场景下 RAG 检索与信息抽取质量。
+🔗 http://arxiv.org/abs/2608.31139v1
+
+**2. K-Dense-AI/scientific-agent-skills**：面向科研场景的 Agent Skills 库，含 165 个可直接调用的技能 + 100 余个科学数据库接口，兼容 Cursor/Claude Code/Codex 等主流 agent 平台，是技能化落地的标杆案例。
+
+**3. Rowboat（YC S24）**：开源多 agent 系统 IDE，专注多 agent 编排与调试，适合研究 multi-agent 架构设计。
+
+**4. Statewright**：用可视化状态机约束和管理 LLM agent 执行流程，主打行为可控、可调试，属于 agent 可靠性工程方向的新思路。
+
+**5. crawl4ai**：专为 LLM 优化的开源网页爬虫/抓取工具，是构建 RAG 数据管道和 agent 联网检索能力的常用基础设施。
+
+**6. Onyx（YC W24）**：开源 Chat UI，可作为 LLM agent/RAG 应用前端基座，适合自建对话系统或 RAG 集成参考。
+
+**7. OzBrain**：多 agent/团队共享的知识库，解决 agent 间上下文/记忆不共享的问题，是 context engineering 的实用尝试。
+
+**8. Osmantic/ODS**：一键将本地设备改造成自托管 AI 服务器，集成 LLM 推理、RAG、agent workflow，适合本地化部署方案关注者。
+
+**9. Superlog（YC P26）**：自安装、可自动修 bug 的可观测性工具，体现 agent 在运维排障场景的自主化趋势。
+
+**10. browser-use/video-use**：用 coding agent 编辑视频，展示 LLM agent 在多模态/非传统任务上的应用扩展。
