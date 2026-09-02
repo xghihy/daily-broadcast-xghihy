@@ -3790,3 +3790,66 @@ HN 254 分高热，可作为 RAG 应用前端的参考实现，社区验证度�
 **9. Superlog（YC P26）**：自安装、可自动修 bug 的可观测性工具，体现 agent 在运维排障场景的自主化趋势。
 
 **10. browser-use/video-use**：用 coding agent 编辑视频，展示 LLM agent 在多模态/非传统任务上的应用扩展。
+
+
+## 2026-09-02 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent 播报
+
+> 涵盖研究前沿 · 工程工具 · 开源生态，按重要性排序
+
+---
+
+## 🔬 研究前沿
+
+**1. 语言反馈驱动 Agent 自我改进（VRL）综述**
+首篇统一梳理"用自然语言作为训练信号"的 Verbal Reinforcement Learning 范式，与 LLM agent 的上下文优化和自我改进路线高度契合，是理解下一代 agent 训练方向的必读入口。
+[→ 论文](http://arxiv.org/abs/2609.01597v1)
+
+**2. 仓库级代码生成的关键 Token 感知检索**
+针对真实仓库超出 LLM 上下文长度的核心痛点，提出 Critical Token-Aware RAG，直接改进 code agent 的 context engineering 实践。
+[→ 论文](http://arxiv.org/abs/2609.01601v1)
+
+**3. CordisBench：动态 Agent 框架中的生命周期推理基准**
+1200 题测试集，专项评估 LLM 在插件/依赖动态生命周期（类 MCP 场景）中的推理可靠性，填补 agent 编排评估的空白。
+[→ 论文](http://arxiv.org/abs/2609.01600v1)
+
+**4. 轨迹感知的 SWE Agent 高效评测**
+通过分析 agent 执行轨迹大幅降低软件工程 benchmark 的评估成本，对多步骤 agent 评估基础设施有实用价值。
+[→ 论文](http://arxiv.org/abs/2609.01603v1)
+
+---
+
+## 🛠️ 工程工具
+
+**5. Claude Code — Anthropic 官方 Agentic Coding 工具**
+深度理解代码库、通过自然语言执行任务，是 context engineering 在终端 agent 上的标杆实现，官方背书值得优先关注。
+
+**6. Statewright — 用有限状态机约束 Agent 行为**
+将 FSM 引入 agent 控制流，强制限定行为路径，从工程层面解决 LLM 不确定性导致的 agent 失控问题，思路务实可落地。
+
+**7. Rowboat — Multi-Agent 系统开源 IDE**（YC 背书）
+专为构建和调试多 agent 系统设计的可视化开发环境，对做 agent orchestration 的开发者有直接参考价值。
+
+**8. ODS — 一键本地 AI 全栈服务器**
+集成 LLM 推理、agent、workflow、RAG 与语音，适合快速搭建本地 agent+RAG 全栈原型环境。
+
+---
+
+## 📦 开源资源
+
+**9. scientific-agent-skills — 165 个即用科研 Agent 技能库**
+覆盖生物/化学/医药 100+ 数据库，兼容 Cursor、Claude Code 等主流环境，是构建科研垂直 agent 的高质量起点。
+
+**10. crawl4ai — 专为 LLM 优化的开源爬虫**
+RAG pipeline 和 agent 数据采集阶段的常用基础设施，持续高热度说明数据获取仍是核心卡点。
+
+**11. Onyx — 开源企业级 RAG 对话前端**（YC W24）
+内置 RAG、可接多种数据源，适合需要自托管完整 RAG 前端的团队。
+
+**12. video-use — 用 Coding Agent 编辑视频**
+browser-use 团队新探索，展示 agent 在多媒体操作任务上的新型应用场景，创意方向值得留意。
+
+---
+
+*今日主线：**Agent 可靠性**（FSM 约束 + 生命周期推理 + 轨迹评测）与 **RAG 工程化**（关键 token 检索 + 爬虫 + 前端）是当前两条最活跃的实践主线。*
