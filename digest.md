@@ -3853,3 +3853,31 @@ browser-use 团队新探索，展示 agent 在多媒体操作任务上的新型�
 ---
 
 *今日主线：**Agent 可靠性**（FSM 约束 + 生命周期推理 + 轨迹评测）与 **RAG 工程化**（关键 token 检索 + 爬虫 + 前端）是当前两条最活跃的实践主线。*
+
+
+## 2026-09-03 · 📡 今日播报 · Parallight Lab
+
+**今日 AI 与开源播报**
+
+1. **Anthropic 官方终端编码工具 Claude Code**
+   终端内运行的 agentic 编码工具，通过自然语言理解代码库并执行任务，是 AI agent 落地真实开发工作流的标杆案例。
+
+2. **Rowboat: 多智能体系统一站式 IDE (YC S24)**
+   开源的多 agent 系统 IDE，提供构建、调试和编排多智能体协作的开发环境，大幅降低多 agent 系统的落地门槛。
+
+3. **Statewright: 解决 LLM 执行不可靠的状态机框架**
+   可视化状态机框架，通过严格的状态流转控制解决 LLM agent 执行流程不可靠的问题，适合需要高确定性的复杂 agent 编排场景。
+
+4. **Superlog: LLM 应用自部署可观测性工具 (YC P26)**
+   自动监控 LLM 应用运行轨迹并辅助修复 bug，是解决 agent 长链路调用、复杂调试场景的实用运维工具。
+
+5. **SIE: 开源 Agent 推理服务器与生产集群**
+   统一管理 agent 所需的多模型部署，为需要将多 agent 架构推向生产环境的技术选型提供基础设施支撑。
+
+6. **Hermes Agent: 通用型 LLM Agent 框架**
+   主打“随你成长”的可扩展 agent 架构，适合关注 agent 演进与个性化定制的开发者。
+
+7. **Claude Code 进阶技能与工作流参考**
+   社区围绕 Claude Code 展示了以 skill 形式扩展 agent 能力的实践：包括覆盖全流程的 [学术研究技能](https://github.com/Imbad0202/academic-research-skills) 以及去除 AI 写作痕迹的 [Humanizer](https://github.com/blader/humanizer)，对 context engineering 和工具链设计极具参考价值。
+
+8. **AIConsole 与 Onyx: 构建 AI 应用的开源骨架**
