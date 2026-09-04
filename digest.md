@@ -3881,3 +3881,28 @@ browser-use 团队新探索，展示 agent 在多媒体操作任务上的新型�
    社区围绕 Claude Code 展示了以 skill 形式扩展 agent 能力的实践：包括覆盖全流程的 [学术研究技能](https://github.com/Imbad0202/academic-research-skills) 以及去除 AI 写作痕迹的 [Humanizer](https://github.com/blader/humanizer)，对 context engineering 和工具链设计极具参考价值。
 
 8. **AIConsole 与 Onyx: 构建 AI 应用的开源骨架**
+
+
+## 2026-09-04 · 📡 今日播报 · Parallight Lab
+
+**今日 AI 前沿播报：Agent 架构与工程化实践精粹**
+
+本期播报聚焦大语言模型（LLM）Agent 的架构演进、工程化落地与可靠性评估。以下为今日核心内容摘要：
+
+**1. [核心标准] Anthropic 官方发布 Agent Skills 仓库**
+定义了 Agent 能力模块化的标准范式，是研究上下文工程与工具调用的权威参考。基于此范式衍生出了多个实用工具，如文本“去AI味”的 [humanizer](https://github.com/blader/humanizer)，以及演示复杂工作流（研究→写作→审阅→定稿）的 [学术研究 Agent 技能包](https://github.com/Imbad0202/academic-research-skills)。
+
+**2. [工程评估] 警示：LLM 评判器存在严重可靠性缺陷**
+审计发现，在共享端点上使用 LLM 作为评分机制或 Agent 决策引擎时存在可靠性失败问题。这对依赖 LLM-as-a-Judge 的上下文工程具有核心警示意义。同时，另一项研究指出，CoT 推理的“可读性”不等于“可解释性”，为 Agent 步级监督的忠实度敲响警钟。
+🔗 [arxiv: Clean Engineering...](http://arxiv.org/abs/2609.04198v1) | [arxiv: Legibility is Not...](http://arxiv.org/abs/2609.04194v1)
+
+**3. [框架演进] 多智能体协作与动态能力扩展成为焦点**
+
+**4. [可靠性约束] 用状态机与观测工具治理 Agent “乱跑”**
+
+**5. [提示词优化] 解决进化式提示优化中的 Prompt 膨胀**
+ESPO 方法致力于解决提示词优化过程中的“膨胀”问题，在精简 Prompt 的同时提升准确率，对 LLM Agent 的提示词调优极具参考价值。
+🔗 [arxiv: ESPO](http://arxiv.org/abs/2609.04197v1)
+
+**6. [应用落地] 企业级知识库与精细化桌面端工具**
+应用层方面，备受好评的开源 Chat UI [Onyx](https://news.ycombinator.com/item?id=46045987)（原 ChatOllama）支持无缝接入各类 LLM 与 RAG 知识库，适合企业级内部部署；而开源桌面端 AI 编辑器 [AIConsole](https://aiconsole.ai) 则允许开发者深度自定义 workflow 与上下文处理。
