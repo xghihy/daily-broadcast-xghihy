@@ -3906,3 +3906,65 @@ ESPO 方法致力于解决提示词优化过程中的“膨胀”问题，在精
 
 **6. [应用落地] 企业级知识库与精细化桌面端工具**
 应用层方面，备受好评的开源 Chat UI [Onyx](https://news.ycombinator.com/item?id=46045987)（原 ChatOllama）支持无缝接入各类 LLM 与 RAG 知识库，适合企业级内部部署；而开源桌面端 AI 编辑器 [AIConsole](https://aiconsole.ai) 则允许开发者深度自定义 workflow 与上下文处理。
+
+
+## 2026-09-05 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 聚焦 Agent 工程化 · Context Engineering · LLM 评估
+> 按重要性排序，去重整合
+
+---
+
+## 🔬 研究前沿
+
+**1. LLM-as-Judge 可靠性存在系统性噪声**
+同一 endpoint 重复请求结果不一致，"同一模型名称明天不一定返回相同结果"——任何依赖 LLM judge 做评估或训练数据过滤的 pipeline 都需正视此测量噪声问题。
+
+**2. ESPO：解决 Prompt 自动优化中的"膨胀"问题**
+进化式 prompt 优化器普遍存在长度增 3× 但精度不变的问题，ESPO 提出诊断–多样化–稳定化三步法。对需要自动优化 system prompt 的 agent / context engineering 场景有直接参考价值。
+
+**3. Compile by Training：把 NL 规范蒸馏为本地神经函数**
+将自然语言 spec 编译成可复用的小型本地模型，避免每次调用大模型的延迟与成本，是 agent 中高频文本处理步骤的轻量替代方案。
+→ [arxiv 论文](http://arxiv.org/abs/2609.04199v1)
+
+---
+
+## 🛠️ 工具 & 开源项目
+
+**4. Anthropic 官方 Agent Skills 仓库公开**
+直接关联 MCP 生态与 agent 能力模块化，是观察 Anthropic 官方 agent 设计范式的第一手资料，值得持续跟进。
+
+**5. Statewright：用可视化状态机约束 Agent 行为**
+通过显式状态机管理 agent 流转，从架构层面降低 LLM 不确定性，是 agent 工程化可靠性的实践方向之一。
+
+**6. Rowboat：多 Agent 系统的开源 IDE**
+专为构建和调试 multi-agent 系统设计的开发环境，提供编排可视化与调试能力，对 agent 开发者有直接参考价值。
+
+**7. NousResearch/hermes-agent：随用户成长的个性化 Agent**
+今日 720 星增量，定位为长期伴随用户的 agent，值得关注其 context 持久化与个性化设计思路。
+
+---
+
+## 📚 学习资源
+
+**8. datawhalechina/hello-agents：中文 Agent 原理与实践教程**
+从零系统覆盖 LLM agent 架构，适合快速建立知识框架，中文社区友好。
+
+**9. Hands-On-AI-Engineering：RAG + Agent 工程实战合集**
+包含 RAG、AI agents、OCR 等落地项目，工程参考价值高。
+
+---
+
+## 💡 产品 & 平台
+
+**10. OzBrain：多 Agent 团队共享知识大脑**
+本质是多 agent + 团队级共享 RAG 层，切中 agent 间知识共享与 context 同步痛点。
+
+**11. Onyx (YC W24)：开源企业级 Chat UI**
+支持多后端与知识库接入，适合快速搭建带 RAG 能力的内部问答系统。
+
+---
+
+**今日主线**：Agent 工程化成熟度正在多维度推进——**可靠性**（状态机约束、judge 噪声测量）、**效率**（NL 编译为本地模型、prompt 优化去膨胀）、**生态**（Anthropic 官方 skills、开源 IDE）同步演进。
