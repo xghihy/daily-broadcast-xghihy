@@ -3968,3 +3968,65 @@ ESPO 方法致力于解决提示词优化过程中的“膨胀”问题，在精
 ---
 
 **今日主线**：Agent 工程化成熟度正在多维度推进——**可靠性**（状态机约束、judge 噪声测量）、**效率**（NL 编译为本地模型、prompt 优化去膨胀）、**生态**（Anthropic 官方 skills、开源 IDE）同步演进。
+
+
+## 2026-09-06 · 📡 今日播报 · Parallight Lab
+
+# 🗞️ AI Agent 今日播报
+
+*重要性排序 · 去重整合 · 2025*
+
+---
+
+## 🔴 头条
+
+**1. Anthropic 官方开放 Agent Skills 模块化仓库**
+Claude agent 能力模块化方向的一手资料，直接关联 MCP/skill 生态演进，是理解 Anthropic agent 架构的权威入口。
+
+**2. NVIDIA 发布 MCP Agent 安全扫描器 SkillSpector**
+可检测 agent skills（含 MCP skills）中的 prompt injection、数据泄露等风险。MCP 生态快速扩张背景下，安全工具补位意义重大。
+
+---
+
+## 🟠 研究警示（直接影响工程实践）
+
+**3. LLM-as-Judge 可靠性存在系统性缺陷**
+实验发现同一模型 endpoint 跨时间返回结果不一致，**所有依赖 LLM 评分的流水线**（agent 评估、训练数据筛选、RAG 质量打分）均面临隐性风险。
+
+**4. CoT 可读性 ≠ 可解释性**
+LLM judge 对 CoT 推理步骤重要性的判断与实际因果重要性严重不符。**警示：用 CoT trace 做过程监督或错误诊断不可盲目信任。**
+→ [arxiv 论文](http://arxiv.org/abs/2609.04194v1)
+
+**5. ESPO：定位 Prompt 优化器三大缺陷并提出修复框架**
+错误观测不完整 · 搜索多样性不足 · 选择不稳定——提出诊断-多样化-稳定三步方案，对自动 prompt 优化与 context engineering 直接可用。
+
+---
+
+## 🟡 工具与框架
+
+**6. Statewright：用有限状态机约束 Agent 行为**
+通过可视化状态机限定 agent 控制流，系统性解决 LLM 不确定性导致的可靠性问题。与上方 CoT/Judge 可靠性问题形成呼应。
+
+**7. Rowboat：Multi-Agent 系统开源 IDE**
+专为构建和调试多 agent 系统设计，补齐 agent 工程化落地的开发工具链缺口。
+
+**8. Compile by Training：NL 规范编译为本地神经函数**
+将自然语言 spec 训练为可复用小型本地模型，替代高频大模型调用——**agent/RAG 管道的延迟与成本优化新路径。**
+
+**9. NousResearch Hermes Agent 框架**
+定位"随你成长"的 LLM agent 框架，其上下文管理与 agent 架构设计值得跟进。
+
+---
+
+## 🔵 基础设施
+
+**10. SGLang 推理框架持续升温（今日 +708 ⭐）**
+高性能 LLM 推理 + 结构化生成 + 多模态支持，agent 系统后端选型的主流参考。
+→ [sgl-project/sglang](https://github.com/sgl-project/sglang)
+
+**11. Onyx (YC W24)：企业级开源 RAG + Chat UI**
+完整的 RAG 应用参考实现，支持多数据源接入，适合快速搭建企业内部知识库产品。
+
+---
+
+> 💡 **今日核心洞察**：研究层面（第3、4条）持续揭示 LLM 评估链路的可靠性隐患，而工具层面（第2、6条）正在用安全扫描器和状态机等确定性手段加以对冲——**从"信任 LLM"向"约束+验证 LLM"的工程范式转移正在加速。**
