@@ -4030,3 +4030,70 @@ LLM judge 对 CoT 推理步骤重要性的判断与实际因果重要性严重�
 ---
 
 > 💡 **今日核心洞察**：研究层面（第3、4条）持续揭示 LLM 评估链路的可靠性隐患，而工具层面（第2、6条）正在用安全扫描器和状态机等确定性手段加以对冲——**从"信任 LLM"向"约束+验证 LLM"的工程范式转移正在加速。**
+
+
+## 2026-09-07 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent 播报
+
+> 按重要性排序，去重合并，聚焦 agent 开发者核心关注点
+
+---
+
+## 🔧 工具与框架
+
+**1. Statewright — 用有限状态机约束 Agent 行为**
+通过可视化状态机限定 agent 的合法状态转移，直击 LLM agent 不可预测、难调试的生产级痛点，是目前少见的从控制论角度解决 agent 可靠性的工程方案。
+
+**2. Rowboat — Multi-Agent 系统开源 IDE（YC S24）**
+专为构建和调试多 agent 系统设计的开发环境，重点值得关注其 agent 编排与上下文管理的实现思路。
+
+**3. Hermes-Agent — NousResearch 通用 LLM Agent 框架**
+主打"随用户成长"的自适应能力，值得跟进其 agent 架构与 context 管理设计。
+
+**4. Blender-MCP — 用 MCP 协议让 LLM 控制 Blender 3D**
+MCP 在创意工具领域的典型落地案例，适合了解 MCP 实际接入范式与边界。
+[→ GitHub](https://github.com/ahujasid/blender-mcp)
+
+---
+
+## 📊 评测与基准
+
+**5. 多步骤工具调用基准（韩国政务 API）**
+针对开源 LLM agent 在链式工具调用场景下的系统性评测与数据合成方案，覆盖真实 live API，对工具使用能力评估有直接参考价值。
+[→ arXiv](http://arxiv.org/abs/2609.05395v1)
+
+**6. WearableQA — 可穿戴设备健康数据推理基准**
+基于真实用户纵向数据构建的 QA 基准，重点考察长时序个人健康数据的推理能力，是 RAG／长上下文推理在垂直领域的标准落地评测。
+[→ arXiv](http://arxiv.org/abs/2609.05405v1)
+
+---
+
+## 🔍 可信度与可解释性
+
+**7. LLM 解释可信度研究 — 行为证据视角**
+系统研究 LLM 输出的"解释"是否真实反映其决策依据，对需要监控、诊断与 escalation 机制的 agent 系统有直接参考价值。
+[→ arXiv](http://arxiv.org/abs/2609.05385v1)
+
+---
+
+## 🧩 RAG 与应用参考
+
+**8. Onyx — 开源企业级 Chat UI（含 RAG，YC W24）**
+内置 RAG 能力的企业对话前端，社区热度 254 pts，可作为 RAG 应用落地的参考实现。
+
+---
+
+## 🛠️ Agent Skill 模块化
+
+**9. Text-to-CAD Agent Skills 库**
+面向 CAD/CAE/CAM 的领域专用 agent skill 封装，展示模块化 skill 设计范式。
+[→ GitHub](https://github.com/earthtojake/text-to-cad)
+
+**10. Humanizer — AI 写作去痕 Skill 模块**
+作为 agent 插件化设计实例，体现 skill 组合的工程思路。
+[→ GitHub](https://github.com/blader/humanizer)
+
+---
+
+*以上共 10 条，覆盖框架/工具、评测、可信度、RAG、Skill 五大方向。*
