@@ -4097,3 +4097,67 @@ MCP 在创意工具领域的典型落地案例，适合了解 MCP 实际接入�
 ---
 
 *以上共 10 条，覆盖框架/工具、评测、可信度、RAG、Skill 五大方向。*
+
+
+## 2026-09-08 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent 播报
+
+> 去重整合 · 按重要性排序 · 2025
+
+---
+
+## 🏗️ 框架与工程工具
+
+**1. bytedance/deer-flow — 字节开源长任务 SuperAgent 框架**
+集成沙箱、记忆、工具调用、子 agent 协作与消息网关，可处理分钟到小时级复杂任务，是当前多 agent 协作架构最具参考价值的开源实现之一。
+
+**2. Statewright — 用可视化状态机约束 Agent 行为**
+以状态机建模 agent 流转逻辑，从工程层面解决 LLM agent 不确定性与可靠性问题，是 agent 行为管控的新思路。
+
+**3. Rowboat — 多 Agent 系统开源 IDE**
+专为构建与调试 multi-agent 系统设计的开发环境，补全了 agent 工程工具链中调试侧的空缺。
+
+---
+
+## 🔧 工具调用与环境交互
+
+**4. browser-use/browser-use — AI Agent 直接操控浏览器**
+agent 工具调用 + 真实环境交互的标杆实现，持续高热，是 web automation 方向的首选参考。
+[→ GitHub](https://github.com/browser-use/browser-use)
+
+**5. mukul975/cve-mcp-server — 安全情报领域生产级 MCP Server**
+为 Claude 接入 CVE、EPSS、Shodan、VirusTotal 等 27 个安全工具，是 MCP 协议在垂直领域落地的具体范本。
+[→ GitHub](https://github.com/mukul975/cve-mcp-server)
+
+**6. Multi-Step Tool-Calling over Korean Open Public APIs（arxiv）**
+系统评测多步链式 API 调用场景下开源模型的性能差距，并提供数据合成方案，对 tool-use agent 基准建设有直接参考价值。
+
+---
+
+## 🧩 Context Engineering 与垂直 Agent
+
+**7. AgriciDaniel/claude-ads — 付费广告运营 Agent Skill**
+覆盖 12 个广告平台，采用结构化 JSON 报告 + 能力门控账户变更，是 skill 定义与确定性评分在垂直 agent 中的实践范本，context engineering 参考价值高。
+[→ GitHub](https://github.com/AgriciDaniel/claude-ads)
+
+---
+
+## 📊 基准评测
+
+**8. Necessary or Sufficient? — 评估 LLM 解释的行为证据（arxiv）**
+探讨 agent 产出的解释是否真实反映决策逻辑，对 agent 可信度验证、错误诊断及人工干预机制设计具有重要意义。
+
+**9. WearableQA — 真实可穿戴数据健康推理基准（arxiv）**
+基于纵向真实用户数据构建，可作为 RAG / agent 在个人健康领域的下游评测场景。
+
+---
+
+## 🖥️ 基础设施
+
+**10. Onyx (YC W24) — 开源 LLM Chat UI**
+支持 RAG 与知识库接入，可作为企业内部知识问答系统的前端基础设施，快速部署成本低。
+
+---
+
+> 💡 **今日重点关注**：deer-flow（多 agent 框架）+ claude-ads（context engineering 范本）+ Statewright（agent 可靠性工程）三者合看，可勾勒出当前 agent 工程化的主流方向。
