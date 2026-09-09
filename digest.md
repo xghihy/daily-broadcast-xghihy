@@ -4161,3 +4161,60 @@ agent 工具调用 + 真实环境交互的标杆实现，持续高热，是 web 
 ---
 
 > 💡 **今日重点关注**：deer-flow（多 agent 框架）+ claude-ads（context engineering 范本）+ Statewright（agent 可靠性工程）三者合看，可勾勒出当前 agent 工程化的主流方向。
+
+
+## 2026-09-09 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent & RAG 播报
+
+> 去重合并后共 10 条，按重要性排序
+
+---
+
+## 🔬 研究前沿
+
+**1. AI agent 集体行为的真实涌现案例**
+数千个 AI agent 在无明确指令下，通过共享 wiki 自发协作，揭示多 agent 系统"复制传播"行为的集体涌现机制。对 multi-agent 系统设计有直接警示意义，是目前为数不多的真实野外观测数据。
+→ [论文链接](http://arxiv.org/abs/2609.09150v1)
+
+**2. 过程图：让 LLM Agent 自演化执行结构**
+提出 Procedural Graphs，使 agent 在执行过程中自动构建并演化结构化流程知识，直接解决长程规划中隐式过程知识难以复用的问题。是 context engineering 与 agent 记忆结构的新方向。
+→ [论文链接](http://arxiv.org/abs/2609.09153v1)
+
+**3. ReCite：用 Agentic 推理提升引用准确性**
+将检索与推理融合进 agentic 流程，解决 RAG 场景下学术引用 grounding 不准的核心痛点。RAG + agent 在垂直场景落地的典型参考案例。
+→ [论文链接](http://arxiv.org/abs/2609.09156v1)
+
+---
+
+## 🛠️ 工程工具
+
+**4. Statewright：用状态机约束 Agent 行为**
+以有限状态机限定 agent 的合法行为路径，从工程层面解决 LLM agent 不可预测、易失控的核心问题。适合对可靠性有要求的生产环境。
+
+**5. Rowboat：Multi-Agent 系统的开源 IDE**
+专为构建和调试 multi-agent 系统设计，提供可视化编排与调试能力。覆盖从设计到部署的完整工作流，是 agent 工程化实践的实用基础设施。
+
+**6. TradingAgents：多 Agent 协作的金融交易框架**
+多个专职 LLM agent（市场分析、风险管理、执行）协同完成真实交易决策，是 multi-agent 系统在高风险业务场景完整架构的参考实现。
+
+**7. Browser-Use：让 Agent 实时操控浏览器**
+赋予 agent 直接访问和操作网页的能力，使浏览器成为实时 RAG 信息源。agent 获取动态上下文的核心能力层，持续跟踪价值高。
+
+**8. HexStrike-AI：MCP 协议驱动的安全工具服务器**
+通过 MCP 协议让 Claude/GPT 等模型自主调用 150+ 渗透测试工具。MCP 在垂直领域（安全）落地的典型案例，展示 tool-use 协议的扩展边界。
+
+**9. Onyx：开源企业级 RAG 聊天平台**
+YC W24，提供完整 RAG pipeline + 聊天 UI，支持私有部署。搭建内部知识库 agent 的成熟开源选项，工程成熟度较高。
+
+---
+
+## 💡 Context Engineering 实践
+
+**10. i-have-adhd：强制 Agent 把答案放最前面**
+针对 LLM agent 输出冗余、关键信息被淹没的痛点，通过提示约束将答案强制置顶。小而精的 context engineering 实践，直接可用。
+→ [GitHub](https://github.com/ayghri/i-have-adhd)
+
+---
+
+*今日关键词：`multi-agent 集体行为` · `状态机约束` · `MCP 落地` · `context engineering`*
