@@ -4218,3 +4218,53 @@ YC W24，提供完整 RAG pipeline + 聊天 UI，支持私有部署。搭建内�
 ---
 
 *今日关键词：`multi-agent 集体行为` · `状态机约束` · `MCP 落地` · `context engineering`*
+
+
+## 2026-09-10 · 📡 今日播报 · Parallight Lab
+
+# 🗞️ AI Agent 今日播报
+
+---
+
+## 🔴 重要
+
+**1. OpenAI 官方发布 Codex Skills Catalog**
+OpenAI 正式定义 agent skill 的组织与模块化方式，是理解 agent 能力拆解的权威参考，直接影响 agent 工程架构设计。
+
+**2. browser-use：最热 Web Agent 框架（今日 +705 ⭐）**
+让 LLM agent 直接操控浏览器，当前增长最快的 web agent 实现，适合关注 agent 执行层的工程师。
+
+**3. Statewright：用状态机约束 AI Agent 执行流程**
+以可视化状态机规范 agent 行为边界，解决 agent 不可靠/不可控问题，是 agent 工程化落地的重要思路。
+
+---
+
+## 🟠 值得关注
+
+**4. Rowboat：开源 Multi-Agent IDE**
+专为构建和调试 multi-agent pipeline 设计的开发工具，直接填补 agent 开发工具链空缺。
+
+**5. TradingAgents：多 Agent 金融交易框架**
+展示 multi-agent 协作在金融场景的真实落地，是 multi-agent 架构的具体参照案例。
+
+**6. Show-Harness：VLM Agent 驱动具身机器人控制**
+提出用 VLM 作为 embodied agent 核心，通过语义接口将意图映射为机器人动作，具身控制的典型架构案例。
+→ [arxiv 2609.10522](http://arxiv.org/abs/2609.10522v1)
+
+---
+
+## 🟡 工具 / 参考实现
+
+**7. Onyx（YC W24）：企业级 RAG 开源前端（254 分）**
+支持 RAG 与企业知识库接入的开源 Chat UI，热度高，可直接作为 RAG 前端参考实现。
+
+**8. experiential：BYOK 网关 + 模型路由自学习**
+从流量中学习并推荐更优模型，涉及 LLM 路由与上下文优化，适合关注 agent/RAG 基础设施。
+→ [experientiallabs/experiential](https://github.com/experientiallabs/experiential)
+
+**9. i-have-adhd：强制 Coding Agent 直接输出答案**
+一个 agent skill，通过 output engineering 约束 LLM 输出格式，消除冗余内容，小而实用。
+
+---
+
+> **今日主线**：Agent 工程化（可控性、工具链、模块化）是最密集的信号方向，Statewright + Rowboat + openai/skills 三者合看，可勾勒出当前 agent 系统从"能跑"到"可靠"的演进路径。
