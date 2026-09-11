@@ -4268,3 +4268,48 @@ OpenAI 正式定义 agent skill 的组织与模块化方式，是理解 agent �
 ---
 
 > **今日主线**：Agent 工程化（可控性、工具链、模块化）是最密集的信号方向，Statewright + Rowboat + openai/skills 三者合看，可勾勒出当前 agent 系统从"能跑"到"可靠"的演进路径。
+
+
+## 2026-09-11 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+> 主题聚焦：**Agent 架构与工程化**，从理论控制到开发工具链全面展开
+
+---
+
+## 🔴 重要度 ★★★
+
+**1. Artificial Id：Agentic AI 的持久驱动与对齐问题**
+研究长期运行 LLM agent 的控制难题——提出将目标、验证、停止规则等行为内化为"持久驱动"而非外部硬编码，对设计跨任务边界的 agent 架构有直接理论参考价值。
+→ [arxiv 论文](http://arxiv.org/abs/2609.11911v1)
+
+**2. Statewright：用可视化有限状态机约束 Agent 行为**
+以 FSM 显式管理 agent 状态转移，直击 LLM agent 不可预测的核心痛点，工程实现思路值得借鉴。
+
+**3. TradingAgents：多 LLM Agent 协作的金融交易框架**
+多 agent 系统在金融垂直领域的典型落地案例，架构设计（角色分工、信息流、决策协调）对其他领域的 multi-agent 工程有参考价值。
+
+---
+
+## 🟡 重要度 ★★
+
+**4. Rowboat：Multi-Agent 系统的开源 IDE**
+专为构建和调试多 agent 系统设计，覆盖编排、context 管理与可视化调试，填补了 agent 开发工具链的空白。
+
+**5. Onyx：开源对话 UI + RAG 管道（YC W24）**
+可自部署的聊天界面，内置文档检索/RAG 流程，适合快速搭建企业级知识问答系统。
+
+---
+
+## 🟢 重要度 ★
+
+**6. i-have-adhd：约束 Coding Agent 输出结构的 Skill**
+强制 agent 直接给出答案而非埋入冗长上下文，小工具但指向 context engineering 和输出质量控制这一普遍问题。
+
+**7. ai-engineering-from-scratch：AI 工程系统学习仓库**
+覆盖 LLM、RAG、agent 全链路，适合作为团队知识体系梳理或新人入门参考。
+
+---
+
+**📌 今日主线**：从理论对齐（#1）→ 状态控制（#2）→ 多 agent 落地（#3、#4）→ 基础设施（#5）→ 细节优化（#6、#7），形成一条完整的 agent 工程化脉络。
