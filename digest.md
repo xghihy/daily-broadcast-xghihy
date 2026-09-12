@@ -4313,3 +4313,57 @@ OpenAI 正式定义 agent skill 的组织与模块化方式，是理解 agent �
 ---
 
 **📌 今日主线**：从理论对齐（#1）→ 状态控制（#2）→ 多 agent 落地（#3、#4）→ 基础设施（#5）→ 细节优化（#6、#7），形成一条完整的 agent 工程化脉络。
+
+
+## 2026-09-12 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent 播报
+
+> 聚焦 Agent 工程化，按重要性排序
+
+---
+
+## 🔵 体系化资源
+
+**1. 《深入理解 AI Agent：设计原理与工程实践》全文开源**
+李博杰著，含 PDF 与配套代码，系统覆盖 agent 设计与工程实践，目前中文圈最完整的体系化参考资料。
+→ [ai-agent-book](https://github.com/bojieli/ai-agent-book)
+
+---
+
+## 🟣 Agent 可靠性与控制
+
+**2. Agentic AI 的持续对齐问题（arxiv）**
+研究 agent 从单次任务转向跨任务持续运行时的控制挑战，提出将目标内化、重试、验证、停止规则等行为作为系统驱动机制，对构建长期运行 LLM agent 有直接参考价值。
+
+**3. Statewright – 用状态机约束 Agent 行为**
+以可视化状态机规范 agent 流转路径，针对性解决 LLM agent 不可预测性问题，agent 可靠性工程方向值得关注。
+
+**4. i-have-adhd – 约束 Coding Agent 输出格式**
+防止 agent 将关键答案淹没在冗长输出中，从 context engineering 视角解决输出信噪比问题，轻量实用。
+
+---
+
+## 🟡 Agent 工程化工具
+
+**5. Rowboat – Multi-Agent 系统开源 IDE（YC）**
+专为构建和调试多 agent 系统设计的集成开发环境，YC 背书，agent 工程化落地的实用工具。
+
+**6. hyperresearch – Agentic RAG 知识库构建**
+agent 自动采集、检索并将网络信息合成为持久化可搜索 wiki，典型 agentic RAG + 知识库构建范式，实现参考价值高。
+→ [hyperresearch](https://github.com/jordan-gibbs/hyperresearch)
+
+**7. Onyx – 开源企业级 Chat UI + RAG（YC W24）**
+内置 RAG 管道的开源对话界面，适合快速搭建基于知识库的 LLM 应用。
+
+---
+
+## 🟢 垂直领域 Agent 案例
+
+**8. MathModelAgent – 数学建模全流程 Agent**
+自动完成建模全流程并生成可提交论文，展示垂直领域 agent + 工具调用的完整落地案例，具备复现参考价值。
+→ [MathModelAgent](https://github.com/jihe520/MathModelAgent)
+
+---
+
+**今日主线**：从理论对齐（#2）→ 行为约束（#3 #4）→ 工程工具（#5 #6 #7）→ 垂直落地（#8），完整覆盖 agent 工程化链路。
