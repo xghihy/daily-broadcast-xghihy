@@ -4367,3 +4367,53 @@ agent 自动采集、检索并将网络信息合成为持久化可搜索 wiki，
 ---
 
 **今日主线**：从理论对齐（#2）→ 行为约束（#3 #4）→ 工程工具（#5 #6 #7）→ 垂直落地（#8），完整覆盖 agent 工程化链路。
+
+
+## 2026-09-13 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI Agent & LLM 播报
+
+*去重整合 · 按重要性排序*
+
+---
+
+## 🔥 重点关注
+
+**1. awesome-llm-apps — 100+ Agent/RAG 开源应用合集**
+覆盖 AI Agent、Agent Skills、RAG 等主流方向，是快速了解当前 agent 实践全貌的最佳入口，适合选型与学习参考。
+
+---
+
+**2. Onyx — 开源 Chat UI（内置 RAG）**
+YC W24，高热度（254pts），开箱即用的企业知识库 agent 前端，内置 RAG 能力，适合快速部署内部问答系统。
+
+---
+
+**3. Rowboat — Multi-Agent 系统开源 IDE**
+YC S24，专为构建和调试多 agent 工作流设计的开发环境，填补 agent 开发工具链空白，适合快速搭建复杂 agent 系统。
+
+---
+
+## ⚙️ 工程实践
+
+**4. Statewright — 用可视化状态机约束 Agent 行为**
+通过显式状态机控制 LLM agent 执行路径，有效解决不可预测性问题，是 context engineering 与 agent 可靠性的实用方案。
+
+---
+
+**5. MathModelAgent — 数学建模垂直领域 Agent**
+全流程自动生成可提交的数学建模论文，垂直领域 agent 落地的典型案例，具备复制借鉴价值。
+
+---
+
+**6. book-to-skill — PDF 技术书 → Claude Code Skill**
+将技术书籍转为结构化上下文 skill，RAG 与 context engineering 结合的轻量实践，思路简洁可复用。
+
+---
+
+**7. i-have-adhd — 控制 Coding Agent 输出结构的 Skill**
+解决 agent 回答"答案深埋"问题，强制结构化输出，直接体现 prompt engineering 对 agent 输出质量的影响。
+
+---
+
+**📌 今日主线：** Agent 工具链正在快速完善——从 IDE（Rowboat）、可靠性框架（Statewright）到输出质量控制（i-have-adhd），开发者正从"能跑起来"迈向"可控、可调试、可交付"。
