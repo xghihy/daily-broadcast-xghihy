@@ -4417,3 +4417,47 @@ YC S24，专为构建和调试多 agent 工作流设计的开发环境，填补 
 ---
 
 **📌 今日主线：** Agent 工具链正在快速完善——从 IDE（Rowboat）、可靠性框架（Statewright）到输出质量控制（i-have-adhd），开发者正从"能跑起来"迈向"可控、可调试、可交付"。
+
+
+## 2026-09-14 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 播报
+
+*精选 7 条，按重要性排序*
+
+---
+
+## 🔧 Agent 工程工具链
+
+**1. Rowboat — 多 Agent 系统开源 IDE**
+专为构建和调试 multi-agent 系统设计的 IDE 级开发环境，agent 工程工具链中的稀缺品类，值得持续跟进。
+
+**2. Statewright — 用可视化状态机约束 AI Agent 行为**
+以有限状态机（FSM）将确定性控制流引入 LLM agent，直接对抗 agent 不可预测性这一核心痛点，思路清晰且工程化程度高。
+
+**3. awesome-llm-apps — 100+ LLM Agent & RAG 应用开源合集**
+覆盖主流 agent 架构与 RAG 模式，选型参考首选，适合快速定位可复用方案。
+
+---
+
+## 📦 RAG & 数据基础设施
+
+**4. Onyx — 开源企业级 RAG 聊天平台**
+支持多数据源接入，提供完整 Chat UI + 检索后端，可直接作为自托管 RAG 的生产参考实现。
+
+**5. crawl4ai — LLM 友好型开源网页爬虫**
+专为 RAG pipeline 数据采集优化，是 context engineering 基础设施层的实用工具。
+
+---
+
+## 🤖 垂直 Agent 落地案例
+
+**6. OpenMontage — 首个开源 Agentic 视频生产系统**
+700+ agent skill 文件、100+ 工具，大规模 agent skill 工程化的典型样本，对研究 agent 能力边界有参考价值。
+
+**7. MathModelAgent — 数学建模垂直 Agent**
+自动完成建模 + 论文生成全流程，展示 agent 在专业领域的落地深度，是垂直化 agent 的典型路径。
+
+---
+
+> **编辑观察**：今日内容呈现明显的「工程化」主题——从 IDE（Rowboat）、状态机约束（Statewright）到大规模 skill 管理（OpenMontage），AI agent 正从「能跑起来」向「可维护、可控制」演进。
