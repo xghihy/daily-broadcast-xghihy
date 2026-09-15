@@ -4461,3 +4461,49 @@ YC S24，专为构建和调试多 agent 工作流设计的开发环境，填补 
 ---
 
 > **编辑观察**：今日内容呈现明显的「工程化」主题——从 IDE（Rowboat）、状态机约束（Statewright）到大规模 skill 管理（OpenMontage），AI agent 正从「能跑起来」向「可维护、可控制」演进。
+
+
+## 2026-09-15 · 📡 今日播报 · Parallight Lab
+
+# 今日 AI 工程播报
+
+> 主题聚焦：**Agent 可靠性 · 多 Agent 编排 · RAG 集成 · Context 工程**
+
+---
+
+## 🔴 重点关注
+
+**1. Rowboat — 多 Agent 系统的开源 IDE**
+YC 背景，专为构建和调试 multi-agent 系统设计，覆盖 agent 编排、上下文管理全链路，是目前少见的面向 agent 工程的完整开发环境。
+
+**2. Statewright — 用可视化状态机约束 Agent 行为**
+以有限状态机（FSM）限定 LLM agent 的状态流转，直接针对 agent 不可预测性这一核心痛点，适合对可靠性有要求的生产场景。
+
+**3. TradingAgents — 多 Agent 金融交易框架**
+multi-agent 协作架构在垂直领域的完整落地案例，agent 分工与编排设计具有较强参考价值，可横向迁移至其他专业领域。
+
+---
+
+## 🟡 值得跟进
+
+**4. Agent-Reach — 免 API 费用的 Agent 互联网感知工具**
+为 agent 提供 Twitter / Reddit / YouTube / GitHub 等平台的信息获取能力，无需额外 API 费用，是典型的低成本 context 扩展方案。
+
+**5. Onyx — 带 RAG 的开源对话 UI（YC W24）**
+开源聊天界面原生集成企业知识库，RAG 前端方案成熟度较高，适合快速评估或作为自建方案的参照基线。
+
+**6. oh-my-hermes — 编码 Agent 的长期记忆 + RAG 集成插件**
+一体化插件同时覆盖 agent memory 与 RAG 工作流，提供了两者结合的实际实现参考，适合研究 memory 架构的工程师。
+→ [github.com/rlaope/oh-my-hermes](https://github.com/rlaope/oh-my-hermes)
+
+---
+
+## 🟢 延伸参考
+
+**7. ai-job-search — 基于 Claude Code 的 Agentic 求职框架**
+完整呈现「评估 → 生成 → 优化」三阶段 agent 工作流设计，场景虽轻量，但 context 工程实践思路清晰，可作为小型 agent pipeline 的设计模板。
+→ [github.com/MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search)
+
+---
+
+*共 7 条，去重合并同主题后按工程影响力排序。*
